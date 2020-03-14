@@ -814,3 +814,522 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.14-02.33.11:357][497]LogConcert: Warning: Admin (91D20DF3428F8624D0A0348352FFBDF6): Message '5275550444CF5D7564C8469B46CA4AD3' (ConcertAdmin_GetArchivedSessionsRequest) timed-out sending to '2D08B495485A24264CE264A7A5AACB90'.
 [2020.03.14-02.33.33:643][550]LogSlate: Window 'Project Settings' being destroyed
 [2020.03.14-02.33.33:656][550]LogSlate: Window 'Project Settings' being destroyed
+[2020.03.14-02.51.40:080][992]LogEditorViewport: Clicking Background
+[2020.03.14-02.52.39:455][ 61]LogEditorViewport: Clicking Background
+[2020.03.14-02.52.40:206][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateFloor)
+[2020.03.14-02.52.59:531][688]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.14-02.52.59:545][688]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.52.59:545][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.14-02.52.59:545][688]PIE: New page: PIE session: GrayBox (13 mars 2020 18 h 52 min 59 s)
+[2020.03.14-02.52.59:545][688]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-02.52.59:557][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011407s)
+[2020.03.14-02.52.59:557][688]LogAIModule: Creating AISystem for world GrayBox
+[2020.03.14-02.52.59:558][688]LogPlayLevel: PIE: World Init took: (0.001090s)
+[2020.03.14-02.52.59:558][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/GrayBox.GrayBox to /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox (0.012719s)
+[2020.03.14-02.52.59:583][688]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.03.14-02.52.59:588][688]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.14-02.52.59:588][688]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.14-02.52.59:588][688]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.14-02.52.59:588][688]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.14-02.52.59:588][688]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.14-02.52.59:588][688]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.14-02.52.59:588][688]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.14-02.52.59:588][688]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.14-02.52.59:589][688]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.14-02.52.59:589][688]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.14-02.52.59:608][688]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.14-02.52.59:608][688]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-02.52.59:608][688]LogAudioMixer: Display: Is Default: Yes
+[2020.03.14-02.52.59:608][688]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.14-02.52.59:608][688]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.14-02.52.59:608][688]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.14-02.52.59:608][688]LogAudioMixer: Display: Channel Order:
+[2020.03.14-02.52.59:608][688]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.14-02.52.59:608][688]LogAudioMixer: Display: 1: FrontRight
+[2020.03.14-02.52.59:857][688]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-02.52.59:859][688]LogInit: FAudioDevice initialized.
+[2020.03.14-02.52.59:867][688]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.03.14-02.52.59:870][688]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox up for play (max tick rate 0) at 2020.03.13-22.52.59
+[2020.03.14-02.52.59:871][688]LogWorld: Bringing up level for play took: 0.003504
+[2020.03.14-02.52.59:871][688]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.03.14-02.52.59:876][688]PIE: Play in editor start time for /Game/Game/Maps/UEDPIE_0_GrayBox 0,137
+[2020.03.14-02.52.59:876][688]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.53.03:360][ 87]LogBlueprintUserMessages: [TopDownCharacter_C_0] Enter car
+[2020.03.14-02.53.03:956][158]LogBlueprintUserMessages: [TopDownCharacter_C_0] Enter car
+[2020.03.14-02.53.06:568][468]LogBlueprintUserMessages: [TopDownCharacter_C_0] Enter car
+[2020.03.14-02.53.08:852][734]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.53.08:852][734]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.53.08:852][734]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.53.08:852][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-02.53.08:852][734]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-02.53.08:852][734]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.53.08:853][734]LogWorld: UWorld::CleanupWorld for GrayBox, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-02.53.08:853][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-02.53.08:867][734]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.14-02.53.08:867][734]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.53.08:871][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-02.53.08:895][734]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.53.08:898][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-02.53.08:902][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.03.14-02.53.08:958][738]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.03.14-02.53.17:798][504]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2020.03.14-02.53.17:960][504]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2020.03.14-02.53.18:954][504]LogSlate: Took 0.000330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.14-02.53.19:094][505]LogSlate: Took 0.000318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.03.14-02.53.51:510][311]LogSlate: Window 'Project Settings' being destroyed
+[2020.03.14-02.53.51:518][311]LogSlate: Window 'Project Settings' being destroyed
+[2020.03.14-02.54.13:953][653]LogEditorViewport: Clicking on Actor (LMB): NPC_01_C (NPC_01)
+[2020.03.14-02.54.27:510][937]BlueprintLog: New page: Compile TopDownCharacter
+[2020.03.14-02.54.27:824][937]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2020.03.14-02.54.31:979][284]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.14-02.54.31:995][284]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.54.31:995][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.14-02.54.31:995][284]PIE: New page: PIE session: GrayBox (13 mars 2020 18 h 54 min 31 s)
+[2020.03.14-02.54.31:995][284]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-02.54.32:006][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011308s)
+[2020.03.14-02.54.32:007][284]LogAIModule: Creating AISystem for world GrayBox
+[2020.03.14-02.54.32:008][284]LogPlayLevel: PIE: World Init took: (0.001058s)
+[2020.03.14-02.54.32:008][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/GrayBox.GrayBox to /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox (0.012538s)
+[2020.03.14-02.54.32:044][284]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2020.03.14-02.54.32:046][284]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.14-02.54.32:046][284]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.14-02.54.32:046][284]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.14-02.54.32:046][284]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.14-02.54.32:046][284]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.14-02.54.32:046][284]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.14-02.54.32:046][284]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.14-02.54.32:046][284]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.14-02.54.32:047][284]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.14-02.54.32:047][284]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.14-02.54.32:064][284]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.14-02.54.32:064][284]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-02.54.32:064][284]LogAudioMixer: Display: Is Default: Yes
+[2020.03.14-02.54.32:064][284]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.14-02.54.32:064][284]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.14-02.54.32:064][284]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.14-02.54.32:064][284]LogAudioMixer: Display: Channel Order:
+[2020.03.14-02.54.32:064][284]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.14-02.54.32:064][284]LogAudioMixer: Display: 1: FrontRight
+[2020.03.14-02.54.32:310][284]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-02.54.32:313][284]LogInit: FAudioDevice initialized.
+[2020.03.14-02.54.32:319][284]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.03.14-02.54.32:321][284]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox up for play (max tick rate 0) at 2020.03.13-22.54.32
+[2020.03.14-02.54.32:322][284]LogWorld: Bringing up level for play took: 0.002502
+[2020.03.14-02.54.32:322][284]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.03.14-02.54.32:327][284]PIE: Play in editor start time for /Game/Game/Maps/UEDPIE_0_GrayBox 0,587
+[2020.03.14-02.54.32:327][284]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.54.34:371][515]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.54.34:371][515]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.54.34:371][515]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.54.34:372][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-02.54.34:372][515]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-02.54.34:372][515]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.54.34:372][515]LogWorld: UWorld::CleanupWorld for GrayBox, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-02.54.34:372][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-02.54.34:388][515]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.14-02.54.34:388][515]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.54.34:393][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-02.54.34:429][515]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.54.34:433][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-02.54.34:438][515]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2020.03.14-02.54.34:495][518]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.03.14-02.54.40:492][173]BlueprintLog: New page: Compile TopDownCharacter
+[2020.03.14-02.54.40:788][173]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2020.03.14-02.54.41:886][265]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.14-02.54.41:902][265]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.54.41:902][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.14-02.54.41:902][265]PIE: New page: PIE session: GrayBox (13 mars 2020 18 h 54 min 41 s)
+[2020.03.14-02.54.41:902][265]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-02.54.41:914][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012138s)
+[2020.03.14-02.54.41:915][265]LogAIModule: Creating AISystem for world GrayBox
+[2020.03.14-02.54.41:916][265]LogPlayLevel: PIE: World Init took: (0.001102s)
+[2020.03.14-02.54.41:916][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/GrayBox.GrayBox to /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox (0.013447s)
+[2020.03.14-02.54.41:952][265]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2020.03.14-02.54.41:952][265]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.14-02.54.41:952][265]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.14-02.54.41:952][265]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.14-02.54.41:953][265]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.14-02.54.41:953][265]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.14-02.54.41:953][265]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.14-02.54.41:953][265]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.14-02.54.41:953][265]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.14-02.54.41:953][265]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.14-02.54.41:953][265]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.14-02.54.41:970][265]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.14-02.54.41:970][265]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-02.54.41:970][265]LogAudioMixer: Display: Is Default: Yes
+[2020.03.14-02.54.41:970][265]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.14-02.54.41:970][265]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.14-02.54.41:970][265]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.14-02.54.41:970][265]LogAudioMixer: Display: Channel Order:
+[2020.03.14-02.54.41:970][265]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.14-02.54.41:970][265]LogAudioMixer: Display: 1: FrontRight
+[2020.03.14-02.54.42:226][265]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-02.54.42:228][265]LogInit: FAudioDevice initialized.
+[2020.03.14-02.54.42:239][265]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.03.14-02.54.42:242][265]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox up for play (max tick rate 0) at 2020.03.13-22.54.42
+[2020.03.14-02.54.42:242][265]LogWorld: Bringing up level for play took: 0.003021
+[2020.03.14-02.54.42:243][265]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.03.14-02.54.42:247][265]PIE: Play in editor start time for /Game/Game/Maps/UEDPIE_0_GrayBox 0,508
+[2020.03.14-02.54.42:247][265]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.54.48:170][959]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.54.48:170][959]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.54.48:170][959]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.54.48:171][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-02.54.48:171][959]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-02.54.48:171][959]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.54.48:171][959]LogWorld: UWorld::CleanupWorld for GrayBox, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-02.54.48:172][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-02.54.48:183][959]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.14-02.54.48:183][959]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.54.48:188][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-02.54.48:228][959]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.54.48:233][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-02.54.48:237][959]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.03.14-02.54.48:293][961]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.03.14-02.54.55:648][762]BlueprintLog: New page: Compile TopDownCharacter
+[2020.03.14-02.54.55:937][762]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2020.03.14-02.54.56:996][856]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.14-02.54.57:011][856]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.54.57:012][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.14-02.54.57:012][856]PIE: New page: PIE session: GrayBox (13 mars 2020 18 h 54 min 57 s)
+[2020.03.14-02.54.57:012][856]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-02.54.57:023][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011262s)
+[2020.03.14-02.54.57:024][856]LogAIModule: Creating AISystem for world GrayBox
+[2020.03.14-02.54.57:024][856]LogPlayLevel: PIE: World Init took: (0.001047s)
+[2020.03.14-02.54.57:024][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/GrayBox.GrayBox to /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox (0.012469s)
+[2020.03.14-02.54.57:062][856]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2020.03.14-02.54.57:063][856]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.14-02.54.57:063][856]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.14-02.54.57:063][856]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.14-02.54.57:063][856]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.14-02.54.57:063][856]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.14-02.54.57:063][856]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.14-02.54.57:063][856]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.14-02.54.57:063][856]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.14-02.54.57:063][856]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.14-02.54.57:063][856]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.14-02.54.57:080][856]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.14-02.54.57:081][856]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-02.54.57:081][856]LogAudioMixer: Display: Is Default: Yes
+[2020.03.14-02.54.57:081][856]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.14-02.54.57:081][856]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.14-02.54.57:081][856]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.14-02.54.57:081][856]LogAudioMixer: Display: Channel Order:
+[2020.03.14-02.54.57:081][856]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.14-02.54.57:081][856]LogAudioMixer: Display: 1: FrontRight
+[2020.03.14-02.54.57:346][856]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-02.54.57:348][856]LogInit: FAudioDevice initialized.
+[2020.03.14-02.54.57:356][856]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.03.14-02.54.57:358][856]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox up for play (max tick rate 0) at 2020.03.13-22.54.57
+[2020.03.14-02.54.57:359][856]LogWorld: Bringing up level for play took: 0.002988
+[2020.03.14-02.54.57:359][856]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.03.14-02.54.57:363][856]PIE: Play in editor start time for /Game/Game/Maps/UEDPIE_0_GrayBox -0,375
+[2020.03.14-02.54.57:364][856]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.54.58:575][994]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.54.58:575][994]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.54.58:575][994]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.54.58:577][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-02.54.58:577][994]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-02.54.58:577][994]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.54.58:577][994]LogWorld: UWorld::CleanupWorld for GrayBox, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-02.54.58:578][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-02.54.58:594][994]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.14-02.54.58:594][994]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.54.58:599][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-02.54.58:634][994]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.54.58:638][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-02.54.58:643][994]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2020.03.14-02.54.58:697][996]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.03.14-02.55.31:194][634]BlueprintLog: New page: Compile TopDownCharacter
+[2020.03.14-02.55.31:495][634]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2020.03.14-02.55.33:055][775]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.14-02.55.33:072][775]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.55.33:072][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.14-02.55.33:072][775]PIE: New page: PIE session: GrayBox (13 mars 2020 18 h 55 min 33 s)
+[2020.03.14-02.55.33:072][775]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-02.55.33:083][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011207s)
+[2020.03.14-02.55.33:084][775]LogAIModule: Creating AISystem for world GrayBox
+[2020.03.14-02.55.33:084][775]LogPlayLevel: PIE: World Init took: (0.001091s)
+[2020.03.14-02.55.33:084][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/GrayBox.GrayBox to /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox (0.012460s)
+[2020.03.14-02.55.33:122][775]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2020.03.14-02.55.33:123][775]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.14-02.55.33:123][775]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.14-02.55.33:123][775]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.14-02.55.33:123][775]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.14-02.55.33:123][775]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.14-02.55.33:123][775]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.14-02.55.33:123][775]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.14-02.55.33:123][775]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.14-02.55.33:124][775]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.14-02.55.33:124][775]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.14-02.55.33:141][775]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.14-02.55.33:141][775]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-02.55.33:141][775]LogAudioMixer: Display: Is Default: Yes
+[2020.03.14-02.55.33:141][775]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.14-02.55.33:141][775]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.14-02.55.33:141][775]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.14-02.55.33:141][775]LogAudioMixer: Display: Channel Order:
+[2020.03.14-02.55.33:141][775]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.14-02.55.33:141][775]LogAudioMixer: Display: 1: FrontRight
+[2020.03.14-02.55.33:408][775]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-02.55.33:410][775]LogInit: FAudioDevice initialized.
+[2020.03.14-02.55.33:423][775]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.03.14-02.55.33:426][775]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox up for play (max tick rate 0) at 2020.03.13-22.55.33
+[2020.03.14-02.55.33:426][775]LogWorld: Bringing up level for play took: 0.002476
+[2020.03.14-02.55.33:427][775]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.03.14-02.55.33:431][775]PIE: Play in editor start time for /Game/Game/Maps/UEDPIE_0_GrayBox -0,307
+[2020.03.14-02.55.33:432][775]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.55.34:949][944]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.55.34:951][944]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.03.14-02.55.34:970][944]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.03.14-02.55.34:970][944]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.55.34:970][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-02.55.34:970][944]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-02.55.34:970][944]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.55.34:970][944]LogWorld: UWorld::CleanupWorld for GrayBox, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-02.55.34:971][944]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-02.55.34:979][944]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.14-02.55.34:979][944]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.55.34:985][944]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-02.55.35:020][944]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.55.35:024][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-02.55.35:029][944]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.03.14-02.55.35:051][945]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.03.14-02.55.48:747][276]BlueprintLog: New page: Compile TopDownCharacter
+[2020.03.14-02.55.49:053][276]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.03.14-02.55.49:428][298]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/TopDownCharacter4B9A122547943EFDDF66D9B70E4BA4E0.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2020.03.14-02.55.49:524][298]AssetCheck: New page: Asset Save: TopDownCharacter
+[2020.03.14-02.55.49:524][298]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2020.03.14-02.55.50:392][376]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.14-02.55.50:410][376]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.55.50:410][376]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.14-02.55.50:410][376]PIE: New page: PIE session: GrayBox (13 mars 2020 18 h 55 min 50 s)
+[2020.03.14-02.55.50:410][376]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-02.55.50:423][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012734s)
+[2020.03.14-02.55.50:424][376]LogAIModule: Creating AISystem for world GrayBox
+[2020.03.14-02.55.50:424][376]LogPlayLevel: PIE: World Init took: (0.001255s)
+[2020.03.14-02.55.50:424][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/GrayBox.GrayBox to /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox (0.014173s)
+[2020.03.14-02.55.50:463][376]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2020.03.14-02.55.50:464][376]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.14-02.55.50:464][376]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.14-02.55.50:464][376]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.14-02.55.50:464][376]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.14-02.55.50:464][376]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.14-02.55.50:464][376]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.14-02.55.50:464][376]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.14-02.55.50:464][376]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.14-02.55.50:464][376]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.14-02.55.50:464][376]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.14-02.55.50:483][376]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.14-02.55.50:483][376]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-02.55.50:483][376]LogAudioMixer: Display: Is Default: Yes
+[2020.03.14-02.55.50:483][376]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.14-02.55.50:483][376]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.14-02.55.50:483][376]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.14-02.55.50:483][376]LogAudioMixer: Display: Channel Order:
+[2020.03.14-02.55.50:483][376]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.14-02.55.50:483][376]LogAudioMixer: Display: 1: FrontRight
+[2020.03.14-02.55.50:733][376]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-02.55.50:735][376]LogInit: FAudioDevice initialized.
+[2020.03.14-02.55.50:746][376]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.03.14-02.55.50:748][376]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox up for play (max tick rate 0) at 2020.03.13-22.55.50
+[2020.03.14-02.55.50:749][376]LogWorld: Bringing up level for play took: 0.002692
+[2020.03.14-02.55.50:749][376]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.03.14-02.55.50:753][376]PIE: Play in editor start time for /Game/Game/Maps/UEDPIE_0_GrayBox 1,015
+[2020.03.14-02.55.50:753][376]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.55.55:782][949]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.55.55:782][949]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.55.55:782][949]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.55.55:782][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-02.55.55:782][949]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-02.55.55:783][949]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.55.55:783][949]LogWorld: UWorld::CleanupWorld for GrayBox, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-02.55.55:783][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-02.55.55:790][949]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.14-02.55.55:790][949]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.55.55:796][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-02.55.55:832][949]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.55.55:837][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-02.55.55:842][949]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2020.03.14-02.55.55:900][951]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.03.14-02.55.59:103][256]BlueprintLog: New page: Compile TopDownCharacter
+[2020.03.14-02.55.59:404][256]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2020.03.14-02.55.59:819][282]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/TopDownCharacter6EAE9F0B40DAFD0DC5AA99A8DD607E55.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2020.03.14-02.55.59:898][282]AssetCheck: New page: Asset Save: TopDownCharacter
+[2020.03.14-02.55.59:898][282]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2020.03.14-02.56.00:710][335]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.14-02.56.00:726][335]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.56.00:726][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.14-02.56.00:726][335]PIE: New page: PIE session: GrayBox (13 mars 2020 18 h 56 min 00 s)
+[2020.03.14-02.56.00:726][335]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-02.56.00:737][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011144s)
+[2020.03.14-02.56.00:738][335]LogAIModule: Creating AISystem for world GrayBox
+[2020.03.14-02.56.00:739][335]LogPlayLevel: PIE: World Init took: (0.001401s)
+[2020.03.14-02.56.00:739][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/GrayBox.GrayBox to /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox (0.012730s)
+[2020.03.14-02.56.00:779][335]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2020.03.14-02.56.00:780][335]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.14-02.56.00:780][335]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.14-02.56.00:780][335]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.14-02.56.00:780][335]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.14-02.56.00:780][335]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.14-02.56.00:780][335]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.14-02.56.00:780][335]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.14-02.56.00:780][335]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.14-02.56.00:780][335]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.14-02.56.00:780][335]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.14-02.56.00:801][335]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.14-02.56.00:801][335]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-02.56.00:801][335]LogAudioMixer: Display: Is Default: Yes
+[2020.03.14-02.56.00:801][335]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.14-02.56.00:801][335]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.14-02.56.00:801][335]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.14-02.56.00:801][335]LogAudioMixer: Display: Channel Order:
+[2020.03.14-02.56.00:801][335]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.14-02.56.00:801][335]LogAudioMixer: Display: 1: FrontRight
+[2020.03.14-02.56.01:038][335]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-02.56.01:041][335]LogInit: FAudioDevice initialized.
+[2020.03.14-02.56.01:054][335]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.03.14-02.56.01:056][335]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox up for play (max tick rate 0) at 2020.03.13-22.56.01
+[2020.03.14-02.56.01:057][335]LogWorld: Bringing up level for play took: 0.002497
+[2020.03.14-02.56.01:057][335]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.03.14-02.56.01:061][335]PIE: Play in editor start time for /Game/Game/Maps/UEDPIE_0_GrayBox 1,322
+[2020.03.14-02.56.01:062][335]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.56.33:485][ 98]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.56.33:485][ 98]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.56.33:485][ 98]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.56.33:485][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-02.56.33:485][ 98]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-02.56.33:485][ 98]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.56.33:485][ 98]LogWorld: UWorld::CleanupWorld for GrayBox, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-02.56.33:486][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-02.56.33:497][ 98]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.14-02.56.33:497][ 98]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.56.33:503][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-02.56.33:538][ 98]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.56.33:543][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-02.56.33:547][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2020.03.14-02.56.33:597][101]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.03.14-02.56.34:134][152]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.14-02.56.34:150][152]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.56.34:151][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.14-02.56.34:151][152]PIE: New page: PIE session: GrayBox (13 mars 2020 18 h 56 min 34 s)
+[2020.03.14-02.56.34:151][152]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-02.56.34:163][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011726s)
+[2020.03.14-02.56.34:163][152]LogAIModule: Creating AISystem for world GrayBox
+[2020.03.14-02.56.34:164][152]LogPlayLevel: PIE: World Init took: (0.001156s)
+[2020.03.14-02.56.34:164][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/GrayBox.GrayBox to /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox (0.013053s)
+[2020.03.14-02.56.34:200][152]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2020.03.14-02.56.34:201][152]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.14-02.56.34:201][152]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.14-02.56.34:201][152]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.14-02.56.34:201][152]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.14-02.56.34:201][152]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.14-02.56.34:201][152]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.14-02.56.34:201][152]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.14-02.56.34:201][152]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.14-02.56.34:201][152]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.14-02.56.34:202][152]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.14-02.56.34:219][152]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.14-02.56.34:219][152]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-02.56.34:219][152]LogAudioMixer: Display: Is Default: Yes
+[2020.03.14-02.56.34:219][152]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.14-02.56.34:219][152]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.14-02.56.34:219][152]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.14-02.56.34:219][152]LogAudioMixer: Display: Channel Order:
+[2020.03.14-02.56.34:219][152]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.14-02.56.34:219][152]LogAudioMixer: Display: 1: FrontRight
+[2020.03.14-02.56.34:476][152]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-02.56.34:478][152]LogInit: FAudioDevice initialized.
+[2020.03.14-02.56.34:486][152]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.03.14-02.56.34:489][152]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox up for play (max tick rate 0) at 2020.03.13-22.56.34
+[2020.03.14-02.56.34:490][152]LogWorld: Bringing up level for play took: 0.003215
+[2020.03.14-02.56.34:490][152]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.03.14-02.56.34:495][152]PIE: Play in editor start time for /Game/Game/Maps/UEDPIE_0_GrayBox 0,756
+[2020.03.14-02.56.34:495][152]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.56.41:426][969]LogBlueprintUserMessages: [TopDownCharacter_C_0] Enter car
+[2020.03.14-02.56.42:201][ 42]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.56.42:201][ 42]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.56.42:201][ 42]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.56.42:201][ 42]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-02.56.42:201][ 42]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-02.56.42:201][ 42]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.56.42:202][ 42]LogWorld: UWorld::CleanupWorld for GrayBox, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-02.56.42:202][ 42]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-02.56.42:215][ 42]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.14-02.56.42:215][ 42]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.56.42:220][ 42]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-02.56.42:255][ 42]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.56.42:259][ 42]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-02.56.42:264][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.03.14-02.56.42:302][ 45]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.03.14-02.56.43:211][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.03.14-02.56.43:506][128]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/GrayBox165553EA414849C8999894BBEB248525.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/Maps/GrayBox.umap'
+[2020.03.14-02.56.43:546][128]AssetCheck: New page: Asset Save: GrayBox
+[2020.03.14-02.56.43:546][128]LogContentValidation: Display: Validating World /Game/Game/Maps/GrayBox.GrayBox
+[2020.03.14-02.56.45:060][268]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/TopDownCharacterC5CEF0FB4438362C324742BBCE8515CA.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2020.03.14-02.56.45:078][268]AssetCheck: New page: Asset Save: TopDownCharacter
+[2020.03.14-02.56.45:078][268]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2020.03.14-02.56.49:298][716]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.14-02.56.49:315][716]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.56.49:315][716]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.14-02.56.49:315][716]PIE: New page: PIE session: GrayBox (13 mars 2020 18 h 56 min 49 s)
+[2020.03.14-02.56.49:316][716]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-02.56.49:326][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010768s)
+[2020.03.14-02.56.49:327][716]LogAIModule: Creating AISystem for world GrayBox
+[2020.03.14-02.56.49:327][716]LogPlayLevel: PIE: World Init took: (0.001078s)
+[2020.03.14-02.56.49:328][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/GrayBox.GrayBox to /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox (0.012029s)
+[2020.03.14-02.56.49:363][716]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2020.03.14-02.56.49:364][716]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.14-02.56.49:365][716]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.14-02.56.49:365][716]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.14-02.56.49:365][716]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.14-02.56.49:365][716]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.14-02.56.49:365][716]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.14-02.56.49:365][716]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.14-02.56.49:365][716]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.14-02.56.49:365][716]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.14-02.56.49:365][716]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.14-02.56.49:385][716]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.14-02.56.49:385][716]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-02.56.49:385][716]LogAudioMixer: Display: Is Default: Yes
+[2020.03.14-02.56.49:385][716]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.14-02.56.49:385][716]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.14-02.56.49:385][716]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.14-02.56.49:385][716]LogAudioMixer: Display: Channel Order:
+[2020.03.14-02.56.49:385][716]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.14-02.56.49:385][716]LogAudioMixer: Display: 1: FrontRight
+[2020.03.14-02.56.49:628][716]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-02.56.49:631][716]LogInit: FAudioDevice initialized.
+[2020.03.14-02.56.49:641][716]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.03.14-02.56.49:644][716]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox up for play (max tick rate 0) at 2020.03.13-22.56.49
+[2020.03.14-02.56.49:645][716]LogWorld: Bringing up level for play took: 0.003011
+[2020.03.14-02.56.49:645][716]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.03.14-02.56.49:650][716]PIE: Play in editor start time for /Game/Game/Maps/UEDPIE_0_GrayBox -0,088
+[2020.03.14-02.56.49:650][716]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.56.52:465][ 43]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.56.52:470][ 43]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.03.14-02.56.52:489][ 43]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.03.14-02.56.52:490][ 43]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.56.52:490][ 43]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-02.56.52:490][ 43]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-02.56.52:490][ 43]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.56.52:490][ 43]LogWorld: UWorld::CleanupWorld for GrayBox, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-02.56.52:491][ 43]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-02.56.52:502][ 43]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.14-02.56.52:502][ 43]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-02.56.52:508][ 43]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-02.56.52:543][ 43]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-02.56.52:547][ 43]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-02.56.52:552][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2020.03.14-02.56.52:581][ 44]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.03.14-02.57.01:506][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.03.14-02.57.01:796][202]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/GrayBox8696DFFB40E083E36546689343B8C736.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/Maps/GrayBox.umap'
+[2020.03.14-02.57.01:834][202]AssetCheck: New page: Asset Save: GrayBox
+[2020.03.14-02.57.01:834][202]LogContentValidation: Display: Validating World /Game/Game/Maps/GrayBox.GrayBox
+[2020.03.14-02.57.02:631][276]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/TopDownCharacterBA9FF4B4481E22B81E6891BECCF98E11.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2020.03.14-02.57.02:647][276]AssetCheck: New page: Asset Save: TopDownCharacter
+[2020.03.14-02.57.02:647][276]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2020.03.14-02.57.03:019][316]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-02.57.03:019][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-02.57.04:812][459]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
