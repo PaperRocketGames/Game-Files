@@ -1,4 +1,4 @@
-﻿Log file open, 03/14/20 01:18:10
+﻿Log file open, 03/14/20 01:26:03
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: GangGameGraybox
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.109813
+LogStats: Stats thread started at 0.263515
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -171,518 +171,846 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
-[2020.03.14-05.18.10:957][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.03.14-05.18.10:957][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
-[2020.03.14-05.18.10:957][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
-[2020.03.14-05.18.10:966][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.03.14-05.18.10:966][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.03.14-05.18.10:967][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.03.14-05.18.10:967][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.14-05.18.10:967][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.03.14-05.18.10:971][  0]LogHAL: Display: Platform has ~ 16 GB [17125924864 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.03.14-05.18.10:971][  0]LogInit: Going up to parent DeviceProfile []
-[2020.03.14-05.18.10:971][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.03.14-05.18.10:971][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.03.14-05.18.10:972][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.03.14-05.18.10:973][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.03.14-05.18.10:973][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.03.14-05.18.10:973][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
-[2020.03.14-05.18.10:973][  0]LogInit: Computer: DESKTOP-UQCUGJ7
-[2020.03.14-05.18.10:973][  0]LogInit: User: jerem
-[2020.03.14-05.18.10:973][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.03.14-05.18.10:973][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.03.14-05.18.10:973][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.03.14-05.18.10:973][  0]LogMemory: Platform Memory Stats for Windows
-[2020.03.14-05.18.10:973][  0]LogMemory: Process Physical Memory: 105.80 MB used, 105.80 MB peak
-[2020.03.14-05.18.10:973][  0]LogMemory: Process Virtual Memory: 100.51 MB used, 100.51 MB peak
-[2020.03.14-05.18.10:973][  0]LogMemory: Physical Memory: 7553.09 MB used,  8779.46 MB free, 16332.55 MB total
-[2020.03.14-05.18.10:973][  0]LogMemory: Virtual Memory: 5091.15 MB used,  134212640.00 MB free, 134217728.00 MB total
-[2020.03.14-05.18.10:977][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.03.14-05.18.10:997][  0]LogInit: Using OS detected language (fr-CA).
-[2020.03.14-05.18.10:997][  0]LogInit: Using OS detected locale (fr-CA).
-[2020.03.14-05.18.10:999][  0]LogTextLocalizationManager: No specific localization for 'fr-CA' exists, so the 'fr' localization will be used.
-[2020.03.14-05.18.10:999][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
-[2020.03.14-05.18.10:999][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
-[2020.03.14-05.18.10:999][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
-[2020.03.14-05.18.10:999][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
-[2020.03.14-05.18.11:000][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
-[2020.03.14-05.18.11:000][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
-[2020.03.14-05.18.11:000][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
-[2020.03.14-05.18.11:001][  0]LogInit: Setting process to per monitor DPI aware
-[2020.03.14-05.18.11:042][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.03.14-05.18.11:042][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.03.14-05.18.11:259][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.03.14-05.18.11:259][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.03.14-05.18.11:259][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.03.14-05.18.11:259][  0]LogD3D11RHI: D3D11 adapters:
-[2020.03.14-05.18.11:308][  0]LogD3D11RHI:    0. 'Radeon RX 570 Series' (Feature Level 11_0)
-[2020.03.14-05.18.11:308][  0]LogD3D11RHI:       4076/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
-[2020.03.14-05.18.11:311][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.03.14-05.18.11:311][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.03.14-05.18.11:311][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.03.14-05.18.11:326][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.03.14-05.18.11:326][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
-[2020.03.14-05.18.11:326][  0]LogWindows: EnumDisplayDevices:
-[2020.03.14-05.18.11:327][  0]LogWindows:    0. 'Radeon RX 570 Series' (P:1 D:1)
-[2020.03.14-05.18.11:327][  0]LogWindows:    1. 'Radeon RX 570 Series' (P:0 D:1)
-[2020.03.14-05.18.11:328][  0]LogWindows:    2. 'Radeon RX 570 Series' (P:0 D:0)
-[2020.03.14-05.18.11:328][  0]LogWindows:    3. 'Radeon RX 570 Series' (P:0 D:0)
-[2020.03.14-05.18.11:329][  0]LogWindows:    4. 'Radeon RX 570 Series' (P:0 D:0)
-[2020.03.14-05.18.11:329][  0]LogWindows:    5. 'Radeon RX 570 Series' (P:0 D:0)
-[2020.03.14-05.18.11:330][  0]LogWindows:    6. 'Radeon RX 570 Series' (P:0 D:0)
-[2020.03.14-05.18.11:330][  0]LogWindows:    7. 'Radeon RX 570 Series' (P:0 D:0)
-[2020.03.14-05.18.11:330][  0]LogWindows: DebugString: FoundDriverCount:8 
-[2020.03.14-05.18.11:330][  0]LogD3D11RHI:     Adapter Name: Radeon RX 570 Series
-[2020.03.14-05.18.11:330][  0]LogD3D11RHI:   Driver Version: Adrenalin 2020 20.1.3 (internal:26.20.15015.1007, unified:26.20.15015.1007)
-[2020.03.14-05.18.11:330][  0]LogD3D11RHI:      Driver Date: 1-17-2020
-[2020.03.14-05.18.11:330][  0]LogRHI: Texture pool is 2853 MB (70% of 4076 MB)
-[2020.03.14-05.18.11:420][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
-[2020.03.14-05.18.11:420][  0]LogD3D11RHI: Async texture creation enabled
-[2020.03.14-05.18.11:433][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
-[2020.03.14-05.18.11:790][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.03.14-05.18.11:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.03.14-05.18.11:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.03.14-05.18.11:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.03.14-05.18.11:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.03.14-05.18.11:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.03.14-05.18.11:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.03.14-05.18.11:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.03.14-05.18.11:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.03.14-05.18.11:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.03.14-05.18.11:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.03.14-05.18.11:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.03.14-05.18.11:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.03.14-05.18.11:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.03.14-05.18.11:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.03.14-05.18.11:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.03.14-05.18.11:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.03.14-05.18.11:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.03.14-05.18.11:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.03.14-05.18.11:853][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.03.14-05.18.11:853][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.03.14-05.18.11:861][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.03.14-05.18.11:870][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.03.14-05.18.11:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.03.14-05.18.11:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.03.14-05.18.11:898][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.03.14-05.18.11:906][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.03.14-05.18.11:939][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.03.14-05.18.11:939][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.03.14-05.18.11:956][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.03.14-05.18.11:956][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.03.14-05.18.11:967][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.03.14-05.18.11:978][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.03.14-05.18.11:987][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.03.14-05.18.11:997][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.03.14-05.18.11:997][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.03.14-05.18.12:001][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.03.14-05.18.12:035][  0]LogShaderCompilers: Guid format shader working directory is -49 characters bigger than the processId version (../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Intermediate/Shaders/WorkingDirectory/28328/).
-[2020.03.14-05.18.12:035][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jerem/AppData/Local/Temp/UnrealShaderWorkingDir/18198979428E88935CC2D6B21BDDC118/'.
-[2020.03.14-05.18.12:036][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.03.14-05.18.12:036][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.03.14-05.18.12:036][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.03.14-05.18.12:862][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.03.14-05.18.12:932][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/jerem/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.03.14-05.18.12:932][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jerem/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.03.14-05.18.12:932][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.03.14-05.18.12:932][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.03.14-05.18.12:932][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.03.14-05.18.12:932][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.03.14-05.18.12:943][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.03.14-05.18.12:943][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.03.14-05.18.12:943][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.03.14-05.18.12:945][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jerem/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.03.14-05.18.12:945][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.03.14-05.18.12:945][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.03.14-05.18.12:974][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.03.14-05.18.12:977][  0]LogSlate: Using FreeType 2.10.0
-[2020.03.14-05.18.12:978][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.03.14-05.18.13:043][  0]LogAssetRegistry: FAssetRegistry took 0.0037 seconds to start up
-[2020.03.14-05.18.13:413][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.14-05.18.13:587][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.03.14-05.18.13:587][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.03.14-05.18.13:587][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.03.14-05.18.13:587][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.03.14-05.18.13:587][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.03.14-05.18.13:607][  0]LogNetVersion: GangGameGraybox 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 3586570893)
-[2020.03.14-05.18.14:878][  0]LogPackageLocalizationCache: Processed 13 localized package path(s) for 1 prioritized culture(s) in 0.060267 seconds
-[2020.03.14-05.18.14:890][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2020.03.14-05.18.14:890][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2020.03.14-05.18.14:890][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.03.14-05.18.15:351][  0]LogPython: Using Python 2.7.14
-[2020.03.14-05.18.16:191][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.03.14-05.18.16:195][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.03.14-05.18.16:319][  0]SourceControl: Source control is disabled
-[2020.03.14-05.18.16:319][  0]SourceControl: Source control is disabled
-[2020.03.14-05.18.16:321][  0]SourceControl: Source control is disabled
-[2020.03.14-05.18.16:322][  0]SourceControl: Source control is disabled
-[2020.03.14-05.18.16:324][  0]SourceControl: Source control is disabled
-[2020.03.14-05.18.16:493][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.03.14-05.18.16:524][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.03.14-05.18.16:524][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.03.14-05.18.16:671][  0]LogOcInput: OculusInput pre-init called
-[2020.03.14-05.18.16:682][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.03.14-05.18.16:682][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.03.14-05.18.18:563][  0]LogEngine: Initializing Engine...
-[2020.03.14-05.18.18:564][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.03.14-05.18.18:565][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.03.14-05.18.19:029][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.03.14-05.18.19:042][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.03.14-05.18.19:066][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.03.14-05.18.19:066][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.03.14-05.18.19:066][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.03.14-05.18.19:067][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.03.14-05.18.19:067][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.03.14-05.18.19:067][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.03.14-05.18.19:067][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.03.14-05.18.19:067][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.03.14-05.18.19:067][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.03.14-05.18.19:067][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.03.14-05.18.19:098][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.03.14-05.18.19:098][  0]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
-[2020.03.14-05.18.19:098][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.03.14-05.18.19:098][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.03.14-05.18.19:098][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.03.14-05.18.19:098][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.03.14-05.18.19:098][  0]LogAudioMixer: Display: Channel Order:
-[2020.03.14-05.18.19:098][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.03.14-05.18.19:098][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.03.14-05.18.19:348][  0]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
-[2020.03.14-05.18.19:356][  0]LogInit: FAudioDevice initialized.
-[2020.03.14-05.18.19:357][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.03.14-05.18.19:491][  0]LogDerivedDataCache: Saved boot cache 0.13s 78MB C:/Users/jerem/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.03.14-05.18.19:491][  0]LogInit: Texture streaming: Enabled
-[2020.03.14-05.18.19:507][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.03.14-05.18.19:507][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.03.14-05.18.19:511][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.03.14-05.18.19:577][  0]LogInit: Transaction tracking system initialized
-[2020.03.14-05.18.19:592][  0]BlueprintLog: New page: Editor Load
-[2020.03.14-05.18.19:633][  0]LocalizationService: Localization service is disabled
-[2020.03.14-05.18.20:097][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.03.14-05.18.20:097][  0]LogCook: Display: Mobile HDR setting 1
-[2020.03.14-05.18.20:248][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/' took 0.15s
-[2020.03.14-05.18.21:193][  0]SourceControl: Source control is disabled
-[2020.03.14-05.18.21:193][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.03.14-05.18.21:193][  0]LightingResults: New page: Lighting Build
-[2020.03.14-05.18.21:195][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.03.14-05.18.21:195][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.03.14-05.18.21:195][  0]MapCheck: New page: Map Check
-[2020.03.14-05.18.21:195][  0]LightingResults: New page: Lighting Build
-[2020.03.14-05.18.21:222][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
-[2020.03.14-05.18.21:654][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2020.03.14-05.18.21:669][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.03.14-05.18.21:704][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
-[2020.03.14-05.18.21:705][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.03.14-05.18.21:705][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,255ms to complete.
-[2020.03.14-05.18.21:705][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.512
-[2020.03.14-05.18.21:857][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.14-05.18.21:865][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.14-05.18.21:873][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.14-05.18.21:881][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.14-05.18.21:889][  0]LogCollectionManager: Loaded 0 collections in 0.003114 seconds
-[2020.03.14-05.18.21:904][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Collections/' took 0.00s
-[2020.03.14-05.18.21:905][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Developers/jerem/Collections/' took 0.00s
-[2020.03.14-05.18.21:905][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Collections/' took 0.00s
-[2020.03.14-05.18.21:905][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 3048 classes and 745 folders.
-[2020.03.14-05.18.21:908][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.03.14-05.18.22:026][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.03.14-05.18.22:030][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 3 folders.
-[2020.03.14-05.18.22:173][  0]LogSlate: Took 0.000376 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.03.14-05.18.22:176][  0]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.03.14-05.18.22:181][  0]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.03.14-05.18.22:269][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2020.03.14-05.18.22:416][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.03.14-05.18.22:417][  0]LogLoad: (Engine Initialization) Total time: 14.01 seconds
-[2020.03.14-05.18.22:417][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.03.14-05.18.22:476][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.03.14-05.18.22:508][  0]LogSlate: Took 0.000423 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.03.14-05.18.22:593][  0]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.03.14-05.18.22:662][  1]LogAssetRegistry: Asset discovery search completed in 9.6206 seconds
-[2020.03.14-05.18.22:667][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000012 seconds (updated 0 objects)
-[2020.03.14-05.18.41:477][911]LogTexture: Display: Building textures: preview (AutoDXT, 128X128)
-[2020.03.14-05.18.42:104][953]LogMaterial: Display: Missing cached shader map for material preview_Mat, compiling. 
-[2020.03.14-05.18.42:162][953]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
-[2020.03.14-05.18.42:162][953]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
-[2020.03.14-05.18.42:162][953]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
-[2020.03.14-05.18.42:177][953]LogMaterial: Display: Material /Game/Game/SyntyAssets/0f97ae03d14ad444491c15766f813fcb/preview_Mat.preview_Mat needed to have new flag set bUsedWithStaticLighting !
-[2020.03.14-05.18.42:183][953]LogMaterial: Display: Missing cached shader map for material preview_Mat, compiling. 
-[2020.03.14-05.18.45:633][127]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 24
-[2020.03.14-05.18.49:932][382]LogTexture: Display: Building textures: preview (AutoDXT, 128X128)
-[2020.03.14-05.18.50:358][409]LogMaterial: Display: Missing cached shader map for material preview_Mat, compiling. 
-[2020.03.14-05.18.50:379][409]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
-[2020.03.14-05.18.50:389][409]LogMaterial: Display: Material /Game/Game/SyntyAssets/0fa59e6a3e65e294f90badb6c7fcf9d4/preview_Mat.preview_Mat needed to have new flag set bUsedWithStaticLighting !
-[2020.03.14-05.18.50:395][409]LogMaterial: Display: Missing cached shader map for material preview_Mat, compiling. 
-[2020.03.14-05.18.51:471][459]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 44
-[2020.03.14-05.18.53:451][582]LogTexture: Display: Building textures: preview (AutoDXT, 128X128)
-[2020.03.14-05.18.53:502][582]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Game/SyntyAssets/0ff6210734f24cd498d82d185bb22549/preview.preview
-[2020.03.14-05.18.53:518][582]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2020.03.14-05.18.56:334][699]LogSlate: Window 'preview' being destroyed
-[2020.03.14-05.18.56:348][699]LogSlate: Window 'preview' being destroyed
-[2020.03.14-05.18.58:252][812]LogTexture: Display: Building textures: preview (AutoDXT, 128X128)
-[2020.03.14-05.18.58:287][812]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Game/SyntyAssets/10d6182f000844d4083296b7f6fd0d25/preview.preview
-[2020.03.14-05.18.58:538][816]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 34
-[2020.03.14-05.19.00:210][901]LogSlate: Window 'preview' being destroyed
-[2020.03.14-05.19.00:218][901]LogSlate: Window 'preview' being destroyed
-[2020.03.14-05.19.01:758][992]LogTexture: Display: Building textures: preview (AutoDXT, 128X128)
-[2020.03.14-05.19.01:808][992]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Game/SyntyAssets/10a9b028363d1b84bb5110386178f99a/preview.preview
-[2020.03.14-05.19.04:205][ 93]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 24
-[2020.03.14-05.19.08:660][191]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
-[2020.03.14-05.19.14:487][269]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
-[2020.03.14-05.19.16:788][318]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
-[2020.03.14-05.19.17:557][334]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
-[2020.03.14-05.19.18:561][350]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
-[2020.03.14-05.19.23:329][393]LogSlate: Window 'preview' being destroyed
-[2020.03.14-05.19.23:340][393]LogSlate: Window 'preview' being destroyed
-[2020.03.14-05.19.26:907][712]LogTexture: Display: Building textures: preview (AutoDXT, 128X128)
-[2020.03.14-05.19.26:932][712]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Game/SyntyAssets/1347ce1800a13ba4289773c921986b12/preview.preview
-[2020.03.14-05.19.29:522][896]LogSlate: Window 'preview' being destroyed
-[2020.03.14-05.19.29:534][896]LogSlate: Window 'preview' being destroyed
-[2020.03.14-05.19.33:079][245]LogTexture: Display: Building textures: preview (AutoDXT, 128X128)
-[2020.03.14-05.19.33:103][245]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Game/SyntyAssets/122a0885ce7f4c54bbb66b514fbea825/preview.preview
-[2020.03.14-05.19.35:449][411]LogSlate: Window 'preview' being destroyed
-[2020.03.14-05.19.35:459][411]LogSlate: Window 'preview' being destroyed
-[2020.03.14-05.19.38:153][634]LogMaterial: Display: Missing cached shader map for material preview_Mat, compiling. 
-[2020.03.14-05.19.38:175][634]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
-[2020.03.14-05.19.38:175][634]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
-[2020.03.14-05.19.38:175][634]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
-[2020.03.14-05.19.38:185][634]LogMaterial: Display: Material /Game/Game/SyntyAssets/122a0885ce7f4c54bbb66b514fbea825/preview_Mat.preview_Mat needed to have new flag set bUsedWithStaticLighting !
-[2020.03.14-05.19.38:190][634]LogMaterial: Display: Missing cached shader map for material preview_Mat, compiling. 
-[2020.03.14-05.19.41:164][796]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 24
-[2020.03.14-05.19.46:823][ 40]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
-[2020.03.14-05.19.47:603][ 55]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
-[2020.03.14-05.19.51:481][147]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
-[2020.03.14-05.19.51:508][148]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
-[2020.03.14-05.19.52:556][168]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
-[2020.03.14-05.20.18:769][358]LogTexture: Display: Building textures: preview (AutoDXT, 128X128)
-[2020.03.14-05.20.18:800][358]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Game/SyntyAssets/00536fb3b8722ff44914f69a102d9de3/preview.preview
-[2020.03.14-05.20.21:819][591]LogSlate: Window 'preview' being destroyed
-[2020.03.14-05.20.21:828][591]LogSlate: Window 'preview' being destroyed
-[2020.03.14-05.21.07:697][155]LogSlate: Window 'Plugins' being destroyed
-[2020.03.14-05.21.07:704][155]LogSlate: Window 'Plugins' being destroyed
-[2020.03.14-05.21.07:704][155]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2020.03.14-05.26.03:556][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.03.14-05.26.03:556][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.03.14-05.26.03:556][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.03.14-05.26.03:557][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.03.14-05.26.03:557][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.03.14-05.26.03:557][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.03.14-05.26.03:565][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-05.26.03:565][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.14-05.26.03:565][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.14-05.26.03:565][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-05.26.03:565][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.14-05.26.03:565][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-05.26.03:565][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.14-05.26.03:565][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.14-05.26.03:565][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.14-05.26.03:565][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.14-05.26.03:565][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.14-05.26.03:565][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.14-05.26.03:565][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.14-05.26.03:565][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.14-05.26.03:565][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.14-05.26.03:566][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.14-05.26.03:567][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.14-05.26.03:567][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.14-05.26.03:567][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.14-05.26.03:571][  0]LogHAL: Display: Platform has ~ 16 GB [17125924864 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.14-05.26.03:571][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.14-05.26.03:571][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.14-05.26.03:571][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.14-05.26.03:572][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.03.14-05.26.03:573][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.03.14-05.26.03:573][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.03.14-05.26.03:573][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.03.14-05.26.03:573][  0]LogInit: Computer: DESKTOP-UQCUGJ7
+[2020.03.14-05.26.03:573][  0]LogInit: User: jerem
+[2020.03.14-05.26.03:573][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.03.14-05.26.03:573][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.14-05.26.03:573][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.03.14-05.26.03:573][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.14-05.26.03:573][  0]LogMemory: Process Physical Memory: 105.79 MB used, 105.79 MB peak
+[2020.03.14-05.26.03:573][  0]LogMemory: Process Virtual Memory: 100.52 MB used, 100.52 MB peak
+[2020.03.14-05.26.03:573][  0]LogMemory: Physical Memory: 7681.03 MB used,  8651.53 MB free, 16332.55 MB total
+[2020.03.14-05.26.03:573][  0]LogMemory: Virtual Memory: 5091.15 MB used,  134212640.00 MB free, 134217728.00 MB total
+[2020.03.14-05.26.03:577][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.03.14-05.26.03:597][  0]LogInit: Using OS detected language (fr-CA).
+[2020.03.14-05.26.03:597][  0]LogInit: Using OS detected locale (fr-CA).
+[2020.03.14-05.26.03:599][  0]LogTextLocalizationManager: No specific localization for 'fr-CA' exists, so the 'fr' localization will be used.
+[2020.03.14-05.26.03:600][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2020.03.14-05.26.03:600][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2020.03.14-05.26.03:600][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2020.03.14-05.26.03:600][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2020.03.14-05.26.03:600][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2020.03.14-05.26.03:600][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2020.03.14-05.26.03:601][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2020.03.14-05.26.03:602][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.14-05.26.03:637][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.14-05.26.03:637][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.14-05.26.03:865][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.14-05.26.03:865][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.03.14-05.26.03:865][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.03.14-05.26.03:865][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.14-05.26.03:917][  0]LogD3D11RHI:    0. 'Radeon RX 570 Series' (Feature Level 11_0)
+[2020.03.14-05.26.03:917][  0]LogD3D11RHI:       4076/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2020.03.14-05.26.03:920][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.14-05.26.03:920][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.14-05.26.03:920][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.14-05.26.03:935][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.14-05.26.03:935][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2020.03.14-05.26.03:935][  0]LogWindows: EnumDisplayDevices:
+[2020.03.14-05.26.03:935][  0]LogWindows:    0. 'Radeon RX 570 Series' (P:1 D:1)
+[2020.03.14-05.26.03:936][  0]LogWindows:    1. 'Radeon RX 570 Series' (P:0 D:1)
+[2020.03.14-05.26.03:936][  0]LogWindows:    2. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.03.14-05.26.03:936][  0]LogWindows:    3. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.03.14-05.26.03:937][  0]LogWindows:    4. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.03.14-05.26.03:937][  0]LogWindows:    5. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.03.14-05.26.03:938][  0]LogWindows:    6. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.03.14-05.26.03:938][  0]LogWindows:    7. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.03.14-05.26.03:939][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2020.03.14-05.26.03:939][  0]LogD3D11RHI:     Adapter Name: Radeon RX 570 Series
+[2020.03.14-05.26.03:939][  0]LogD3D11RHI:   Driver Version: Adrenalin 2020 20.1.3 (internal:26.20.15015.1007, unified:26.20.15015.1007)
+[2020.03.14-05.26.03:939][  0]LogD3D11RHI:      Driver Date: 1-17-2020
+[2020.03.14-05.26.03:939][  0]LogRHI: Texture pool is 2853 MB (70% of 4076 MB)
+[2020.03.14-05.26.04:028][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.03.14-05.26.04:028][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.14-05.26.04:041][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.03.14-05.26.04:398][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.03.14-05.26.04:439][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.03.14-05.26.04:439][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.03.14-05.26.04:439][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.03.14-05.26.04:439][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.03.14-05.26.04:439][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.03.14-05.26.04:439][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.03.14-05.26.04:439][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.03.14-05.26.04:439][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.03.14-05.26.04:439][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.03.14-05.26.04:439][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.03.14-05.26.04:439][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.03.14-05.26.04:439][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.03.14-05.26.04:439][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.03.14-05.26.04:439][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.03.14-05.26.04:439][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.03.14-05.26.04:439][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.03.14-05.26.04:439][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.03.14-05.26.04:439][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.03.14-05.26.04:463][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.03.14-05.26.04:463][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.03.14-05.26.04:472][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.03.14-05.26.04:481][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.03.14-05.26.04:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.03.14-05.26.04:503][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.03.14-05.26.04:512][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.03.14-05.26.04:521][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.03.14-05.26.04:555][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.03.14-05.26.04:555][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.03.14-05.26.04:574][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.03.14-05.26.04:574][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.03.14-05.26.04:583][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.03.14-05.26.04:593][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.03.14-05.26.04:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.03.14-05.26.04:612][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.03.14-05.26.04:612][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.14-05.26.04:616][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.03.14-05.26.04:650][  0]LogShaderCompilers: Guid format shader working directory is -49 characters bigger than the processId version (../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Intermediate/Shaders/WorkingDirectory/24568/).
+[2020.03.14-05.26.04:650][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jerem/AppData/Local/Temp/UnrealShaderWorkingDir/EC4FF51A41932696F3053CA1ED4F22ED/'.
+[2020.03.14-05.26.04:651][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.14-05.26.04:651][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.14-05.26.04:651][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.14-05.26.05:489][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.14-05.26.05:569][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/jerem/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.14-05.26.05:569][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jerem/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.03.14-05.26.05:569][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.14-05.26.05:569][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.14-05.26.05:569][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.14-05.26.05:569][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.14-05.26.05:581][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.14-05.26.05:581][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.14-05.26.05:581][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.03.14-05.26.05:583][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jerem/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.14-05.26.05:583][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.14-05.26.05:583][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.14-05.26.05:614][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.14-05.26.05:617][  0]LogSlate: Using FreeType 2.10.0
+[2020.03.14-05.26.05:618][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.14-05.26.05:690][  0]LogAssetRegistry: FAssetRegistry took 0.0050 seconds to start up
+[2020.03.14-05.26.06:085][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.14-05.26.06:270][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.14-05.26.06:270][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.03.14-05.26.06:270][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.14-05.26.06:270][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.03.14-05.26.06:270][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.03.14-05.26.06:290][  0]LogNetVersion: GangGameGraybox 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 3586570893)
+[2020.03.14-05.26.07:685][  0]LogPackageLocalizationCache: Processed 13 localized package path(s) for 1 prioritized culture(s) in 0.068902 seconds
+[2020.03.14-05.26.07:697][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.03.14-05.26.07:697][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.03.14-05.26.07:697][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.14-05.26.08:202][  0]LogPython: Using Python 2.7.14
+[2020.03.14-05.26.09:103][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.14-05.26.09:109][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.14-05.26.09:236][  0]SourceControl: Source control is disabled
+[2020.03.14-05.26.09:236][  0]SourceControl: Source control is disabled
+[2020.03.14-05.26.09:238][  0]SourceControl: Source control is disabled
+[2020.03.14-05.26.09:239][  0]SourceControl: Source control is disabled
+[2020.03.14-05.26.09:241][  0]SourceControl: Source control is disabled
+[2020.03.14-05.26.09:402][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.14-05.26.09:432][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.14-05.26.09:432][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.14-05.26.09:566][  0]LogOcInput: OculusInput pre-init called
+[2020.03.14-05.26.09:577][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.03.14-05.26.09:577][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.03.14-05.26.11:151][  0]LogEngine: Initializing Engine...
+[2020.03.14-05.26.11:153][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.14-05.26.11:154][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.03.14-05.26.11:591][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.14-05.26.11:604][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.14-05.26.11:625][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.14-05.26.11:625][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.14-05.26.11:625][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.14-05.26.11:625][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.14-05.26.11:625][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.14-05.26.11:625][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.14-05.26.11:625][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.14-05.26.11:625][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.14-05.26.11:625][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.14-05.26.11:625][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.14-05.26.11:654][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.14-05.26.11:654][  0]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-05.26.11:654][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.03.14-05.26.11:654][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.14-05.26.11:654][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.14-05.26.11:654][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.14-05.26.11:655][  0]LogAudioMixer: Display: Channel Order:
+[2020.03.14-05.26.11:655][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.14-05.26.11:655][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.03.14-05.26.11:887][  0]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-05.26.11:894][  0]LogInit: FAudioDevice initialized.
+[2020.03.14-05.26.11:894][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.14-05.26.12:289][  0]LogDerivedDataCache: Saved boot cache 0.39s 78MB C:/Users/jerem/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.14-05.26.12:293][  0]LogInit: Texture streaming: Enabled
+[2020.03.14-05.26.12:308][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.14-05.26.12:308][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.03.14-05.26.12:313][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.03.14-05.26.12:368][  0]LogInit: Transaction tracking system initialized
+[2020.03.14-05.26.12:382][  0]BlueprintLog: New page: Editor Load
+[2020.03.14-05.26.12:424][  0]LocalizationService: Localization service is disabled
+[2020.03.14-05.26.12:854][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.14-05.26.12:854][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.14-05.26.13:006][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/' took 0.15s
+[2020.03.14-05.26.13:829][  0]SourceControl: Source control is disabled
+[2020.03.14-05.26.13:829][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.14-05.26.13:830][  0]LightingResults: New page: Lighting Build
+[2020.03.14-05.26.13:831][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-05.26.13:831][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-05.26.13:831][  0]MapCheck: New page: Map Check
+[2020.03.14-05.26.13:831][  0]LightingResults: New page: Lighting Build
+[2020.03.14-05.26.13:861][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2020.03.14-05.26.14:266][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.03.14-05.26.14:289][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.14-05.26.14:321][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.03.14-05.26.14:321][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.14-05.26.14:322][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,25ms to complete.
+[2020.03.14-05.26.14:322][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.493
+[2020.03.14-05.26.14:481][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-05.26.14:489][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-05.26.14:498][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-05.26.14:506][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-05.26.14:516][  0]LogCollectionManager: Loaded 0 collections in 0.003461 seconds
+[2020.03.14-05.26.14:532][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Collections/' took 0.00s
+[2020.03.14-05.26.14:532][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Developers/jerem/Collections/' took 0.00s
+[2020.03.14-05.26.14:532][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Collections/' took 0.00s
+[2020.03.14-05.26.14:532][  0]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 3048 classes and 745 folders.
+[2020.03.14-05.26.14:535][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.14-05.26.14:641][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.14-05.26.14:646][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2020.03.14-05.26.14:810][  0]LogSlate: Took 0.000368 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.14-05.26.14:812][  0]LogSlate: Took 0.000297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.14-05.26.14:818][  0]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.14-05.26.14:913][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.03.14-05.26.15:070][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.03.14-05.26.15:070][  0]LogLoad: (Engine Initialization) Total time: 14.54 seconds
+[2020.03.14-05.26.15:070][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.14-05.26.15:135][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.14-05.26.15:197][  0]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.14-05.26.15:272][  1]LogAssetRegistry: Asset discovery search completed in 9.5844 seconds
+[2020.03.14-05.26.15:277][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2020.03.14-05.26.31:047][ 48]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2020.03.14-05.26.31:450][ 68]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2020.03.14-05.26.37:440][522]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.03.14-05.26.39:002][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.03.14-05.26.49:475][522]LogSlate: Window 'Delete Assets' being destroyed
+[2020.03.14-05.33.56:469][875]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.03.14-05.33.56:523][875]LogSlate: Window 'GangGameGraybox - Unreal Editor' being destroyed
+[2020.03.14-05.33.56:684][876]Cmd: QUIT_EDITOR
+[2020.03.14-05.33.56:684][876]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.03.14-05.33.56:704][876]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.03.14-05.33.56:705][876]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-05.33.56:733][876]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.14-05.33.56:761][876]LogExit: Preparing to exit.
+[2020.03.14-05.33.58:292][876]LogUObjectHash: Compacting FUObjectHashTables data took   4.64ms
+[2020.03.14-05.33.58:644][876]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-05.33.58:645][876]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-05.33.58:646][876]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-05.33.58:646][876]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-05.33.58:646][876]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-05.33.58:646][876]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-05.33.58:676][876]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.03.14-05.33.58:697][876]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-05.33.58:697][876]LogExit: Editor shut down
+[2020.03.14-05.33.58:697][876]LogExit: Transaction tracking system shut down
+[2020.03.14-05.33.59:047][876]LogExit: Object subsystem successfully closed.
+[2020.03.14-05.33.59:067][876]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.03.14-05.33.59:113][876]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (720)
+[2020.03.14-05.33.59:113][876]LogModuleManager: Shutting down and abandoning module SceneOutliner (718)
+[2020.03.14-05.33.59:113][876]LogModuleManager: Shutting down and abandoning module AddContentDialog (716)
+[2020.03.14-05.33.59:113][876]LogModuleManager: Shutting down and abandoning module WidgetCarousel (715)
+[2020.03.14-05.33.59:113][876]LogModuleManager: Shutting down and abandoning module EditorWidgets (712)
+[2020.03.14-05.33.59:114][876]LogModuleManager: Shutting down and abandoning module CollectionManager (710)
+[2020.03.14-05.33.59:114][876]LogModuleManager: Shutting down and abandoning module StatsViewer (708)
+[2020.03.14-05.33.59:114][876]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (706)
+[2020.03.14-05.33.59:114][876]LogModuleManager: Shutting down and abandoning module FoliageEdit (704)
+[2020.03.14-05.33.59:114][876]LogModuleManager: Shutting down and abandoning module LandscapeEditor (702)
+[2020.03.14-05.33.59:114][876]LogModuleManager: Shutting down and abandoning module MeshPaintMode (700)
+[2020.03.14-05.33.59:114][876]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (698)
+[2020.03.14-05.33.59:114][876]LogModuleManager: Shutting down and abandoning module ActorPickerMode (696)
+[2020.03.14-05.33.59:114][876]LogModuleManager: Shutting down and abandoning module GeometryMode (694)
+[2020.03.14-05.33.59:114][876]LogModuleManager: Shutting down and abandoning module TextureAlignMode (692)
+[2020.03.14-05.33.59:114][876]LogModuleManager: Shutting down and abandoning module BspMode (690)
+[2020.03.14-05.33.59:114][876]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (688)
+[2020.03.14-05.33.59:114][876]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (686)
+[2020.03.14-05.33.59:114][876]LogModuleManager: Shutting down and abandoning module AutomationWorker (684)
+[2020.03.14-05.33.59:114][876]LogModuleManager: Shutting down and abandoning module SteamVREditor (682)
+[2020.03.14-05.33.59:114][876]LogModuleManager: Shutting down and abandoning module OculusMR (680)
+[2020.03.14-05.33.59:114][876]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (678)
+[2020.03.14-05.33.59:114][876]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (676)
+[2020.03.14-05.33.59:114][876]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (674)
+[2020.03.14-05.33.59:114][876]LogModuleManager: Shutting down and abandoning module PlacementMode (673)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module MaterialEditor (672)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (668)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (666)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (664)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (662)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (660)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module WebMMedia (658)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (656)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (654)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module SequenceRecorder (653)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (650)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (648)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (646)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (644)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (642)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (640)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (638)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (636)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (634)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (632)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module CharacterAI (630)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module SmartSnapping (628)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module SessionServices (626)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module MeshPaint (624)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module ViewportSnapping (622)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module ViewportInteraction (620)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module ClothPainter (618)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (617)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module LogVisualizer (614)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module IntroTutorials (612)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (611)
+[2020.03.14-05.33.59:115][876]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (608)
+[2020.03.14-05.33.59:116][876]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (606)
+[2020.03.14-05.33.59:116][876]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (604)
+[2020.03.14-05.33.59:116][876]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (603)
+[2020.03.14-05.34.00:643][876]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (600)
+[2020.03.14-05.34.00:643][876]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (598)
+[2020.03.14-05.34.00:643][876]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (596)
+[2020.03.14-05.34.00:643][876]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (594)
+[2020.03.14-05.34.00:643][876]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (592)
+[2020.03.14-05.34.00:643][876]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (590)
+[2020.03.14-05.34.00:643][876]LogModuleManager: Shutting down and abandoning module InputBindingEditor (588)
+[2020.03.14-05.34.00:643][876]LogModuleManager: Shutting down and abandoning module MergeActors (586)
+[2020.03.14-05.34.00:643][876]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (584)
+[2020.03.14-05.34.00:643][876]LogModuleManager: Shutting down and abandoning module LocalizationService (583)
+[2020.03.14-05.34.00:643][876]LogModuleManager: Shutting down and abandoning module HardwareTargeting (580)
+[2020.03.14-05.34.00:643][876]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (578)
+[2020.03.14-05.34.00:643][876]LogModuleManager: Shutting down and abandoning module UndoHistory (576)
+[2020.03.14-05.34.00:643][876]LogModuleManager: Shutting down and abandoning module XmlParser (574)
+[2020.03.14-05.34.00:643][876]LogModuleManager: Shutting down and abandoning module Blutility (572)
+[2020.03.14-05.34.00:643][876]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (570)
+[2020.03.14-05.34.00:643][876]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (569)
+[2020.03.14-05.34.00:643][876]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (566)
+[2020.03.14-05.34.00:643][876]LogModuleManager: Shutting down and abandoning module SettingsEditor (564)
+[2020.03.14-05.34.00:644][876]LogModuleManager: Shutting down and abandoning module ProjectLauncher (562)
+[2020.03.14-05.34.00:644][876]LogModuleManager: Shutting down and abandoning module SessionFrontend (560)
+[2020.03.14-05.34.00:644][876]LogModuleManager: Shutting down and abandoning module ProfilerClient (558)
+[2020.03.14-05.34.00:644][876]LogModuleManager: Shutting down and abandoning module DeviceManager (556)
+[2020.03.14-05.34.00:644][876]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (555)
+[2020.03.14-05.34.00:677][876]LogModuleManager: Shutting down and abandoning module AutomationController (552)
+[2020.03.14-05.34.00:677][876]LogModuleManager: Shutting down and abandoning module AutomationWindow (550)
+[2020.03.14-05.34.00:677][876]LogModuleManager: Shutting down and abandoning module Layers (548)
+[2020.03.14-05.34.00:677][876]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (546)
+[2020.03.14-05.34.00:677][876]LogModuleManager: Shutting down and abandoning module DetailCustomizations (544)
+[2020.03.14-05.34.00:677][876]LogModuleManager: Shutting down and abandoning module PackagesDialog (542)
+[2020.03.14-05.34.00:677][876]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (540)
+[2020.03.14-05.34.00:677][876]LogModuleManager: Shutting down and abandoning module Persona (538)
+[2020.03.14-05.34.00:677][876]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (537)
+[2020.03.14-05.34.00:677][876]LogModuleManager: Shutting down and abandoning module AnimGraph (535)
+[2020.03.14-05.34.00:677][876]LogModuleManager: Shutting down and abandoning module Kismet (532)
+[2020.03.14-05.34.00:677][876]LogModuleManager: Shutting down and abandoning module KismetWidgets (531)
+[2020.03.14-05.34.00:677][876]LogModuleManager: Shutting down and abandoning module GraphEditor (528)
+[2020.03.14-05.34.00:678][876]LogModuleManager: Shutting down and abandoning module StructViewer (526)
+[2020.03.14-05.34.00:678][876]LogModuleManager: Shutting down and abandoning module ClassViewer (524)
+[2020.03.14-05.34.00:678][876]LogModuleManager: Shutting down and abandoning module Toolbox (522)
+[2020.03.14-05.34.00:678][876]LogModuleManager: Shutting down and abandoning module ModuleUI (520)
+[2020.03.14-05.34.00:678][876]LogModuleManager: Shutting down and abandoning module OutputLog (518)
+[2020.03.14-05.34.00:679][876]LogModuleManager: Shutting down and abandoning module GammaUI (516)
+[2020.03.14-05.34.00:679][876]LogModuleManager: Shutting down and abandoning module Documentation (514)
+[2020.03.14-05.34.00:679][876]LogModuleManager: Shutting down and abandoning module ToolMenus (512)
+[2020.03.14-05.34.00:679][876]LogModuleManager: Shutting down and abandoning module LiveCoding (510)
+[2020.03.14-05.34.00:679][876]LogModuleManager: Shutting down and abandoning module LevelSequence (508)
+[2020.03.14-05.34.00:679][876]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (506)
+[2020.03.14-05.34.00:679][876]LogModuleManager: Shutting down and abandoning module MovieScene (504)
+[2020.03.14-05.34.00:679][876]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (502)
+[2020.03.14-05.34.00:679][876]LogModuleManager: Shutting down and abandoning module LauncherPlatform (500)
+[2020.03.14-05.34.00:679][876]LogModuleManager: Shutting down and abandoning module AnalyticsET (498)
+[2020.03.14-05.34.00:679][876]LogModuleManager: Shutting down and abandoning module PortalServices (496)
+[2020.03.14-05.34.00:679][876]LogModuleManager: Shutting down and abandoning module PortalRpc (494)
+[2020.03.14-05.34.00:679][876]LogModuleManager: Shutting down and abandoning module MessagingRpc (492)
+[2020.03.14-05.34.00:679][876]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (490)
+[2020.03.14-05.34.00:679][876]LogModuleManager: Shutting down and abandoning module AIModule (488)
+[2020.03.14-05.34.00:679][876]LogModuleManager: Shutting down and abandoning module GameplayDebugger (487)
+[2020.03.14-05.34.00:679][876]LogModuleManager: Shutting down and abandoning module AITestSuite (485)
+[2020.03.14-05.34.00:679][876]LogModuleManager: Shutting down and abandoning module NavigationSystem (483)
+[2020.03.14-05.34.00:679][876]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (480)
+[2020.03.14-05.34.00:684][876]LogModuleManager: Shutting down and abandoning module ProfilerService (478)
+[2020.03.14-05.34.00:874][876]LogModuleManager: Shutting down and abandoning module TaskGraph (476)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module MegascansPlugin (474)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module ScreenshotTools (472)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (470)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (468)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module OculusEditor (466)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module OculusInput (464)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (462)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module EditableMesh (460)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (458)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module CableComponent (456)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module AudioCapture (454)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (453)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module AssetTags (450)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (448)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (446)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module AppleImageUtils (444)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module AndroidPermission (442)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (440)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (438)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module MediaCompositing (436)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module ImgMedia (434)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (432)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (430)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (428)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (426)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (424)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module BackChannel (422)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (420)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module AutomationUtils (418)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module AlembicImporter (416)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module AlembicLibrary (415)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module GeometryCache (414)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (413)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (408)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (406)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (404)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module PluginBrowser (402)
+[2020.03.14-05.34.00:875][876]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (400)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (398)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (396)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module CurveEditorTools (394)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (392)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module CryptoKeys (390)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (388)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (386)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module UObjectPlugin (384)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (382)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (380)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (378)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module GitSourceControl (376)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module SourceControl (375)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module MultiUserClientLibrary (372)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module MultiUserClient (370)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module ConcertSyncUI (368)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module ConcertSyncClient (366)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (364)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (362)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (360)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (358)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (356)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (354)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (352)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module Paper2DEditor (350)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module SignificanceManager (348)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (346)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (344)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (340)
+[2020.03.14-05.34.00:876][876]LogModuleManager: Shutting down and abandoning module SQLiteCore (338)
+[2020.03.14-05.34.00:877][876]LogModuleManager: Shutting down and abandoning module ActorSequence (336)
+[2020.03.14-05.34.00:877][876]LogModuleManager: Shutting down and abandoning module UdpMessaging (334)
+[2020.03.14-05.34.00:979][876]LogModuleManager: Shutting down and abandoning module TcpMessaging (332)
+[2020.03.14-05.34.01:097][876]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (330)
+[2020.03.14-05.34.01:097][876]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (328)
+[2020.03.14-05.34.01:097][876]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.03.14-05.34.01:097][876]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (326)
+[2020.03.14-05.34.01:097][876]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (324)
+[2020.03.14-05.34.01:097][876]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (322)
+[2020.03.14-05.34.01:097][876]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (320)
+[2020.03.14-05.34.01:097][876]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (318)
+[2020.03.14-05.34.01:097][876]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (316)
+[2020.03.14-05.34.01:097][876]LogModuleManager: Shutting down and abandoning module MagicLeapController (314)
+[2020.03.14-05.34.01:098][876]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.03.14-05.34.01:104][876]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (312)
+[2020.03.14-05.34.01:104][876]LogModuleManager: Shutting down and abandoning module MagicLeapAR (310)
+[2020.03.14-05.34.01:104][876]LogModuleManager: Shutting down and abandoning module AugmentedReality (309)
+[2020.03.14-05.34.01:104][876]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (306)
+[2020.03.14-05.34.01:104][876]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (304)
+[2020.03.14-05.34.01:104][876]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (302)
+[2020.03.14-05.34.01:104][876]LogModuleManager: Shutting down and abandoning module FacialAnimation (300)
+[2020.03.14-05.34.01:104][876]LogModuleManager: Shutting down and abandoning module DataValidation (298)
+[2020.03.14-05.34.01:104][876]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (296)
+[2020.03.14-05.34.01:104][876]LogModuleManager: Shutting down and abandoning module LevelEditor (295)
+[2020.03.14-05.34.01:117][876]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (294)
+[2020.03.14-05.34.01:117][876]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (292)
+[2020.03.14-05.34.01:118][876]LogModuleManager: Shutting down and abandoning module MainFrame (290)
+[2020.03.14-05.34.01:119][876]LogModuleManager: Shutting down and abandoning module HotReload (289)
+[2020.03.14-05.34.01:120][876]LogModuleManager: Shutting down and abandoning module ContentBrowser (285)
+[2020.03.14-05.34.01:122][876]LogModuleManager: Shutting down and abandoning module TreeMap (283)
+[2020.03.14-05.34.01:122][876]LogModuleManager: Shutting down and abandoning module ConcertSyncCore (280)
+[2020.03.14-05.34.01:122][876]LogModuleManager: Shutting down and abandoning module Concert (278)
+[2020.03.14-05.34.01:122][876]LogModuleManager: Shutting down and abandoning module ConcertTransport (277)
+[2020.03.14-05.34.01:122][876]LogModuleManager: Shutting down and abandoning module AnimationSharing (274)
+[2020.03.14-05.34.01:122][876]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (272)
+[2020.03.14-05.34.01:122][876]LogModuleManager: Shutting down and abandoning module Paper2D (270)
+[2020.03.14-05.34.01:122][876]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (268)
+[2020.03.14-05.34.01:130][876]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (266)
+[2020.03.14-05.34.01:130][876]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (264)
+[2020.03.14-05.34.01:130][876]LogModuleManager: Shutting down and abandoning module PacketHandler (262)
+[2020.03.14-05.34.01:130][876]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (260)
+[2020.03.14-05.34.01:130][876]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (258)
+[2020.03.14-05.34.01:130][876]LogModuleManager: Shutting down and abandoning module MediaAssets (256)
+[2020.03.14-05.34.01:130][876]LogModuleManager: Shutting down and abandoning module Overlay (254)
+[2020.03.14-05.34.01:130][876]LogModuleManager: Shutting down and abandoning module OverlayEditor (253)
+[2020.03.14-05.34.01:130][876]LogModuleManager: Shutting down and abandoning module VREditor (250)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module StringTableEditor (248)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (246)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (244)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module FunctionalTesting (242)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (240)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (239)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module UMG (236)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module UMGEditor (235)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module MessageLog (233)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module SlateReflector (228)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module Slate (226)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module SlateCore (224)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (222)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module UnrealEd (220)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module MRMesh (218)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (216)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (214)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module XAudio2 (212)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module Networking (210)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module Core (208)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module MovieSceneTools (206)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module CurveEditor (205)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module Sequencer (203)
+[2020.03.14-05.34.01:131][876]LogModuleManager: Shutting down and abandoning module EditorStyle (202)
+[2020.03.14-05.34.01:133][876]LogModuleManager: Shutting down and abandoning module KismetCompiler (198)
+[2020.03.14-05.34.01:133][876]LogModuleManager: Shutting down and abandoning module MeshUtilities (196)
+[2020.03.14-05.34.01:133][876]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (195)
+[2020.03.14-05.34.01:133][876]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (194)
+[2020.03.14-05.34.01:133][876]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (193)
+[2020.03.14-05.34.01:133][876]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (191)
+[2020.03.14-05.34.01:133][876]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (189)
+[2020.03.14-05.34.01:133][876]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (187)
+[2020.03.14-05.34.01:133][876]LogModuleManager: Shutting down and abandoning module MaterialBaking (183)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (178)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module DerivedDataCache (176)
+[2020.03.14-05.34.01:134][876]LogDerivedDataCache: Shutdown
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module XGEController (174)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module TargetPlatform (172)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (171)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (169)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (167)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (165)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (163)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (161)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (159)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (157)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (155)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (153)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module ImageWrapper (152)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (149)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (147)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (145)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (143)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (141)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (139)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (137)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (135)
+[2020.03.14-05.34.01:134][876]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (133)
+[2020.03.14-05.34.01:135][876]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (131)
+[2020.03.14-05.34.01:136][876]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (129)
+[2020.03.14-05.34.01:136][876]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (127)
+[2020.03.14-05.34.01:136][876]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (125)
+[2020.03.14-05.34.01:136][876]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2020.03.14-05.34.01:136][876]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
+[2020.03.14-05.34.01:136][876]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2020.03.14-05.34.01:136][876]LogModuleManager: Shutting down and abandoning module Messaging (117)
+[2020.03.14-05.34.01:137][876]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
+[2020.03.14-05.34.01:137][876]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (113)
+[2020.03.14-05.34.01:152][876]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (111)
+[2020.03.14-05.34.01:152][876]LogModuleManager: Shutting down and abandoning module InputCore (108)
+[2020.03.14-05.34.01:152][876]LogModuleManager: Shutting down and abandoning module Settings (106)
+[2020.03.14-05.34.01:152][876]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (104)
+[2020.03.14-05.34.01:153][876]LogModuleManager: Shutting down and abandoning module PhysXCooking (102)
+[2020.03.14-05.34.01:153][876]LogModuleManager: Shutting down and abandoning module ChaosSolvers (100)
+[2020.03.14-05.34.01:153][876]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (99)
+[2020.03.14-05.34.01:153][876]LogModuleManager: Shutting down and abandoning module Chaos (96)
+[2020.03.14-05.34.01:153][876]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (94)
+[2020.03.14-05.34.01:153][876]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (93)
+[2020.03.14-05.34.01:153][876]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (90)
+[2020.03.14-05.34.01:153][876]LogModuleManager: Shutting down and abandoning module SteamVRInput (88)
+[2020.03.14-05.34.01:153][876]LogModuleManager: Shutting down and abandoning module SteamVR (86)
+[2020.03.14-05.34.01:153][876]LogHMD: Freeing OpenVRDLLHandle.
+[2020.03.14-05.34.01:153][876]LogModuleManager: Shutting down and abandoning module OculusHMD (84)
+[2020.03.14-05.34.01:153][876]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (82)
+[2020.03.14-05.34.01:153][876]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (80)
+[2020.03.14-05.34.01:153][876]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (78)
+[2020.03.14-05.34.01:153][876]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (74)
+[2020.03.14-05.34.01:154][876]LogModuleManager: Shutting down and abandoning module XMPP (69)
+[2020.03.14-05.34.01:154][876]LogModuleManager: Shutting down and abandoning module WebSockets (68)
+[2020.03.14-05.34.01:168][876]LogModuleManager: Shutting down and abandoning module HTTP (65)
+[2020.03.14-05.34.01:168][876]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.03.14-05.34.01:168][876]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE027A5D-4595-5CBA-B310-B6B203DEB05A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=d3e72fe54db034d9762b97bd7cce4da5%7C5d14e97c45504603acfce2571112a820%7C69515070-cf5f-43db-9a5e-fc6e2556de54&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2020.03.14-05.34.01:198][876]LogModuleManager: Shutting down and abandoning module SSL (64)
+[2020.03.14-05.34.01:202][876]LogModuleManager: Shutting down and abandoning module WmfMedia (60)
+[2020.03.14-05.34.01:208][876]LogModuleManager: Shutting down and abandoning module Media (59)
+[2020.03.14-05.34.01:210][876]LogModuleManager: Shutting down and abandoning module MagicLeap (56)
+[2020.03.14-05.34.01:210][876]LogModuleManager: Shutting down and abandoning module VariantManagerContent (54)
+[2020.03.14-05.34.01:210][876]LogModuleManager: Shutting down and abandoning module DatasmithContent (52)
+[2020.03.14-05.34.01:211][876]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2020.03.14-05.34.01:211][876]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2020.03.14-05.34.01:211][876]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (46)
+[2020.03.14-05.34.01:211][876]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.03.14-05.34.01:211][876]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.03.14-05.34.01:211][876]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.03.14-05.34.01:211][876]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.03.14-05.34.01:212][876]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.03.14-05.34.01:213][876]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.03.14-05.34.01:215][876]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.03.14-05.34.01:215][876]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.03.14-05.34.01:215][876]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.03.14-05.34.01:216][876]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.03.14-05.34.01:220][876]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.03.14-05.34.01:220][876]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.03.14-05.34.01:220][876]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.03.14-05.34.01:220][876]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.03.14-05.34.01:220][876]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.03.14-05.34.01:220][876]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.03.14-05.34.01:220][876]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.03.14-05.34.01:220][876]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.03.14-05.34.01:220][876]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.03.14-05.34.01:220][876]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.03.14-05.34.01:221][876]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.03.14-05.34.01:221][876]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.03.14-05.34.01:222][876]LogD3D11RHI: Shutdown
+[2020.03.14-05.34.01:222][876]LogD3D11RHI: CleanupD3DDevice
+[2020.03.14-05.34.01:431][876]LogExit: Exiting.
+[2020.03.14-05.34.01:436][876]Log file closed, 03/14/20 01:34:01
