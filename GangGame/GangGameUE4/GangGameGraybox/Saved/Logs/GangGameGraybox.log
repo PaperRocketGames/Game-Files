@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 03/14/20 12:14:59
+=======
+﻿Log file open, 03/14/20 10:03:16
+>>>>>>> Test
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +13,11 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: GangGameGraybox
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+<<<<<<< HEAD
 LogStats: Stats thread started at 0.100735
+=======
+LogStats: Stats thread started at 0.097154
+>>>>>>> Test
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -171,6 +179,7 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 [2020.03.14-16.15.00:147][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2020.03.14-16.15.00:147][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2020.03.14-16.15.00:147][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
@@ -1118,3 +1127,831 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.14-16.18.14:829][216]LogD3D11RHI: CleanupD3DDevice
 [2020.03.14-16.18.14:839][216]LogExit: Exiting.
 [2020.03.14-16.18.14:847][216]Log file closed, 03/14/20 12:18:14
+=======
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.03.14-14.03.17:266][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.03.14-14.03.17:266][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.03.14-14.03.17:266][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.03.14-14.03.17:273][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.14-14.03.17:273][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.14-14.03.17:274][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-14.03.17:275][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.14-14.03.17:275][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.14-14.03.17:275][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.14-14.03.17:275][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.14-14.03.17:275][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.14-14.03.17:278][  0]LogHAL: Display: Platform has ~ 16 GB [17125924864 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.14-14.03.17:278][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.14-14.03.17:278][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-14.03.17:278][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.14-14.03.17:278][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.14-14.03.17:278][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-14.03.17:278][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.14-14.03.17:278][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-14.03.17:278][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.14-14.03.17:278][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.14-14.03.17:278][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2020.03.14-14.03.17:278][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2020.03.14-14.03.17:278][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.14-14.03.17:278][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2020.03.14-14.03.17:278][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
+[2020.03.14-14.03.17:278][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2020.03.14-14.03.17:278][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.03.14-14.03.17:278][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.14-14.03.17:278][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.14-14.03.17:278][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
+[2020.03.14-14.03.17:278][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.14-14.03.17:278][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2020.03.14-14.03.17:278][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.14-14.03.17:279][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.14-14.03.17:280][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.14-14.03.17:280][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.14-14.03.17:280][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.14-14.03.17:280][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.14-14.03.17:280][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.14-14.03.17:280][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.14-14.03.17:280][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.14-14.03.17:280][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.14-14.03.17:280][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.14-14.03.17:280][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-14.03.17:280][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.14-14.03.17:280][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.14-14.03.17:280][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-14.03.17:280][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.14-14.03.17:280][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.14-14.03.17:280][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.14-14.03.17:280][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.03.14-14.03.17:280][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.03.14-14.03.17:280][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.03.14-14.03.17:280][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.03.14-14.03.17:280][  0]LogInit: Computer: DESKTOP-UQCUGJ7
+[2020.03.14-14.03.17:280][  0]LogInit: User: jerem
+[2020.03.14-14.03.17:280][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.03.14-14.03.17:280][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.14-14.03.17:281][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.03.14-14.03.17:281][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.14-14.03.17:281][  0]LogMemory: Process Physical Memory: 105.43 MB used, 105.44 MB peak
+[2020.03.14-14.03.17:281][  0]LogMemory: Process Virtual Memory: 100.50 MB used, 100.50 MB peak
+[2020.03.14-14.03.17:281][  0]LogMemory: Physical Memory: 6404.16 MB used,  9928.39 MB free, 16332.55 MB total
+[2020.03.14-14.03.17:281][  0]LogMemory: Virtual Memory: 5091.15 MB used,  134212640.00 MB free, 134217728.00 MB total
+[2020.03.14-14.03.17:284][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.03.14-14.03.17:305][  0]LogInit: Using OS detected language (fr-CA).
+[2020.03.14-14.03.17:305][  0]LogInit: Using OS detected locale (fr-CA).
+[2020.03.14-14.03.17:307][  0]LogTextLocalizationManager: No specific localization for 'fr-CA' exists, so the 'fr' localization will be used.
+[2020.03.14-14.03.17:307][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2020.03.14-14.03.17:307][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2020.03.14-14.03.17:307][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2020.03.14-14.03.17:308][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2020.03.14-14.03.17:308][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2020.03.14-14.03.17:308][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2020.03.14-14.03.17:308][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2020.03.14-14.03.17:310][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.14-14.03.17:350][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.14-14.03.17:350][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.14-14.03.17:594][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.14-14.03.17:594][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.03.14-14.03.17:594][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.03.14-14.03.17:594][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.14-14.03.17:644][  0]LogD3D11RHI:    0. 'Radeon RX 570 Series' (Feature Level 11_0)
+[2020.03.14-14.03.17:644][  0]LogD3D11RHI:       4076/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2020.03.14-14.03.17:647][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.14-14.03.17:647][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.14-14.03.17:647][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.14-14.03.17:657][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.14-14.03.17:657][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2020.03.14-14.03.17:657][  0]LogWindows: EnumDisplayDevices:
+[2020.03.14-14.03.17:657][  0]LogWindows:    0. 'Radeon RX 570 Series' (P:0 D:1)
+[2020.03.14-14.03.17:658][  0]LogWindows:    1. 'Radeon RX 570 Series' (P:1 D:1)
+[2020.03.14-14.03.17:658][  0]LogWindows:    2. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.03.14-14.03.17:658][  0]LogWindows:    3. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.03.14-14.03.17:659][  0]LogWindows:    4. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.03.14-14.03.17:659][  0]LogWindows:    5. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.03.14-14.03.17:660][  0]LogWindows:    6. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.03.14-14.03.17:660][  0]LogWindows:    7. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.03.14-14.03.17:661][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2020.03.14-14.03.17:661][  0]LogD3D11RHI:     Adapter Name: Radeon RX 570 Series
+[2020.03.14-14.03.17:661][  0]LogD3D11RHI:   Driver Version: Adrenalin 2020 20.1.3 (internal:26.20.15015.1007, unified:26.20.15015.1007)
+[2020.03.14-14.03.17:661][  0]LogD3D11RHI:      Driver Date: 1-17-2020
+[2020.03.14-14.03.17:661][  0]LogRHI: Texture pool is 2853 MB (70% of 4076 MB)
+[2020.03.14-14.03.17:748][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.03.14-14.03.17:748][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.14-14.03.17:761][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.03.14-14.03.18:095][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.03.14-14.03.18:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.03.14-14.03.18:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.03.14-14.03.18:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.03.14-14.03.18:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.03.14-14.03.18:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.03.14-14.03.18:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.03.14-14.03.18:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.03.14-14.03.18:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.03.14-14.03.18:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.03.14-14.03.18:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.03.14-14.03.18:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.03.14-14.03.18:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.03.14-14.03.18:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.03.14-14.03.18:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.03.14-14.03.18:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.03.14-14.03.18:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.03.14-14.03.18:135][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.03.14-14.03.18:135][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.03.14-14.03.18:157][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.03.14-14.03.18:157][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.03.14-14.03.18:166][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.03.14-14.03.18:175][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.03.14-14.03.18:184][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.03.14-14.03.18:193][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.03.14-14.03.18:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.03.14-14.03.18:211][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.03.14-14.03.18:242][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.03.14-14.03.18:242][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.03.14-14.03.18:260][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.03.14-14.03.18:260][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.03.14-14.03.18:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.03.14-14.03.18:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.03.14-14.03.18:287][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.03.14-14.03.18:295][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.03.14-14.03.18:296][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.14-14.03.18:300][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.03.14-14.03.18:333][  0]LogShaderCompilers: Guid format shader working directory is -49 characters bigger than the processId version (../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Intermediate/Shaders/WorkingDirectory/13172/).
+[2020.03.14-14.03.18:334][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jerem/AppData/Local/Temp/UnrealShaderWorkingDir/F7D62A184DECD3F54B4F2889EF5C0628/'.
+[2020.03.14-14.03.18:335][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.14-14.03.18:335][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.14-14.03.18:335][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.14-14.03.19:141][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.14-14.03.19:199][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/jerem/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.14-14.03.19:199][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jerem/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.03.14-14.03.19:199][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.14-14.03.19:199][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.14-14.03.19:199][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.14-14.03.19:199][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.14-14.03.19:210][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.14-14.03.19:210][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.14-14.03.19:210][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.03.14-14.03.19:212][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jerem/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.14-14.03.19:212][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.14-14.03.19:212][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.14-14.03.19:239][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.14-14.03.19:242][  0]LogSlate: Using FreeType 2.10.0
+[2020.03.14-14.03.19:243][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.14-14.03.19:310][  0]LogAssetRegistry: FAssetRegistry took 0.0033 seconds to start up
+[2020.03.14-14.03.19:651][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.14-14.03.19:823][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.14-14.03.19:823][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.03.14-14.03.19:823][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.14-14.03.19:823][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.03.14-14.03.19:823][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.03.14-14.03.19:842][  0]LogNetVersion: GangGameGraybox 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 3586570893)
+[2020.03.14-14.03.21:149][  0]LogPackageLocalizationCache: Processed 13 localized package path(s) for 1 prioritized culture(s) in 0.060653 seconds
+[2020.03.14-14.03.21:160][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.03.14-14.03.21:160][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.03.14-14.03.21:160][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.14-14.03.21:661][  0]LogPython: Using Python 2.7.14
+[2020.03.14-14.03.22:491][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.14-14.03.22:496][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.14-14.03.22:658][  0]SourceControl: Source control is disabled
+[2020.03.14-14.03.22:658][  0]SourceControl: Source control is disabled
+[2020.03.14-14.03.22:659][  0]SourceControl: Source control is disabled
+[2020.03.14-14.03.22:661][  0]SourceControl: Source control is disabled
+[2020.03.14-14.03.22:662][  0]SourceControl: Source control is disabled
+[2020.03.14-14.03.22:814][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.14-14.03.22:843][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.14-14.03.22:843][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.14-14.03.22:967][  0]LogOcInput: OculusInput pre-init called
+[2020.03.14-14.03.22:978][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.03.14-14.03.22:978][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.03.14-14.03.24:411][  0]LogEngine: Initializing Engine...
+[2020.03.14-14.03.24:413][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.14-14.03.24:414][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.03.14-14.03.24:808][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.14-14.03.24:821][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.14-14.03.24:835][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.14-14.03.24:835][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.14-14.03.24:835][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.14-14.03.24:835][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.14-14.03.24:835][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.14-14.03.24:835][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.14-14.03.24:835][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.14-14.03.24:835][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.14-14.03.24:835][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.14-14.03.24:835][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.14-14.03.24:862][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.14-14.03.24:862][  0]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-14.03.24:862][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.03.14-14.03.24:862][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.14-14.03.24:862][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.14-14.03.24:862][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.14-14.03.24:862][  0]LogAudioMixer: Display: Channel Order:
+[2020.03.14-14.03.24:862][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.14-14.03.24:862][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.03.14-14.03.25:093][  0]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-14.03.25:099][  0]LogInit: FAudioDevice initialized.
+[2020.03.14-14.03.25:100][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.14-14.03.25:270][  0]LogDerivedDataCache: Saved boot cache 0.17s 78MB C:/Users/jerem/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.14-14.03.25:270][  0]LogInit: Texture streaming: Enabled
+[2020.03.14-14.03.25:284][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.14-14.03.25:284][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.03.14-14.03.25:288][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.03.14-14.03.25:338][  0]LogInit: Transaction tracking system initialized
+[2020.03.14-14.03.25:352][  0]BlueprintLog: New page: Editor Load
+[2020.03.14-14.03.25:393][  0]LocalizationService: Localization service is disabled
+[2020.03.14-14.03.25:780][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/' took 0.01s
+[2020.03.14-14.03.25:780][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.14-14.03.25:780][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.14-14.03.26:669][  0]SourceControl: Source control is disabled
+[2020.03.14-14.03.26:669][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.14-14.03.26:671][  0]LightingResults: New page: Lighting Build
+[2020.03.14-14.03.26:672][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-14.03.26:672][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-14.03.26:672][  0]MapCheck: New page: Map Check
+[2020.03.14-14.03.26:672][  0]LightingResults: New page: Lighting Build
+[2020.03.14-14.03.26:697][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.03.14-14.03.27:158][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.03.14-14.03.27:177][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.14-14.03.27:209][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2020.03.14-14.03.27:210][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.14-14.03.27:210][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,206ms to complete.
+[2020.03.14-14.03.27:210][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.541
+[2020.03.14-14.03.27:413][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-14.03.27:422][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-14.03.27:430][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-14.03.27:439][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-14.03.27:451][  0]LogCollectionManager: Loaded 0 collections in 0.003153 seconds
+[2020.03.14-14.03.27:477][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Collections/' took 0.00s
+[2020.03.14-14.03.27:477][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Developers/jerem/Collections/' took 0.00s
+[2020.03.14-14.03.27:477][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Collections/' took 0.00s
+[2020.03.14-14.03.27:477][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 3048 classes and 745 folders.
+[2020.03.14-14.03.27:483][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.14-14.03.27:665][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.03.14-14.03.27:684][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2020.03.14-14.03.27:892][  0]LogSlate: Took 0.000386 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.14-14.03.27:900][  0]LogSlate: Took 0.000323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.14-14.03.27:926][  0]LogSlate: Took 0.001821 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.14-14.03.28:029][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.03.14-14.03.28:186][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.03.14-14.03.28:186][  0]LogLoad: (Engine Initialization) Total time: 14.27 seconds
+[2020.03.14-14.03.28:186][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.14-14.03.28:252][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.14-14.03.28:286][  0]LogSlate: Took 0.001112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.14-14.03.28:315][  1]LogAssetRegistry: Asset discovery search completed in 9.0072 seconds
+[2020.03.14-14.03.28:319][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000010 seconds (updated 0 objects)
+[2020.03.14-14.07.28:270][536]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2020.03.14-14.07.28:710][561]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2020.03.14-14.07.35:525][168]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.14-14.07.35:581][168]LogAIModule: Creating AISystem for world GrayBox
+[2020.03.14-14.07.35:586][168]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Game/Maps/GrayBox.GrayBox
+[2020.03.14-14.07.35:613][168]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.03.14-14.07.35:615][168]Cmd: MAP LOAD FILE="../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/Maps/GrayBox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.14-14.07.35:615][168]LightingResults: New page: Lighting Build
+[2020.03.14-14.07.35:616][168]LoadErrors: New page: Loading map: GrayBox.umap
+[2020.03.14-14.07.35:618][168]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-14.07.35:618][168]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-14.07.35:618][168]MapCheck: New page: Map Check
+[2020.03.14-14.07.35:618][168]LightingResults: New page: Lighting Build
+[2020.03.14-14.07.35:643][168]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2020.03.14-14.07.35:774][168]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.14-14.07.35:803][168]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2020.03.14-14.07.35:826][168]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.14-14.07.35:826][168]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,148ms to complete.
+[2020.03.14-14.07.35:826][168]LogFileHelpers: Loading map 'GrayBox' took 0.213
+[2020.03.14-14.07.37:029][271]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.14-14.07.37:043][271]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.07.37:043][271]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.14-14.07.37:044][271]PIE: New page: PIE session: GrayBox (14 mars 2020 06 h 07 min 37 s)
+[2020.03.14-14.07.37:045][271]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.03.14-14.07.37:046][271]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.03.14-14.07.37:047][271]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-14.07.37:058][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011321s)
+[2020.03.14-14.07.37:059][271]LogAIModule: Creating AISystem for world GrayBox
+[2020.03.14-14.07.37:060][271]LogPlayLevel: PIE: World Init took: (0.001421s)
+[2020.03.14-14.07.37:060][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/GrayBox.GrayBox to /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox (0.013096s)
+[2020.03.14-14.07.37:085][271]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.03.14-14.07.37:086][271]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.14-14.07.37:086][271]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.14-14.07.37:086][271]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.14-14.07.37:086][271]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.14-14.07.37:086][271]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.14-14.07.37:086][271]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.14-14.07.37:086][271]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.14-14.07.37:086][271]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.14-14.07.37:087][271]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.14-14.07.37:087][271]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.14-14.07.37:106][271]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.14-14.07.37:106][271]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-14.07.37:106][271]LogAudioMixer: Display: Is Default: Yes
+[2020.03.14-14.07.37:106][271]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.14-14.07.37:106][271]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.14-14.07.37:106][271]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.14-14.07.37:106][271]LogAudioMixer: Display: Channel Order:
+[2020.03.14-14.07.37:106][271]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.14-14.07.37:106][271]LogAudioMixer: Display: 1: FrontRight
+[2020.03.14-14.07.37:342][271]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-14.07.37:344][271]LogInit: FAudioDevice initialized.
+[2020.03.14-14.07.37:359][271]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.03.14-14.07.37:364][271]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox up for play (max tick rate 0) at 2020.03.14-10.07.37
+[2020.03.14-14.07.37:366][271]LogWorld: Bringing up level for play took: 0.005002
+[2020.03.14-14.07.37:367][271]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.03.14-14.07.37:373][271]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.03.14-14.07.37:379][271]PIE: Play in editor start time for /Game/Game/Maps/UEDPIE_0_GrayBox 1,29
+[2020.03.14-14.07.37:379][271]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.07.43:915][ 12]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.07.43:915][ 12]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.07.43:915][ 12]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.07.43:915][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-14.07.43:916][ 12]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-14.07.43:916][ 12]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.07.43:916][ 12]LogWorld: UWorld::CleanupWorld for GrayBox, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-14.07.43:916][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-14.07.43:932][ 12]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.14-14.07.43:933][ 12]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.07.43:937][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-14.07.43:962][ 12]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.07.43:966][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-14.07.43:970][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.03.14-14.07.44:028][ 14]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.03.14-14.07.52:217][838]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2020.03.14-14.07.52:395][838]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2020.03.14-14.07.53:462][838]LogSlate: Took 0.000333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.14-14.07.53:654][839]LogSlate: Took 0.001090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.03.14-14.07.58:330][241]BlueprintLog: New page: Compile TopDownCharacter
+[2020.03.14-14.07.58:637][241]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2020.03.14-14.07.59:756][323]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.14-14.07.59:773][323]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.07.59:774][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.14-14.07.59:774][323]PIE: New page: PIE session: GrayBox (14 mars 2020 06 h 07 min 59 s)
+[2020.03.14-14.07.59:774][323]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-14.07.59:786][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012389s)
+[2020.03.14-14.07.59:788][323]LogAIModule: Creating AISystem for world GrayBox
+[2020.03.14-14.07.59:788][323]LogPlayLevel: PIE: World Init took: (0.001640s)
+[2020.03.14-14.07.59:788][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/GrayBox.GrayBox to /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox (0.014240s)
+[2020.03.14-14.07.59:824][323]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2020.03.14-14.07.59:825][323]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.14-14.07.59:825][323]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.14-14.07.59:825][323]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.14-14.07.59:825][323]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.14-14.07.59:825][323]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.14-14.07.59:825][323]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.14-14.07.59:825][323]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.14-14.07.59:825][323]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.14-14.07.59:826][323]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.14-14.07.59:826][323]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.14-14.07.59:843][323]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.14-14.07.59:843][323]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-14.07.59:843][323]LogAudioMixer: Display: Is Default: Yes
+[2020.03.14-14.07.59:843][323]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.14-14.07.59:844][323]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.14-14.07.59:844][323]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.14-14.07.59:844][323]LogAudioMixer: Display: Channel Order:
+[2020.03.14-14.07.59:844][323]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.14-14.07.59:844][323]LogAudioMixer: Display: 1: FrontRight
+[2020.03.14-14.08.00:098][323]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-14.08.00:100][323]LogInit: FAudioDevice initialized.
+[2020.03.14-14.08.00:112][323]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.03.14-14.08.00:114][323]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox up for play (max tick rate 0) at 2020.03.14-10.08.00
+[2020.03.14-14.08.00:115][323]LogWorld: Bringing up level for play took: 0.002606
+[2020.03.14-14.08.00:115][323]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.03.14-14.08.00:120][323]PIE: Play in editor start time for /Game/Game/Maps/UEDPIE_0_GrayBox 0,031
+[2020.03.14-14.08.00:120][323]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.08.10:111][347]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.08.10:111][347]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.08.10:111][347]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.08.10:112][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-14.08.10:112][347]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-14.08.10:112][347]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.08.10:112][347]LogWorld: UWorld::CleanupWorld for GrayBox, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-14.08.10:113][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-14.08.10:121][347]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.14-14.08.10:121][347]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.08.10:127][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-14.08.10:162][347]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.08.10:167][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-14.08.10:172][347]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2020.03.14-14.08.10:282][350]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.03.14-14.08.13:271][624]BlueprintLog: New page: Compile TopDownCharacter
+[2020.03.14-14.08.13:590][624]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2020.03.14-14.08.13:997][633]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/TopDownCharacter44A46D014AD825ED8333B1B208B46409.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2020.03.14-14.08.14:104][633]AssetCheck: New page: Asset Save: TopDownCharacter
+[2020.03.14-14.08.14:104][633]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2020.03.14-14.08.15:045][720]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.14-14.08.15:063][720]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.08.15:063][720]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.14-14.08.15:063][720]PIE: New page: PIE session: GrayBox (14 mars 2020 06 h 08 min 15 s)
+[2020.03.14-14.08.15:064][720]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-14.08.15:075][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011804s)
+[2020.03.14-14.08.15:077][720]LogAIModule: Creating AISystem for world GrayBox
+[2020.03.14-14.08.15:077][720]LogPlayLevel: PIE: World Init took: (0.001610s)
+[2020.03.14-14.08.15:077][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/GrayBox.GrayBox to /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox (0.013645s)
+[2020.03.14-14.08.15:114][720]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2020.03.14-14.08.15:115][720]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.14-14.08.15:116][720]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.14-14.08.15:116][720]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.14-14.08.15:116][720]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.14-14.08.15:116][720]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.14-14.08.15:116][720]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.14-14.08.15:116][720]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.14-14.08.15:116][720]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.14-14.08.15:116][720]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.14-14.08.15:116][720]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.14-14.08.15:134][720]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.14-14.08.15:134][720]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-14.08.15:134][720]LogAudioMixer: Display: Is Default: Yes
+[2020.03.14-14.08.15:134][720]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.14-14.08.15:134][720]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.14-14.08.15:134][720]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.14-14.08.15:134][720]LogAudioMixer: Display: Channel Order:
+[2020.03.14-14.08.15:134][720]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.14-14.08.15:134][720]LogAudioMixer: Display: 1: FrontRight
+[2020.03.14-14.08.15:391][720]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-14.08.15:394][720]LogInit: FAudioDevice initialized.
+[2020.03.14-14.08.15:407][720]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.03.14-14.08.15:410][720]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox up for play (max tick rate 0) at 2020.03.14-10.08.15
+[2020.03.14-14.08.15:411][720]LogWorld: Bringing up level for play took: 0.003887
+[2020.03.14-14.08.15:411][720]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.03.14-14.08.15:416][720]PIE: Play in editor start time for /Game/Game/Maps/UEDPIE_0_GrayBox 1,328
+[2020.03.14-14.08.15:416][720]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.08.37:742][229]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move! Velocity: X=190.85 Y=0.00 Z=0.00 Location: X=633.63 Y=419.69 Z=158.15 Normal: X=-0.46 Y=0.89 Z=0.00 PenetrationDepth:27.572 Actor:Bullet_C_35 Component:Sphere BoneName:None (0 other events since notify)
+[2020.03.14-14.08.39:566][438]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move! Velocity: X=-579.26 Y=-156.38 Z=0.00 Location: X=500.19 Y=278.98 Z=159.03 Normal: X=0.85 Y=0.48 Z=0.22 PenetrationDepth:28.503 Actor:Bullet_C_38 Component:Sphere BoneName:None (0 other events since notify)
+[2020.03.14-14.08.45:813][103]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.08.45:813][103]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.08.45:813][103]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.08.45:813][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-14.08.45:813][103]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-14.08.45:813][103]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.08.45:814][103]LogWorld: UWorld::CleanupWorld for GrayBox, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-14.08.45:815][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-14.08.45:827][103]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.14-14.08.45:827][103]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.08.45:832][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-14.08.45:867][103]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.08.45:872][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-14.08.45:876][103]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.03.14-14.08.45:912][105]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.03.14-14.08.48:856][421]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2020.03.14-14.08.49:145][421]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/GrayBox4EF52C6D44E30EC8CE3A7EA92B4AC00B.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/Maps/GrayBox.umap'
+[2020.03.14-14.08.49:194][421]AssetCheck: New page: Asset Save: GrayBox
+[2020.03.14-14.08.49:194][421]LogContentValidation: Display: Validating World /Game/Game/Maps/GrayBox.GrayBox
+[2020.03.14-14.08.51:188][547]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/Gun_V1/Bullet.Bullet
+[2020.03.14-14.09.44:084][579]BlueprintLog: New page: Compile Bullet
+[2020.03.14-14.09.44:380][579]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2020.03.14-14.09.44:843][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Gun_V1/Bullet" FILE="../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/Gun_V1/Bullet.uasset" SILENT=true
+[2020.03.14-14.09.44:864][619]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Bullet63AAA38D4590A33882173489961B770C.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/Gun_V1/Bullet.uasset'
+[2020.03.14-14.09.44:920][619]AssetCheck: New page: Asset Save: Bullet
+[2020.03.14-14.09.44:920][619]LogContentValidation: Display: Validating Blueprint /Game/Game/Gun_V1/Bullet.Bullet
+[2020.03.14-14.09.47:044][806]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.14-14.09.47:065][806]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.09.47:065][806]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.14-14.09.47:065][806]PIE: New page: PIE session: GrayBox (14 mars 2020 06 h 09 min 47 s)
+[2020.03.14-14.09.47:066][806]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-14.09.47:078][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011989s)
+[2020.03.14-14.09.47:078][806]LogAIModule: Creating AISystem for world GrayBox
+[2020.03.14-14.09.47:079][806]LogPlayLevel: PIE: World Init took: (0.001077s)
+[2020.03.14-14.09.47:079][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/GrayBox.GrayBox to /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox (0.013254s)
+[2020.03.14-14.09.47:118][806]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2020.03.14-14.09.47:119][806]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.14-14.09.47:119][806]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.14-14.09.47:119][806]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.14-14.09.47:119][806]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.14-14.09.47:119][806]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.14-14.09.47:119][806]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.14-14.09.47:119][806]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.14-14.09.47:119][806]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.14-14.09.47:120][806]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.14-14.09.47:120][806]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.14-14.09.47:138][806]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.14-14.09.47:138][806]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-14.09.47:138][806]LogAudioMixer: Display: Is Default: Yes
+[2020.03.14-14.09.47:138][806]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.14-14.09.47:138][806]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.14-14.09.47:138][806]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.14-14.09.47:138][806]LogAudioMixer: Display: Channel Order:
+[2020.03.14-14.09.47:138][806]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.14-14.09.47:138][806]LogAudioMixer: Display: 1: FrontRight
+[2020.03.14-14.09.47:398][806]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-14.09.47:402][806]LogInit: FAudioDevice initialized.
+[2020.03.14-14.09.47:413][806]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.03.14-14.09.47:415][806]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox up for play (max tick rate 0) at 2020.03.14-10.09.47
+[2020.03.14-14.09.47:416][806]LogWorld: Bringing up level for play took: 0.002540
+[2020.03.14-14.09.47:416][806]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.03.14-14.09.47:421][806]PIE: Play in editor start time for /Game/Game/Maps/UEDPIE_0_GrayBox 1,333
+[2020.03.14-14.09.47:422][806]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.10.16:270][ 37]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.10.16:270][ 37]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.10.16:270][ 37]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.10.16:271][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-14.10.16:271][ 37]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-14.10.16:271][ 37]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.10.16:271][ 37]LogWorld: UWorld::CleanupWorld for GrayBox, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-14.10.16:272][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-14.10.16:282][ 37]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.14-14.10.16:282][ 37]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.10.16:288][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-14.10.16:325][ 37]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.10.16:329][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-14.10.16:333][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2020.03.14-14.10.16:379][ 40]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.03.14-14.10.18:756][300]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.14-14.10.18:777][300]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.10.18:777][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.14-14.10.18:777][300]PIE: New page: PIE session: GrayBox (14 mars 2020 06 h 10 min 18 s)
+[2020.03.14-14.10.18:777][300]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-14.10.18:788][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011160s)
+[2020.03.14-14.10.18:789][300]LogAIModule: Creating AISystem for world GrayBox
+[2020.03.14-14.10.18:790][300]LogPlayLevel: PIE: World Init took: (0.001409s)
+[2020.03.14-14.10.18:790][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/GrayBox.GrayBox to /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox (0.012748s)
+[2020.03.14-14.10.18:830][300]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.03.14-14.10.18:831][300]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.14-14.10.18:831][300]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.14-14.10.18:831][300]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.14-14.10.18:831][300]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.14-14.10.18:831][300]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.14-14.10.18:831][300]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.14-14.10.18:831][300]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.14-14.10.18:831][300]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.14-14.10.18:832][300]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.14-14.10.18:832][300]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.14-14.10.18:851][300]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.14-14.10.18:851][300]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-14.10.18:851][300]LogAudioMixer: Display: Is Default: Yes
+[2020.03.14-14.10.18:851][300]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.14-14.10.18:851][300]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.14-14.10.18:851][300]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.14-14.10.18:851][300]LogAudioMixer: Display: Channel Order:
+[2020.03.14-14.10.18:851][300]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.14-14.10.18:851][300]LogAudioMixer: Display: 1: FrontRight
+[2020.03.14-14.10.19:110][300]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-14.10.19:112][300]LogInit: FAudioDevice initialized.
+[2020.03.14-14.10.19:121][300]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.03.14-14.10.19:124][300]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox up for play (max tick rate 0) at 2020.03.14-10.10.19
+[2020.03.14-14.10.19:125][300]LogWorld: Bringing up level for play took: 0.003042
+[2020.03.14-14.10.19:125][300]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.03.14-14.10.19:131][300]PIE: Play in editor start time for /Game/Game/Maps/UEDPIE_0_GrayBox 1,042
+[2020.03.14-14.10.19:131][300]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.10.25:493][ 34]LogBlueprintUserMessages: [TopDownCharacter_C_0] Enter car
+[2020.03.14-14.10.27:029][197]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.10.27:030][197]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.10.27:030][197]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.10.27:030][197]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-14.10.27:030][197]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-14.10.27:030][197]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.10.27:030][197]LogWorld: UWorld::CleanupWorld for GrayBox, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-14.10.27:031][197]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-14.10.27:046][197]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.14-14.10.27:046][197]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.10.27:052][197]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-14.10.27:088][197]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.10.27:092][197]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-14.10.27:096][197]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.03.14-14.10.27:147][200]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.03.14-14.10.28:914][390]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.14-14.10.28:935][390]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.10.28:935][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.14-14.10.28:935][390]PIE: New page: PIE session: GrayBox (14 mars 2020 06 h 10 min 28 s)
+[2020.03.14-14.10.28:935][390]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-14.10.28:946][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011416s)
+[2020.03.14-14.10.28:947][390]LogAIModule: Creating AISystem for world GrayBox
+[2020.03.14-14.10.28:948][390]LogPlayLevel: PIE: World Init took: (0.001391s)
+[2020.03.14-14.10.28:948][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/GrayBox.GrayBox to /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox (0.013035s)
+[2020.03.14-14.10.28:987][390]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2020.03.14-14.10.28:987][390]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.14-14.10.28:987][390]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.14-14.10.28:987][390]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.14-14.10.28:987][390]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.14-14.10.28:987][390]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.14-14.10.28:987][390]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.14-14.10.28:987][390]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.14-14.10.28:988][390]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.14-14.10.28:988][390]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.14-14.10.28:988][390]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.14-14.10.29:005][390]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.14-14.10.29:006][390]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-14.10.29:006][390]LogAudioMixer: Display: Is Default: Yes
+[2020.03.14-14.10.29:006][390]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.14-14.10.29:006][390]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.14-14.10.29:006][390]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.14-14.10.29:006][390]LogAudioMixer: Display: Channel Order:
+[2020.03.14-14.10.29:006][390]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.14-14.10.29:006][390]LogAudioMixer: Display: 1: FrontRight
+[2020.03.14-14.10.29:257][390]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.14-14.10.29:261][390]LogInit: FAudioDevice initialized.
+[2020.03.14-14.10.29:267][390]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.03.14-14.10.29:271][390]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox up for play (max tick rate 0) at 2020.03.14-10.10.29
+[2020.03.14-14.10.29:271][390]LogWorld: Bringing up level for play took: 0.002941
+[2020.03.14-14.10.29:271][390]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.03.14-14.10.29:276][390]PIE: Play in editor start time for /Game/Game/Maps/UEDPIE_0_GrayBox 1,188
+[2020.03.14-14.10.29:278][390]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.10.33:560][883]LogBlueprintUserMessages: [TopDownCharacter_C_0] Enter car
+[2020.03.14-14.10.34:694][  7]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.10.34:694][  7]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.10.34:695][  7]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.10.34:695][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-14.10.34:695][  7]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.14-14.10.34:695][  7]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.10.34:695][  7]LogWorld: UWorld::CleanupWorld for GrayBox, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-14.10.34:696][  7]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-14.10.34:711][  7]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.14-14.10.34:711][  7]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.14-14.10.34:716][  7]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-14.10.34:752][  7]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.14-14.10.34:757][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-14.10.34:761][  7]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2020.03.14-14.10.34:797][ 10]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.03.14-14.10.38:414][333]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-14.10.38:414][333]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-14.10.39:444][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Gun_V1/Bullet" FILE="../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/Gun_V1/Bullet.uasset" SILENT=true
+[2020.03.14-14.10.39:459][425]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/BulletD325C9824BF698ADEDD1BE9B9AAE9919.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/Gun_V1/Bullet.uasset'
+[2020.03.14-14.10.39:481][425]AssetCheck: New page: Asset Save: Bullet
+[2020.03.14-14.10.39:481][425]LogContentValidation: Display: Validating Blueprint /Game/Game/Gun_V1/Bullet.Bullet
+[2020.03.14-14.10.39:913][469]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.03.14-14.10.39:913][469]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.03.14-14.10.39:913][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.14-14.10.40:765][539]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2020.03.14-14.10.41:056][539]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/GrayBoxDB98A5044538E984D7E3DE80FF651290.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/Maps/GrayBox.umap'
+[2020.03.14-14.10.41:098][539]AssetCheck: New page: Asset Save: GrayBox
+[2020.03.14-14.10.41:098][539]LogContentValidation: Display: Validating World /Game/Game/Maps/GrayBox.GrayBox
+>>>>>>> Test
