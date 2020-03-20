@@ -1,0 +1,1506 @@
+﻿Log file open, 03/20/20 16:33:46
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: GangGameGraybox
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.127167
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin ConcertMain
+LogPluginManager: Mounting plugin ConcertSyncClient
+LogPluginManager: Mounting plugin ConcertSyncCore
+LogPluginManager: Mounting plugin MultiUserClient
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin Linter
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MegascansPlugin
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin SQLiteCore
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 3 3200G with Radeon Vega Graphics    , GPU: Radeon RX 570 Series
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.03.20-20.33.46:871][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.03.20-20.33.46:871][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.03.20-20.33.46:871][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.03.20-20.33.46:881][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.20-20.33.46:881][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.20-20.33.46:882][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.20-20.33.46:883][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.20-20.33.46:883][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.20-20.33.46:883][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.20-20.33.46:883][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.20-20.33.46:883][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.20-20.33.46:883][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.20-20.33.46:888][  0]LogHAL: Display: Platform has ~ 16 GB [17125924864 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.20-20.33.46:888][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.20-20.33.46:888][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.20-20.33.46:888][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.20-20.33.46:888][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.20-20.33.46:888][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.20-20.33.46:888][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.20-20.33.46:888][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.20-20.33.46:888][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.20-20.33.46:888][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.20-20.33.46:888][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2020.03.20-20.33.46:888][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2020.03.20-20.33.46:888][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.20-20.33.46:889][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.20-20.33.46:890][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.03.20-20.33.46:891][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.03.20-20.33.46:891][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.03.20-20.33.46:891][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.03.20-20.33.46:891][  0]LogInit: Computer: DESKTOP-UQCUGJ7
+[2020.03.20-20.33.46:891][  0]LogInit: User: jerem
+[2020.03.20-20.33.46:891][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.03.20-20.33.46:891][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.20-20.33.46:891][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.03.20-20.33.46:891][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.20-20.33.46:891][  0]LogMemory: Process Physical Memory: 106.37 MB used, 106.38 MB peak
+[2020.03.20-20.33.46:891][  0]LogMemory: Process Virtual Memory: 100.43 MB used, 100.43 MB peak
+[2020.03.20-20.33.46:891][  0]LogMemory: Physical Memory: 6238.61 MB used,  10093.95 MB free, 16332.55 MB total
+[2020.03.20-20.33.46:891][  0]LogMemory: Virtual Memory: 5091.15 MB used,  134212640.00 MB free, 134217728.00 MB total
+[2020.03.20-20.33.46:894][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.03.20-20.33.46:921][  0]LogInit: Using OS detected language (fr-CA).
+[2020.03.20-20.33.46:921][  0]LogInit: Using OS detected locale (fr-CA).
+[2020.03.20-20.33.46:923][  0]LogTextLocalizationManager: No specific localization for 'fr-CA' exists, so the 'fr' localization will be used.
+[2020.03.20-20.33.46:924][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2020.03.20-20.33.46:924][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2020.03.20-20.33.46:924][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2020.03.20-20.33.46:924][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2020.03.20-20.33.46:924][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2020.03.20-20.33.46:925][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2020.03.20-20.33.46:925][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2020.03.20-20.33.46:926][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.20-20.33.46:968][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.20-20.33.46:969][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.20-20.33.47:306][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.20-20.33.47:306][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.03.20-20.33.47:306][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.03.20-20.33.47:306][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.20-20.33.47:360][  0]LogD3D11RHI:    0. 'Radeon RX 570 Series' (Feature Level 11_0)
+[2020.03.20-20.33.47:360][  0]LogD3D11RHI:       4076/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2020.03.20-20.33.47:364][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.20-20.33.47:364][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.20-20.33.47:364][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.20-20.33.47:384][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.20-20.33.47:384][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2020.03.20-20.33.47:384][  0]LogWindows: EnumDisplayDevices:
+[2020.03.20-20.33.47:385][  0]LogWindows:    0. 'Radeon RX 570 Series' (P:1 D:1)
+[2020.03.20-20.33.47:386][  0]LogWindows:    1. 'Radeon RX 570 Series' (P:0 D:1)
+[2020.03.20-20.33.47:387][  0]LogWindows:    2. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.03.20-20.33.47:388][  0]LogWindows:    3. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.03.20-20.33.47:388][  0]LogWindows:    4. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.03.20-20.33.47:389][  0]LogWindows:    5. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.03.20-20.33.47:389][  0]LogWindows:    6. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.03.20-20.33.47:390][  0]LogWindows:    7. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.03.20-20.33.47:390][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2020.03.20-20.33.47:390][  0]LogD3D11RHI:     Adapter Name: Radeon RX 570 Series
+[2020.03.20-20.33.47:390][  0]LogD3D11RHI:   Driver Version: Adrenalin 2020 20.1.3 (internal:26.20.15015.1007, unified:26.20.15015.1007)
+[2020.03.20-20.33.47:390][  0]LogD3D11RHI:      Driver Date: 1-17-2020
+[2020.03.20-20.33.47:390][  0]LogRHI: Texture pool is 2853 MB (70% of 4076 MB)
+[2020.03.20-20.33.47:507][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.03.20-20.33.47:507][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.20-20.33.47:520][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.03.20-20.33.47:999][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.03.20-20.33.48:058][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.03.20-20.33.48:058][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.03.20-20.33.48:058][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.03.20-20.33.48:058][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.03.20-20.33.48:058][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.03.20-20.33.48:058][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.03.20-20.33.48:058][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.03.20-20.33.48:058][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.03.20-20.33.48:058][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.03.20-20.33.48:058][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.03.20-20.33.48:059][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.03.20-20.33.48:059][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.03.20-20.33.48:059][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.03.20-20.33.48:059][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.03.20-20.33.48:059][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.03.20-20.33.48:059][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.03.20-20.33.48:059][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.03.20-20.33.48:059][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.03.20-20.33.48:101][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.03.20-20.33.48:101][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.03.20-20.33.48:113][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.03.20-20.33.48:126][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.03.20-20.33.48:138][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.03.20-20.33.48:149][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.03.20-20.33.48:162][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.03.20-20.33.48:173][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.03.20-20.33.48:213][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.03.20-20.33.48:213][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.03.20-20.33.48:237][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.03.20-20.33.48:237][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.03.20-20.33.48:247][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.03.20-20.33.48:260][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.03.20-20.33.48:272][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.03.20-20.33.48:282][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.03.20-20.33.48:282][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.20-20.33.48:291][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.03.20-20.33.48:331][  0]LogShaderCompilers: Guid format shader working directory is -48 characters bigger than the processId version (../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Intermediate/Shaders/WorkingDirectory/8616/).
+[2020.03.20-20.33.48:332][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jerem/AppData/Local/Temp/UnrealShaderWorkingDir/5D4F759D4C6080A6B4846A99A33AD6ED/'.
+[2020.03.20-20.33.48:333][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.20-20.33.48:333][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.20-20.33.48:333][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.20-20.33.49:324][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.20-20.33.49:422][  0]LogDerivedDataCache: Loaded boot cache 0.10s 78MB C:/Users/jerem/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.20-20.33.49:422][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jerem/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.03.20-20.33.49:423][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.20-20.33.49:423][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.20-20.33.49:423][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.20-20.33.49:423][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.20-20.33.49:439][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.20-20.33.49:439][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.20-20.33.49:439][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.03.20-20.33.49:441][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jerem/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.20-20.33.49:442][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.20-20.33.49:442][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.20-20.33.49:474][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.20-20.33.49:477][  0]LogSlate: Using FreeType 2.10.0
+[2020.03.20-20.33.49:478][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.20-20.33.49:556][  0]LogAssetRegistry: FAssetRegistry took 0.0049 seconds to start up
+[2020.03.20-20.33.50:009][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.20-20.33.50:225][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.20-20.33.50:225][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.03.20-20.33.50:225][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.20-20.33.50:225][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.03.20-20.33.50:225][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.03.20-20.33.50:247][  0]LogNetVersion: GangGameGraybox 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 3586570893)
+[2020.03.20-20.33.51:854][  0]LogPackageLocalizationCache: Processed 14 localized package path(s) for 1 prioritized culture(s) in 0.084867 seconds
+[2020.03.20-20.33.51:867][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.03.20-20.33.51:868][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.03.20-20.33.51:868][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.20-20.33.52:468][  0]LogPython: Using Python 2.7.14
+[2020.03.20-20.33.53:495][  0]LogLinker: Warning: Asset '../../Plugins/Marketplace/Linter/Content/MarketplaceLinter/MarketplaceLintRuleSet.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2020.03.20-20.33.53:556][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.20-20.33.53:561][  0]LogUdpMessaging: Initializing bridge on interface 25.12.176.148:0 to multicast group 230.0.0.1:6666.
+[2020.03.20-20.33.53:561][  0]FUdpSocketBuilder: Failed to bind UdpMessageUnicastSocket to 25.12.176.148:0
+[2020.03.20-20.33.53:561][  0]FUdpSocketBuilder: Failed to configure multicast for UdpMessageUnicastSocket (loopback: 1, ttl: 1)
+[2020.03.20-20.33.53:561][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageUnicastSocket (last error: 0)
+[2020.03.20-20.33.53:562][  0]LogUdpMessaging: Error: StartTransport failed to create unicast socket on 25.12.176.148:0
+[2020.03.20-20.33.53:712][  0]SourceControl: Source control is disabled
+[2020.03.20-20.33.53:712][  0]SourceControl: Source control is disabled
+[2020.03.20-20.33.53:713][  0]SourceControl: Source control is disabled
+[2020.03.20-20.33.53:715][  0]SourceControl: Source control is disabled
+[2020.03.20-20.33.53:716][  0]SourceControl: Source control is disabled
+[2020.03.20-20.33.53:912][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.20-20.33.53:949][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.20-20.33.53:949][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.20-20.33.54:105][  0]LogOcInput: OculusInput pre-init called
+[2020.03.20-20.33.54:117][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.03.20-20.33.54:117][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.03.20-20.33.55:964][  0]LogEngine: Initializing Engine...
+[2020.03.20-20.33.55:966][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.20-20.33.55:969][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.03.20-20.33.56:451][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.20-20.33.56:471][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.20-20.33.56:497][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.20-20.33.56:497][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.20-20.33.56:497][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.20-20.33.56:497][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.20-20.33.56:497][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.20-20.33.56:497][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.20-20.33.56:497][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.20-20.33.56:497][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.20-20.33.56:498][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.20-20.33.56:498][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.20-20.33.56:529][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.20-20.33.56:529][  0]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.20-20.33.56:529][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.03.20-20.33.56:529][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.20-20.33.56:529][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.20-20.33.56:529][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.20-20.33.56:529][  0]LogAudioMixer: Display: Channel Order:
+[2020.03.20-20.33.56:529][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.20-20.33.56:529][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.03.20-20.33.56:801][  0]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.20-20.33.56:810][  0]LogInit: FAudioDevice initialized.
+[2020.03.20-20.33.56:811][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.20-20.33.56:926][  0]LogDerivedDataCache: Saved boot cache 0.12s 78MB C:/Users/jerem/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.20-20.33.56:926][  0]LogInit: Texture streaming: Enabled
+[2020.03.20-20.33.56:944][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.20-20.33.56:944][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.03.20-20.33.56:948][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.03.20-20.33.57:026][  0]LogInit: Transaction tracking system initialized
+[2020.03.20-20.33.57:044][  0]BlueprintLog: New page: Editor Load
+[2020.03.20-20.33.57:095][  0]LocalizationService: Localization service is disabled
+[2020.03.20-20.33.57:602][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/' took 0.02s
+[2020.03.20-20.33.57:602][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.20-20.33.57:602][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.20-20.33.57:744][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cylinder.Cylinder'
+[2020.03.20-20.33.59:129][  0]SourceControl: Source control is disabled
+[2020.03.20-20.33.59:129][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/Maps/GrayBox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.20-20.33.59:129][  0]LightingResults: New page: Lighting Build
+[2020.03.20-20.33.59:131][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-20.33.59:131][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.20-20.33.59:131][  0]MapCheck: New page: Map Check
+[2020.03.20-20.33.59:131][  0]LightingResults: New page: Lighting Build
+[2020.03.20-20.33.59:165][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2020.03.20-20.33.59:358][  0]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/Game/HUD/HUDWidgets/PlayerHUD/Inventory/Items_BP/BP_MainItem.BP_MainItem_C:s_item'. Unknown structure.
+[2020.03.20-20.33.59:358][  0]LogClass: Warning: Property s_item of s_item has a struct type mismatch (tag STRUCT_REINST_InventoryStruct_3 != prop FallbackStruct) in package:  ../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/HUD/HUDWidgets/PlayerHUD/Inventory/Items_BP/BP_MainItem.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2020.03.20-20.33.59:837][  0]LogClass: Warning: Property s_item of s_item has a struct type mismatch (tag FallbackStruct != prop InventoryStruct) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2020.03.20-20.33.59:838][  0]LogClass: Warning: Property s_item of s_item has a struct type mismatch (tag FallbackStruct != prop InventoryStruct) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2020.03.20-20.34.00:456][  0]LogAIModule: Creating AISystem for world GrayBox
+[2020.03.20-20.34.00:513][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.20-20.34.00:570][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2020.03.20-20.34.00:572][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.20-20.34.00:573][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,505ms to complete.
+[2020.03.20-20.34.00:573][  0]LogFileHelpers: Loading map 'GrayBox' took 1.445
+[2020.03.20-20.34.00:757][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.20-20.34.00:767][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.20-20.34.00:777][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.20-20.34.00:790][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.20-20.34.00:801][  0]LogCollectionManager: Loaded 0 collections in 0.004815 seconds
+[2020.03.20-20.34.00:820][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Collections/' took 0.00s
+[2020.03.20-20.34.00:820][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Developers/jerem/Collections/' took 0.00s
+[2020.03.20-20.34.00:820][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Collections/' took 0.00s
+[2020.03.20-20.34.00:820][  0]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 3078 classes and 753 folders.
+[2020.03.20-20.34.00:824][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.03.20-20.34.00:965][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2020.03.20-20.34.00:975][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2020.03.20-20.34.01:035][  0]LogSlate: Took 0.000445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.20-20.34.01:038][  0]LogSlate: Took 0.000483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.20-20.34.01:043][  0]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.20-20.34.01:163][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.03.20-20.34.01:428][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.03.20-20.34.01:428][  0]LogLoad: (Engine Initialization) Total time: 17.89 seconds
+[2020.03.20-20.34.01:428][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.20-20.34.01:493][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.20-20.34.01:532][  0]LogSlate: Took 0.000655 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.20-20.34.01:677][  2]LogAssetRegistry: Asset discovery search completed in 12.1230 seconds
+[2020.03.20-20.34.01:736][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2020.03.20-20.34.03:004][  6]LogSlate: Took 0.000545 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.20-20.34.04:674][ 78]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Game/Gangs/Gang_Player/HUD_Member.HUD_Member
+[2020.03.20-20.34.04:871][ 78]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 121 classes and 0 folders.
+[2020.03.20-20.34.06:649][ 78]LogSlate: Took 0.000508 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.20-20.34.08:466][233]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.03.20-20.34.12:321][568]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-20.34.12:321][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.20-20.34.12:327][568]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-20.34.12:327][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.20-20.34.13:814][625]LogUObjectHash: Compacting FUObjectHashTables data took   5.68ms
+[2020.03.20-20.34.14:370][625]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/GrayBoxF97E0A4F4E15A4D89E320AB14365D526.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/Maps/GrayBox.umap'
+[2020.03.20-20.34.14:453][625]AssetCheck: New page: Asset Save: GrayBox
+[2020.03.20-20.34.14:453][625]LogContentValidation: Display: Validating World /Game/Game/Maps/GrayBox.GrayBox
+[2020.03.20-20.34.15:186][661]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/Gangs/Gang_Player/GameStateBase.GameStateBase
+[2020.03.20-20.34.17:827][735]LogSlate: Window 'GameStateBase' being destroyed
+[2020.03.20-20.34.17:864][735]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-20.34.17:864][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.20-20.34.18:464][761]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.20-20.34.18:486][761]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.20-20.34.18:487][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.20-20.34.18:488][761]PIE: New page: PIE session: GrayBox (20 mars 2020 12 h 34 min 18 s)
+[2020.03.20-20.34.18:489][761]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.03.20-20.34.18:491][761]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.03.20-20.34.18:491][761]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.20-20.34.18:537][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045047s)
+[2020.03.20-20.34.18:538][761]LogAIModule: Creating AISystem for world GrayBox
+[2020.03.20-20.34.18:539][761]LogPlayLevel: PIE: World Init took: (0.001993s)
+[2020.03.20-20.34.18:539][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/GrayBox.GrayBox to /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox (0.047562s)
+[2020.03.20-20.34.18:627][761]LogUObjectHash: Compacting FUObjectHashTables data took   6.16ms
+[2020.03.20-20.34.18:628][761]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.20-20.34.18:628][761]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.20-20.34.18:628][761]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.20-20.34.18:628][761]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.20-20.34.18:628][761]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.20-20.34.18:628][761]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.20-20.34.18:628][761]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.20-20.34.18:628][761]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.20-20.34.18:629][761]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.20-20.34.18:629][761]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.20-20.34.18:662][761]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.20-20.34.18:662][761]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.20-20.34.18:662][761]LogAudioMixer: Display: Is Default: Yes
+[2020.03.20-20.34.18:662][761]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.20-20.34.18:662][761]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.20-20.34.18:662][761]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.20-20.34.18:662][761]LogAudioMixer: Display: Channel Order:
+[2020.03.20-20.34.18:662][761]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.20-20.34.18:662][761]LogAudioMixer: Display: 1: FrontRight
+[2020.03.20-20.34.18:975][761]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.20-20.34.18:978][761]LogInit: FAudioDevice initialized.
+[2020.03.20-20.34.19:011][761]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.03.20-20.34.19:023][761]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox up for play (max tick rate 0) at 2020.03.20-16.34.19
+[2020.03.20-20.34.19:026][761]LogWorld: Bringing up level for play took: 0.015099
+[2020.03.20-20.34.19:027][761]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.03.20-20.34.19:031][761]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.03.20-20.34.19:050][761]PIE: Play in editor start time for /Game/Game/Maps/UEDPIE_0_GrayBox 1,434
+[2020.03.20-20.34.19:050][761]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.20-20.34.19:076][761]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.19:619][762]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.19:662][763]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.19:679][764]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.19:704][765]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.19:731][766]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.19:761][767]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.19:788][768]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.19:811][769]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.19:834][770]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.19:858][771]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.19:878][772]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.19:911][773]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.19:928][774]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.19:956][775]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.19:988][776]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.20:027][777]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.20:055][778]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.20:089][779]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.20:118][780]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.20:162][781]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.20:192][782]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.20:215][783]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.20:246][784]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.20:280][785]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.20:311][786]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.20:350][787]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.20:379][788]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.20:411][789]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.20:454][790]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.20:472][791]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.20:504][792]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.20:532][793]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.20:555][794]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.20:576][795]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.20:585][796]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.20:594][797]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.20-20.34.20:594][797]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.20-20.34.20:594][797]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.20-20.34.20:595][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.20-20.34.20:595][797]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.20-20.34.20:595][797]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.20-20.34.20:595][797]LogWorld: UWorld::CleanupWorld for GrayBox, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-20.34.20:598][797]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.20-20.34.20:618][797]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.20-20.34.20:619][797]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.20-20.34.20:628][797]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.20-20.34.20:668][797]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.20-20.34.20:674][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.20-20.34.20:749][797]LogUObjectHash: Compacting FUObjectHashTables data took   5.77ms
+[2020.03.20-20.34.20:776][798]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.03.20-20.34.21:181][820]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.20-20.34.21:210][820]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.20-20.34.21:210][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.20-20.34.21:210][820]PIE: New page: PIE session: GrayBox (20 mars 2020 12 h 34 min 21 s)
+[2020.03.20-20.34.21:210][820]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.20-20.34.21:254][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043495s)
+[2020.03.20-20.34.21:259][820]LogAIModule: Creating AISystem for world GrayBox
+[2020.03.20-20.34.21:260][820]LogPlayLevel: PIE: World Init took: (0.005901s)
+[2020.03.20-20.34.21:260][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/GrayBox.GrayBox to /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox (0.049706s)
+[2020.03.20-20.34.21:346][820]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2020.03.20-20.34.21:347][820]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.20-20.34.21:347][820]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.20-20.34.21:347][820]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.20-20.34.21:347][820]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.20-20.34.21:348][820]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.20-20.34.21:348][820]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.20-20.34.21:348][820]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.20-20.34.21:348][820]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.20-20.34.21:349][820]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.20-20.34.21:349][820]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.20-20.34.21:380][820]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.20-20.34.21:380][820]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.20-20.34.21:380][820]LogAudioMixer: Display: Is Default: Yes
+[2020.03.20-20.34.21:380][820]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.20-20.34.21:380][820]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.20-20.34.21:380][820]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.20-20.34.21:380][820]LogAudioMixer: Display: Channel Order:
+[2020.03.20-20.34.21:380][820]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.20-20.34.21:380][820]LogAudioMixer: Display: 1: FrontRight
+[2020.03.20-20.34.21:678][820]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.03.20-20.34.21:682][820]LogInit: FAudioDevice initialized.
+[2020.03.20-20.34.21:694][820]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.03.20-20.34.21:707][820]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox up for play (max tick rate 0) at 2020.03.20-16.34.21
+[2020.03.20-20.34.21:709][820]LogWorld: Bringing up level for play took: 0.013668
+[2020.03.20-20.34.21:709][820]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.03.20-20.34.21:725][820]PIE: Play in editor start time for /Game/Game/Maps/UEDPIE_0_GrayBox 0,11
+[2020.03.20-20.34.21:726][820]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.20-20.34.21:737][820]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.21:785][821]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.21:799][822]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.21:815][823]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.21:843][824]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.21:865][825]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.21:895][826]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.21:914][827]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.21:936][828]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.21:959][829]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.21:980][830]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:009][831]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:026][832]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:046][833]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:066][834]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:091][835]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:116][836]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:145][837]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:170][838]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:202][839]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:223][840]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:245][841]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:279][842]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:312][843]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:341][844]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:368][845]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:397][846]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:436][847]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:448][848]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:477][849]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:515][850]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:543][851]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:574][852]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:601][853]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:631][854]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:667][855]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:700][856]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:739][857]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:776][858]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:812][859]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:846][860]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:873][861]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:906][862]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:930][863]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:947][864]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.22:974][865]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:013][866]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:046][867]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:074][868]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:099][869]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:125][870]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:156][871]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:181][872]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:196][873]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:222][874]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:247][875]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:276][876]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:286][877]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:295][878]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:309][879]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:323][880]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:342][881]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:379][882]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:414][883]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:450][884]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:486][885]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:520][886]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:553][887]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:598][888]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:623][889]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:650][890]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:681][891]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:718][892]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:732][893]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:754][894]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:776][895]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:798][896]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:856][897]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:870][898]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:884][899]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:897][900]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:916][901]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:934][902]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:954][903]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:971][904]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.23:993][905]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:007][906]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:027][907]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:046][908]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:065][909]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:084][910]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:103][911]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:118][912]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:136][913]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:156][914]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:170][915]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:195][916]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:208][917]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:230][918]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:252][919]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:266][920]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:280][921]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:297][922]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:322][923]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:342][924]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:366][925]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:393][926]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:433][927]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:451][928]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:470][929]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:493][930]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:511][931]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:529][932]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:549][933]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:565][934]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:586][935]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:605][936]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:628][937]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:657][938]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:672][939]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:686][940]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:701][941]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:728][942]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:747][943]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:766][944]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:783][945]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:802][946]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:822][947]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:841][948]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:863][949]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:882][950]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:902][951]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:923][952]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:942][953]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:958][954]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:977][955]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.24:995][956]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:014][957]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:032][958]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:061][959]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:093][960]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:126][961]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:144][962]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:177][963]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:201][964]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:227][965]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:251][966]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:277][967]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:293][968]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:317][969]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:366][970]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:397][971]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:411][972]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:425][973]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:443][974]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:465][975]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:486][976]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:512][977]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:529][978]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:544][979]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:562][980]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:580][981]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:600][982]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:621][983]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:638][984]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:669][985]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:694][986]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:709][987]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:723][988]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:743][989]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:763][990]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:785][991]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:805][992]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:829][993]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:849][994]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:868][995]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:889][996]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:908][997]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:930][998]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:957][999]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.25:978][  0]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:000][  1]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:023][  2]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:047][  3]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:072][  4]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:096][  5]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:118][  6]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:144][  7]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:164][  8]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:189][  9]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:210][ 10]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:230][ 11]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:248][ 12]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:267][ 13]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:283][ 14]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:307][ 15]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:338][ 16]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:418][ 17]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:449][ 18]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:497][ 19]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:514][ 20]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:534][ 21]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:558][ 22]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:578][ 23]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:602][ 24]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:616][ 25]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:638][ 26]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:661][ 27]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:679][ 28]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:716][ 29]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:723][ 30]LogBlueprintUserMessages: [CharacterMain_C_0] Interact Valid
+[2020.03.20-20.34.26:735][ 30]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:753][ 31]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:780][ 32]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:801][ 33]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:823][ 34]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:848][ 35]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:864][ 36]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:883][ 37]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:903][ 38]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:926][ 39]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:952][ 40]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.26:979][ 41]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:010][ 42]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:040][ 43]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:060][ 44]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:076][ 45]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:099][ 46]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:122][ 47]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:140][ 48]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:162][ 49]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:191][ 50]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:218][ 51]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:235][ 52]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:257][ 53]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:278][ 54]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:300][ 55]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:328][ 56]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:345][ 57]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:361][ 58]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:378][ 59]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:396][ 60]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:421][ 61]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:457][ 62]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:493][ 63]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:521][ 64]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:543][ 65]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:569][ 66]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:593][ 67]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:624][ 68]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:648][ 69]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:667][ 70]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:687][ 71]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.27:695][ 72]LogBlueprintUserMessages: [CharacterMain_C_0] Interact Valid
+[2020.03.20-20.34.27:695][ 72]LogBlueprintUserMessages: [CharacterMain_C_0] Door
+[2020.03.20-20.34.31:839][248]LogBlueprintUserMessages: [CharacterMain_C_0] Out
+[2020.03.20-20.34.31:849][248]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.31:884][249]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.31:913][250]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.31:959][251]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.32:015][252]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.32:047][253]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.32:082][254]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.32:103][255]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.32:124][256]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.32:145][257]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.32:174][258]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.32:187][259]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.32:213][260]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.32:229][261]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.32:241][262]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2020.03.20-20.34.32:252][263]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.20-20.34.32:252][263]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.20-20.34.32:252][263]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.20-20.34.32:253][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.20-20.34.32:253][263]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.03.20-20.34.32:253][263]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.20-20.34.32:254][263]LogWorld: UWorld::CleanupWorld for GrayBox, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-20.34.32:257][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.20-20.34.32:277][263]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.20-20.34.32:277][263]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.03.20-20.34.32:285][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.20-20.34.32:320][263]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.20-20.34.32:329][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.20-20.34.32:340][263]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2020.03.20-20.34.32:371][264]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.03.20-20.34.37:915][565]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Game/HUD/HUDWidgets/GangManagement/GangManagement.GangManagement
+[2020.03.20-20.34.54:979][ 37]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/GangManagement7DB7BDDB471C2966F4FCBAB181AD9F8D.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/HUD/HUDWidgets/GangManagement/GangManagement.uasset'
+[2020.03.20-20.34.55:010][ 37]AssetCheck: New page: Asset Save: GangManagement
+[2020.03.20-20.34.55:010][ 37]LogContentValidation: Display: Validating WidgetBlueprint /Game/Game/HUD/HUDWidgets/GangManagement/GangManagement.GangManagement
+[2020.03.20-20.34.55:579][ 88]BlueprintLog: New page: Compile GangManagement
+[2020.03.20-20.34.55:655][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   5.67ms
+[2020.03.20-20.34.56:466][127]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/GangManagement5CA7D8524953C8A7B631AEB118D9731F.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/HUD/HUDWidgets/GangManagement/GangManagement.uasset'
+[2020.03.20-20.34.56:495][127]AssetCheck: New page: Asset Save: GangManagement
+[2020.03.20-20.34.56:495][127]LogContentValidation: Display: Validating WidgetBlueprint /Game/Game/HUD/HUDWidgets/GangManagement/GangManagement.GangManagement
+[2020.03.20-20.35.11:522][116]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/Gangs/Gang_Player/Gang_Player.Gang_Player
+[2020.03.20-20.35.15:543][397]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-20.35.15:543][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.20-20.35.21:579][728]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/Gangs/Gang_Player/Members/2_Friends/Josh/NPC_Josh.NPC_Josh
+[2020.03.20-20.35.35:280][738]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/NPC_JoshC346DEFB4F5C42DC68E107AEE3E99980.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/Gangs/Gang_Player/Members/2_Friends/Josh/NPC_Josh.uasset'
+[2020.03.20-20.35.35:435][738]AssetCheck: New page: Asset Save: NPC_Josh
+[2020.03.20-20.35.35:435][738]LogContentValidation: Display: Validating Blueprint /Game/Game/Gangs/Gang_Player/Members/2_Friends/Josh/NPC_Josh.NPC_Josh
+[2020.03.20-20.36.09:597][354]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/GangManagementB0B89F4E46129E6A48E3CD8B18DFC520.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/HUD/HUDWidgets/GangManagement/GangManagement.uasset'
+[2020.03.20-20.36.09:624][354]AssetCheck: New page: Asset Save: GangManagement
+[2020.03.20-20.36.09:624][354]LogContentValidation: Display: Validating WidgetBlueprint /Game/Game/HUD/HUDWidgets/GangManagement/GangManagement.GangManagement
+[2020.03.20-20.36.10:901][438]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/NPC_Josh3160D30C46AA17C9587C03A0BF90DCEF.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/Gangs/Gang_Player/Members/2_Friends/Josh/NPC_Josh.uasset'
+[2020.03.20-20.36.10:920][438]AssetCheck: New page: Asset Save: NPC_Josh
+[2020.03.20-20.36.10:921][438]LogContentValidation: Display: Validating Blueprint /Game/Game/Gangs/Gang_Player/Members/2_Friends/Josh/NPC_Josh.NPC_Josh
+[2020.03.20-20.36.29:477][887]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/Gangs/Gang_Player/Gang_Player.Gang_Player
+[2020.03.20-20.36.33:244][146]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-20.36.33:244][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.20-20.36.35:601][278]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/Gangs/Gang_Player/GameStateBase.GameStateBase
+[2020.03.20-20.36.37:823][334]LogSlate: Window 'GameStateBase' being destroyed
+[2020.03.20-20.37.15:277][122]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/GameStateBaseE961A11E428499757478469ADEF0E08C.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/Gangs/Gang_Player/GameStateBase.uasset'
+[2020.03.20-20.37.15:303][122]AssetCheck: New page: Asset Save: GameStateBase
+[2020.03.20-20.37.15:303][122]LogContentValidation: Display: Validating Blueprint /Game/Game/Gangs/Gang_Player/GameStateBase.GameStateBase
+[2020.03.20-20.37.16:075][176]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-20.37.16:075][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.20-20.37.17:958][277]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/NPC_Josh640CE02D4DDABB7B41EE01832CAFE10B.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/Gangs/Gang_Player/Members/2_Friends/Josh/NPC_Josh.uasset'
+[2020.03.20-20.37.17:985][277]AssetCheck: New page: Asset Save: NPC_Josh
+[2020.03.20-20.37.17:985][277]LogContentValidation: Display: Validating Blueprint /Game/Game/Gangs/Gang_Player/Members/2_Friends/Josh/NPC_Josh.NPC_Josh
+[2020.03.20-20.37.18:477][319]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.03.20-20.37.18:477][319]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-20.37.18:477][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.20-20.37.19:755][396]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/GangManagement810BB00F4518599422028EBF01F850A3.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/HUD/HUDWidgets/GangManagement/GangManagement.uasset'
+[2020.03.20-20.37.19:798][396]AssetCheck: New page: Asset Save: GangManagement
+[2020.03.20-20.37.19:798][396]LogContentValidation: Display: Validating WidgetBlueprint /Game/Game/HUD/HUDWidgets/GangManagement/GangManagement.GangManagement
+[2020.03.20-20.37.20:352][448]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-20.37.20:352][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.20-20.37.20:600][448]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-20.37.20:600][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.20-20.37.21:537][485]LogUObjectHash: Compacting FUObjectHashTables data took  13.56ms
+[2020.03.20-20.37.22:063][485]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/GrayBox4E88081E42B0F4B136AC3C904EA0C389.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/Maps/GrayBox.umap'
+[2020.03.20-20.37.22:126][485]AssetCheck: New page: Asset Save: GrayBox
+[2020.03.20-20.37.22:126][485]LogContentValidation: Display: Validating World /Game/Game/Maps/GrayBox.GrayBox
+[2020.03.20-20.37.23:354][570]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2020.03.20-20.37.24:854][655]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.03.20-20.37.24:940][655]LogSlate: Window 'GangGameGraybox - Unreal Editor' being destroyed
+[2020.03.20-20.37.24:942][655]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.20-20.37.25:433][656]Cmd: QUIT_EDITOR
+[2020.03.20-20.37.25:440][656]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.03.20-20.37.25:473][656]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.03.20-20.37.25:473][656]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.20-20.37.26:377][656]LogExit: Preparing to exit.
+[2020.03.20-20.37.26:879][656]LogUObjectHash: Compacting FUObjectHashTables data took   8.48ms
+[2020.03.20-20.37.26:954][656]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-20.37.26:955][656]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-20.37.26:989][656]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.03.20-20.37.27:023][656]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-20.37.27:023][656]LogExit: Editor shut down
+[2020.03.20-20.37.27:023][656]LogExit: Transaction tracking system shut down
+[2020.03.20-20.37.29:798][656]LogExit: Object subsystem successfully closed.
+[2020.03.20-20.37.29:828][656]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.03.20-20.37.29:886][656]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (734)
+[2020.03.20-20.37.29:886][656]LogModuleManager: Shutting down and abandoning module Voice (732)
+[2020.03.20-20.37.29:886][656]LogModuleManager: Shutting down and abandoning module SequencerWidgets (730)
+[2020.03.20-20.37.29:886][656]LogModuleManager: Shutting down and abandoning module BlueprintGraph (728)
+[2020.03.20-20.37.29:887][656]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (726)
+[2020.03.20-20.37.29:887][656]LogModuleManager: Shutting down and abandoning module SceneOutliner (724)
+[2020.03.20-20.37.29:887][656]LogModuleManager: Shutting down and abandoning module AddContentDialog (722)
+[2020.03.20-20.37.29:887][656]LogModuleManager: Shutting down and abandoning module WidgetCarousel (721)
+[2020.03.20-20.37.29:887][656]LogModuleManager: Shutting down and abandoning module EditorWidgets (718)
+[2020.03.20-20.37.29:887][656]LogModuleManager: Shutting down and abandoning module CollectionManager (716)
+[2020.03.20-20.37.29:887][656]LogModuleManager: Shutting down and abandoning module StatsViewer (714)
+[2020.03.20-20.37.29:887][656]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (712)
+[2020.03.20-20.37.29:887][656]LogModuleManager: Shutting down and abandoning module FoliageEdit (710)
+[2020.03.20-20.37.29:887][656]LogModuleManager: Shutting down and abandoning module LandscapeEditor (708)
+[2020.03.20-20.37.29:887][656]LogModuleManager: Shutting down and abandoning module MeshPaintMode (706)
+[2020.03.20-20.37.29:887][656]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (704)
+[2020.03.20-20.37.29:887][656]LogModuleManager: Shutting down and abandoning module ActorPickerMode (702)
+[2020.03.20-20.37.29:887][656]LogModuleManager: Shutting down and abandoning module GeometryMode (700)
+[2020.03.20-20.37.29:887][656]LogModuleManager: Shutting down and abandoning module TextureAlignMode (698)
+[2020.03.20-20.37.29:887][656]LogModuleManager: Shutting down and abandoning module BspMode (696)
+[2020.03.20-20.37.29:887][656]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (694)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (692)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module AutomationWorker (690)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module SteamVREditor (688)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module OculusMR (686)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (684)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (682)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (680)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module PlacementMode (679)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module MaterialEditor (678)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (674)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (672)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (670)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (668)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (666)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module WebMMedia (664)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (662)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (660)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module SequenceRecorder (659)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (656)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (654)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (652)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (650)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (648)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (646)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (644)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (642)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (640)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (638)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module CharacterAI (636)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module SmartSnapping (634)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module SessionServices (632)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module MeshPaint (630)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module ViewportSnapping (628)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module ViewportInteraction (626)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module ClothPainter (624)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (623)
+[2020.03.20-20.37.29:888][656]LogModuleManager: Shutting down and abandoning module LogVisualizer (620)
+[2020.03.20-20.37.29:889][656]LogModuleManager: Shutting down and abandoning module IntroTutorials (618)
+[2020.03.20-20.37.29:889][656]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (617)
+[2020.03.20-20.37.29:889][656]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (614)
+[2020.03.20-20.37.29:889][656]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (612)
+[2020.03.20-20.37.29:889][656]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (610)
+[2020.03.20-20.37.29:889][656]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (609)
+[2020.03.20-20.37.30:264][656]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (606)
+[2020.03.20-20.37.30:264][656]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (604)
+[2020.03.20-20.37.30:264][656]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (602)
+[2020.03.20-20.37.30:264][656]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (600)
+[2020.03.20-20.37.30:264][656]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (598)
+[2020.03.20-20.37.30:264][656]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (596)
+[2020.03.20-20.37.30:264][656]LogModuleManager: Shutting down and abandoning module InputBindingEditor (594)
+[2020.03.20-20.37.30:264][656]LogModuleManager: Shutting down and abandoning module MergeActors (592)
+[2020.03.20-20.37.30:264][656]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (590)
+[2020.03.20-20.37.30:264][656]LogModuleManager: Shutting down and abandoning module LocalizationService (589)
+[2020.03.20-20.37.30:264][656]LogModuleManager: Shutting down and abandoning module HardwareTargeting (586)
+[2020.03.20-20.37.30:265][656]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (584)
+[2020.03.20-20.37.30:265][656]LogModuleManager: Shutting down and abandoning module UndoHistory (582)
+[2020.03.20-20.37.30:265][656]LogModuleManager: Shutting down and abandoning module XmlParser (580)
+[2020.03.20-20.37.30:265][656]LogModuleManager: Shutting down and abandoning module Blutility (578)
+[2020.03.20-20.37.30:265][656]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (576)
+[2020.03.20-20.37.30:265][656]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (575)
+[2020.03.20-20.37.30:265][656]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (572)
+[2020.03.20-20.37.30:265][656]LogModuleManager: Shutting down and abandoning module SettingsEditor (570)
+[2020.03.20-20.37.30:265][656]LogModuleManager: Shutting down and abandoning module ProjectLauncher (568)
+[2020.03.20-20.37.30:265][656]LogModuleManager: Shutting down and abandoning module SessionFrontend (566)
+[2020.03.20-20.37.30:265][656]LogModuleManager: Shutting down and abandoning module ProfilerClient (564)
+[2020.03.20-20.37.30:265][656]LogModuleManager: Shutting down and abandoning module DeviceManager (562)
+[2020.03.20-20.37.30:265][656]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (561)
+[2020.03.20-20.37.30:298][656]LogModuleManager: Shutting down and abandoning module AutomationController (558)
+[2020.03.20-20.37.30:298][656]LogModuleManager: Shutting down and abandoning module AutomationWindow (556)
+[2020.03.20-20.37.30:298][656]LogModuleManager: Shutting down and abandoning module Layers (554)
+[2020.03.20-20.37.30:298][656]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (552)
+[2020.03.20-20.37.30:298][656]LogModuleManager: Shutting down and abandoning module DetailCustomizations (550)
+[2020.03.20-20.37.30:298][656]LogModuleManager: Shutting down and abandoning module PackagesDialog (548)
+[2020.03.20-20.37.30:298][656]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (546)
+[2020.03.20-20.37.30:298][656]LogModuleManager: Shutting down and abandoning module Persona (544)
+[2020.03.20-20.37.30:298][656]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (543)
+[2020.03.20-20.37.30:298][656]LogModuleManager: Shutting down and abandoning module AnimGraph (541)
+[2020.03.20-20.37.30:298][656]LogModuleManager: Shutting down and abandoning module Kismet (538)
+[2020.03.20-20.37.30:310][656]LogModuleManager: Shutting down and abandoning module KismetWidgets (537)
+[2020.03.20-20.37.30:310][656]LogModuleManager: Shutting down and abandoning module GraphEditor (534)
+[2020.03.20-20.37.30:311][656]LogModuleManager: Shutting down and abandoning module StructViewer (532)
+[2020.03.20-20.37.30:311][656]LogModuleManager: Shutting down and abandoning module ClassViewer (530)
+[2020.03.20-20.37.30:311][656]LogModuleManager: Shutting down and abandoning module Toolbox (528)
+[2020.03.20-20.37.30:311][656]LogModuleManager: Shutting down and abandoning module ModuleUI (526)
+[2020.03.20-20.37.30:311][656]LogModuleManager: Shutting down and abandoning module OutputLog (524)
+[2020.03.20-20.37.30:311][656]LogModuleManager: Shutting down and abandoning module GammaUI (522)
+[2020.03.20-20.37.30:311][656]LogModuleManager: Shutting down and abandoning module Documentation (520)
+[2020.03.20-20.37.30:312][656]LogModuleManager: Shutting down and abandoning module ToolMenus (518)
+[2020.03.20-20.37.30:312][656]LogModuleManager: Shutting down and abandoning module LiveCoding (516)
+[2020.03.20-20.37.30:312][656]LogModuleManager: Shutting down and abandoning module LevelSequence (514)
+[2020.03.20-20.37.30:312][656]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (512)
+[2020.03.20-20.37.30:312][656]LogModuleManager: Shutting down and abandoning module MovieScene (510)
+[2020.03.20-20.37.30:312][656]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (508)
+[2020.03.20-20.37.30:312][656]LogModuleManager: Shutting down and abandoning module LauncherPlatform (506)
+[2020.03.20-20.37.30:312][656]LogModuleManager: Shutting down and abandoning module AnalyticsET (504)
+[2020.03.20-20.37.30:312][656]LogModuleManager: Shutting down and abandoning module PortalServices (502)
+[2020.03.20-20.37.30:312][656]LogModuleManager: Shutting down and abandoning module PortalRpc (500)
+[2020.03.20-20.37.30:312][656]LogModuleManager: Shutting down and abandoning module MessagingRpc (498)
+[2020.03.20-20.37.30:312][656]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (496)
+[2020.03.20-20.37.30:312][656]LogModuleManager: Shutting down and abandoning module AIModule (494)
+[2020.03.20-20.37.30:312][656]LogModuleManager: Shutting down and abandoning module GameplayDebugger (493)
+[2020.03.20-20.37.30:312][656]LogModuleManager: Shutting down and abandoning module AITestSuite (491)
+[2020.03.20-20.37.30:312][656]LogModuleManager: Shutting down and abandoning module NavigationSystem (489)
+[2020.03.20-20.37.30:312][656]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (486)
+[2020.03.20-20.37.30:319][656]LogModuleManager: Shutting down and abandoning module ProfilerService (484)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module TaskGraph (482)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module MegascansPlugin (480)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module ScreenshotTools (478)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (476)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (474)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module OculusEditor (472)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module OculusInput (470)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (468)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module EditableMesh (466)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (464)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module CableComponent (462)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module AudioCapture (460)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (459)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module AssetTags (456)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (454)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (452)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module AppleImageUtils (450)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module AndroidPermission (448)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (446)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (444)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module MediaCompositing (442)
+[2020.03.20-20.37.31:055][656]LogModuleManager: Shutting down and abandoning module ImgMedia (440)
+[2020.03.20-20.37.31:056][656]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (438)
+[2020.03.20-20.37.31:056][656]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (436)
+[2020.03.20-20.37.31:061][656]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (434)
+[2020.03.20-20.37.31:061][656]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (432)
+[2020.03.20-20.37.31:061][656]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (430)
+[2020.03.20-20.37.31:061][656]LogModuleManager: Shutting down and abandoning module BackChannel (428)
+[2020.03.20-20.37.31:061][656]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (426)
+[2020.03.20-20.37.31:061][656]LogModuleManager: Shutting down and abandoning module AutomationUtils (424)
+[2020.03.20-20.37.31:061][656]LogModuleManager: Shutting down and abandoning module AlembicImporter (422)
+[2020.03.20-20.37.31:061][656]LogModuleManager: Shutting down and abandoning module AlembicLibrary (421)
+[2020.03.20-20.37.31:061][656]LogModuleManager: Shutting down and abandoning module GeometryCache (420)
+[2020.03.20-20.37.31:061][656]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (419)
+[2020.03.20-20.37.31:061][656]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (414)
+[2020.03.20-20.37.31:061][656]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (412)
+[2020.03.20-20.37.31:062][656]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (410)
+[2020.03.20-20.37.31:062][656]LogModuleManager: Shutting down and abandoning module PluginBrowser (408)
+[2020.03.20-20.37.31:062][656]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (406)
+[2020.03.20-20.37.31:062][656]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (404)
+[2020.03.20-20.37.31:062][656]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (402)
+[2020.03.20-20.37.31:062][656]LogModuleManager: Shutting down and abandoning module CurveEditorTools (400)
+[2020.03.20-20.37.31:062][656]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (398)
+[2020.03.20-20.37.31:062][656]LogModuleManager: Shutting down and abandoning module CryptoKeys (396)
+[2020.03.20-20.37.31:062][656]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (394)
+[2020.03.20-20.37.31:062][656]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (392)
+[2020.03.20-20.37.31:062][656]LogModuleManager: Shutting down and abandoning module UObjectPlugin (390)
+[2020.03.20-20.37.31:062][656]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (388)
+[2020.03.20-20.37.31:062][656]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (386)
+[2020.03.20-20.37.31:062][656]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (384)
+[2020.03.20-20.37.31:062][656]LogModuleManager: Shutting down and abandoning module GitSourceControl (382)
+[2020.03.20-20.37.31:062][656]LogModuleManager: Shutting down and abandoning module SourceControl (381)
+[2020.03.20-20.37.31:062][656]LogModuleManager: Shutting down and abandoning module MultiUserClientLibrary (378)
+[2020.03.20-20.37.31:062][656]LogModuleManager: Shutting down and abandoning module MultiUserClient (376)
+[2020.03.20-20.37.31:066][656]LogModuleManager: Shutting down and abandoning module ConcertSyncUI (374)
+[2020.03.20-20.37.31:066][656]LogModuleManager: Shutting down and abandoning module ConcertSyncClient (372)
+[2020.03.20-20.37.31:066][656]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (370)
+[2020.03.20-20.37.31:067][656]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (368)
+[2020.03.20-20.37.31:067][656]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (366)
+[2020.03.20-20.37.31:067][656]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (364)
+[2020.03.20-20.37.31:067][656]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (362)
+[2020.03.20-20.37.31:067][656]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (360)
+[2020.03.20-20.37.31:067][656]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (358)
+[2020.03.20-20.37.31:067][656]LogModuleManager: Shutting down and abandoning module Paper2DEditor (356)
+[2020.03.20-20.37.31:068][656]LogModuleManager: Shutting down and abandoning module SignificanceManager (354)
+[2020.03.20-20.37.31:068][656]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (352)
+[2020.03.20-20.37.31:068][656]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (350)
+[2020.03.20-20.37.31:068][656]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (346)
+[2020.03.20-20.37.31:068][656]LogModuleManager: Shutting down and abandoning module SQLiteCore (344)
+[2020.03.20-20.37.31:068][656]LogModuleManager: Shutting down and abandoning module ActorSequence (342)
+[2020.03.20-20.37.31:068][656]LogModuleManager: Shutting down and abandoning module UdpMessaging (340)
+[2020.03.20-20.37.31:169][656]LogModuleManager: Shutting down and abandoning module TcpMessaging (338)
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module MarketplaceLinter (336)
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module GamemakinLinter (334)
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module Linter (332)
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (330)
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (328)
+[2020.03.20-20.37.31:270][656]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (326)
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (324)
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (322)
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (320)
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (318)
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (316)
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module MagicLeapController (314)
+[2020.03.20-20.37.31:270][656]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (312)
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module MagicLeapAR (310)
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module AugmentedReality (309)
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (306)
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (304)
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (302)
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module FacialAnimation (300)
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module DataValidation (298)
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (296)
+[2020.03.20-20.37.31:270][656]LogModuleManager: Shutting down and abandoning module LevelEditor (295)
+[2020.03.20-20.37.31:271][656]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (294)
+[2020.03.20-20.37.31:271][656]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (292)
+[2020.03.20-20.37.31:271][656]LogModuleManager: Shutting down and abandoning module MainFrame (290)
+[2020.03.20-20.37.31:271][656]LogModuleManager: Shutting down and abandoning module HotReload (289)
+[2020.03.20-20.37.31:272][656]LogModuleManager: Shutting down and abandoning module ContentBrowser (285)
+[2020.03.20-20.37.31:275][656]LogModuleManager: Shutting down and abandoning module TreeMap (283)
+[2020.03.20-20.37.31:276][656]LogModuleManager: Shutting down and abandoning module ConcertSyncCore (280)
+[2020.03.20-20.37.31:276][656]LogModuleManager: Shutting down and abandoning module Concert (278)
+[2020.03.20-20.37.31:276][656]LogModuleManager: Shutting down and abandoning module ConcertTransport (277)
+[2020.03.20-20.37.31:276][656]LogModuleManager: Shutting down and abandoning module AnimationSharing (274)
+[2020.03.20-20.37.31:276][656]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (272)
+[2020.03.20-20.37.31:276][656]LogModuleManager: Shutting down and abandoning module Paper2D (270)
+[2020.03.20-20.37.31:276][656]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (268)
+[2020.03.20-20.37.31:285][656]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (266)
+[2020.03.20-20.37.31:285][656]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (264)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module PacketHandler (262)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (260)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (258)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module MediaAssets (256)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module Overlay (254)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module OverlayEditor (253)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module VREditor (250)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module StringTableEditor (248)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (246)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (244)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module FunctionalTesting (242)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (240)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (239)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module UMG (236)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module UMGEditor (235)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module MessageLog (233)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module SlateReflector (228)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module Slate (226)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module SlateCore (224)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (222)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module UnrealEd (220)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module MRMesh (218)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (216)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (214)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module XAudio2 (212)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module Networking (210)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module Core (208)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module MovieSceneTools (206)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module CurveEditor (205)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module Sequencer (203)
+[2020.03.20-20.37.31:286][656]LogModuleManager: Shutting down and abandoning module EditorStyle (202)
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module KismetCompiler (198)
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module MeshUtilities (196)
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (195)
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (194)
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (193)
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (191)
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (189)
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (187)
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module MaterialBaking (183)
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (178)
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module DerivedDataCache (176)
+[2020.03.20-20.37.31:288][656]LogDerivedDataCache: Shutdown
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module XGEController (174)
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module TargetPlatform (172)
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (171)
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (169)
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (167)
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (165)
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (163)
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (161)
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (159)
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (157)
+[2020.03.20-20.37.31:288][656]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (155)
+[2020.03.20-20.37.31:289][656]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (153)
+[2020.03.20-20.37.31:289][656]LogModuleManager: Shutting down and abandoning module ImageWrapper (152)
+[2020.03.20-20.37.31:289][656]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (149)
+[2020.03.20-20.37.31:289][656]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (147)
+[2020.03.20-20.37.31:289][656]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (145)
+[2020.03.20-20.37.31:289][656]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (143)
+[2020.03.20-20.37.31:289][656]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (141)
+[2020.03.20-20.37.31:289][656]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (139)
+[2020.03.20-20.37.31:289][656]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (137)
+[2020.03.20-20.37.31:289][656]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (135)
+[2020.03.20-20.37.31:289][656]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (133)
+[2020.03.20-20.37.31:291][656]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (131)
+[2020.03.20-20.37.31:293][656]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (129)
+[2020.03.20-20.37.31:293][656]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (127)
+[2020.03.20-20.37.31:293][656]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (125)
+[2020.03.20-20.37.31:293][656]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2020.03.20-20.37.31:293][656]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
+[2020.03.20-20.37.31:293][656]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2020.03.20-20.37.31:293][656]LogModuleManager: Shutting down and abandoning module Messaging (117)
+[2020.03.20-20.37.31:293][656]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
+[2020.03.20-20.37.31:296][656]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (113)
+[2020.03.20-20.37.31:317][656]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (111)
+[2020.03.20-20.37.31:317][656]LogModuleManager: Shutting down and abandoning module InputCore (108)
+[2020.03.20-20.37.31:317][656]LogModuleManager: Shutting down and abandoning module Settings (106)
+[2020.03.20-20.37.31:317][656]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (104)
+[2020.03.20-20.37.31:317][656]LogModuleManager: Shutting down and abandoning module PhysXCooking (102)
+[2020.03.20-20.37.31:317][656]LogModuleManager: Shutting down and abandoning module ChaosSolvers (100)
+[2020.03.20-20.37.31:317][656]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (99)
+[2020.03.20-20.37.31:318][656]LogModuleManager: Shutting down and abandoning module Chaos (96)
+[2020.03.20-20.37.31:318][656]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (94)
+[2020.03.20-20.37.31:318][656]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (93)
+[2020.03.20-20.37.31:318][656]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (90)
+[2020.03.20-20.37.31:318][656]LogModuleManager: Shutting down and abandoning module SteamVRInput (88)
+[2020.03.20-20.37.31:318][656]LogModuleManager: Shutting down and abandoning module SteamVR (86)
+[2020.03.20-20.37.31:318][656]LogHMD: Freeing OpenVRDLLHandle.
+[2020.03.20-20.37.31:318][656]LogModuleManager: Shutting down and abandoning module OculusHMD (84)
+[2020.03.20-20.37.31:318][656]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (82)
+[2020.03.20-20.37.31:318][656]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (80)
+[2020.03.20-20.37.31:318][656]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (78)
+[2020.03.20-20.37.31:318][656]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (74)
+[2020.03.20-20.37.31:319][656]LogModuleManager: Shutting down and abandoning module XMPP (69)
+[2020.03.20-20.37.31:319][656]LogModuleManager: Shutting down and abandoning module WebSockets (68)
+[2020.03.20-20.37.31:328][656]LogModuleManager: Shutting down and abandoning module HTTP (65)
+[2020.03.20-20.37.31:328][656]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.03.20-20.37.31:328][656]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4471E98-4927-5C69-8E37-BEBAD0DA643E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=d3e72fe54db034d9762b97bd7cce4da5%7C5d14e97c45504603acfce2571112a820%7C69515070-cf5f-43db-9a5e-fc6e2556de54&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2020.03.20-20.37.31:365][656]LogModuleManager: Shutting down and abandoning module SSL (64)
+[2020.03.20-20.37.31:366][656]LogModuleManager: Shutting down and abandoning module WmfMedia (60)
+[2020.03.20-20.37.31:368][656]LogModuleManager: Shutting down and abandoning module Media (59)
+[2020.03.20-20.37.31:369][656]LogModuleManager: Shutting down and abandoning module MagicLeap (56)
+[2020.03.20-20.37.31:369][656]LogModuleManager: Shutting down and abandoning module VariantManagerContent (54)
+[2020.03.20-20.37.31:369][656]LogModuleManager: Shutting down and abandoning module DatasmithContent (52)
+[2020.03.20-20.37.31:370][656]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2020.03.20-20.37.31:370][656]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2020.03.20-20.37.31:370][656]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (46)
+[2020.03.20-20.37.31:370][656]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.03.20-20.37.31:370][656]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.03.20-20.37.31:370][656]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.03.20-20.37.31:370][656]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.03.20-20.37.31:370][656]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.03.20-20.37.31:372][656]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.03.20-20.37.31:372][656]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.03.20-20.37.31:372][656]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.03.20-20.37.31:372][656]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.03.20-20.37.31:372][656]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.03.20-20.37.31:373][656]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.03.20-20.37.31:373][656]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.03.20-20.37.31:373][656]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.03.20-20.37.31:373][656]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.03.20-20.37.31:373][656]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.03.20-20.37.31:373][656]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.03.20-20.37.31:373][656]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.03.20-20.37.31:373][656]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.03.20-20.37.31:373][656]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.03.20-20.37.31:373][656]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.03.20-20.37.31:373][656]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.03.20-20.37.31:373][656]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.03.20-20.37.31:375][656]LogD3D11RHI: Shutdown
+[2020.03.20-20.37.31:375][656]LogD3D11RHI: CleanupD3DDevice
+[2020.03.20-20.37.31:387][656]LogExit: Exiting.
+[2020.03.20-20.37.31:394][656]Log file closed, 03/20/20 16:37:31
