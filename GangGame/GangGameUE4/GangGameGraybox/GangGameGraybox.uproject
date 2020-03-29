@@ -10,21 +10,8 @@
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/ca0639af6339476da86fa3bcf15de8ec"
 		},
 		{
-			"Name": "Designer",
-			"Enabled": true
-		},
-		{
 			"Name": "MultiUserClient",
 			"Enabled": true
-		},
-		{
-			"Name": "MegascansPlugin",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac",
-				"Linux"
-			]
 		}
 	]
 }
