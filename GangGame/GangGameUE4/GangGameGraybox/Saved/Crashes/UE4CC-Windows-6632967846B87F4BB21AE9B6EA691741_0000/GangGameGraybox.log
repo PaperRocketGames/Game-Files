@@ -1,0 +1,1247 @@
+﻿Log file open, 04/11/20 16:16:17
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: GangGameGraybox
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.188940
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin ConcertMain
+LogPluginManager: Mounting plugin ConcertSyncClient
+LogPluginManager: Mounting plugin ConcertSyncCore
+LogPluginManager: Mounting plugin MultiUserClient
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin Linter
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MegascansPlugin
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin SQLiteCore
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin SunPosition
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 3 3200G with Radeon Vega Graphics    , GPU: Radeon RX 570 Series
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.04.11-20.16.18:173][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.11-20.16.18:173][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.11-20.16.18:173][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.04.11-20.16.18:173][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.11-20.16.18:173][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:1]]
+[2020.04.11-20.16.18:173][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.04.11-20.16.18:173][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.04.11-20.16.18:173][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.11-20.16.18:173][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.11-20.16.18:173][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.11-20.16.18:174][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.04.11-20.16.18:174][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.04.11-20.16.18:183][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-20.16.18:183][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.11-20.16.18:183][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.11-20.16.18:183][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.11-20.16.18:184][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.11-20.16.18:185][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.11-20.16.18:185][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.11-20.16.18:185][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.11-20.16.18:189][  0]LogHAL: Display: Platform has ~ 16 GB [17125924864 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.11-20.16.18:189][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.11-20.16.18:189][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-20.16.18:189][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.11-20.16.18:189][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.11-20.16.18:189][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-20.16.18:189][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.11-20.16.18:189][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-20.16.18:189][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.11-20.16.18:189][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.11-20.16.18:189][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2020.04.11-20.16.18:189][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2020.04.11-20.16.18:189][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.11-20.16.18:189][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2020.04.11-20.16.18:189][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
+[2020.04.11-20.16.18:189][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2020.04.11-20.16.18:189][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.04.11-20.16.18:189][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.11-20.16.18:189][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.11-20.16.18:189][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
+[2020.04.11-20.16.18:189][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.11-20.16.18:189][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2020.04.11-20.16.18:189][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2020.04.11-20.16.18:189][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.11-20.16.18:189][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.11-20.16.18:189][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.11-20.16.18:189][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.11-20.16.18:190][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.11-20.16.18:191][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.11-20.16.18:191][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.11-20.16.18:191][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.11-20.16.18:191][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.11-20.16.18:191][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.11-20.16.18:191][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-20.16.18:191][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.11-20.16.18:191][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.11-20.16.18:191][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Scalability.ini]
+[2020.04.11-20.16.18:191][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.11-20.16.18:191][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.11-20.16.18:191][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.11-20.16.18:191][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.11-20.16.18:191][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.11-20.16.18:191][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.11-20.16.18:191][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Config/Windows/Engine.ini]
+[2020.04.11-20.16.18:191][  0]LogInit: Computer: DESKTOP-UQCUGJ7
+[2020.04.11-20.16.18:191][  0]LogInit: User: jerem
+[2020.04.11-20.16.18:191][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.11-20.16.18:192][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.11-20.16.18:192][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.04.11-20.16.18:192][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.11-20.16.18:192][  0]LogMemory: Process Physical Memory: 105.96 MB used, 105.97 MB peak
+[2020.04.11-20.16.18:192][  0]LogMemory: Process Virtual Memory: 104.22 MB used, 104.22 MB peak
+[2020.04.11-20.16.18:192][  0]LogMemory: Physical Memory: 5520.47 MB used,  10812.09 MB free, 16332.55 MB total
+[2020.04.11-20.16.18:192][  0]LogMemory: Virtual Memory: 5095.15 MB used,  134212632.00 MB free, 134217728.00 MB total
+[2020.04.11-20.16.18:196][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.04.11-20.16.18:224][  0]LogInit: Using OS detected language (fr-CA).
+[2020.04.11-20.16.18:224][  0]LogInit: Using OS detected locale (fr-CA).
+[2020.04.11-20.16.18:227][  0]LogTextLocalizationManager: No specific localization for 'fr-CA' exists, so the 'fr' localization will be used.
+[2020.04.11-20.16.18:228][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2020.04.11-20.16.18:229][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2020.04.11-20.16.18:229][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2020.04.11-20.16.18:229][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2020.04.11-20.16.18:230][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2020.04.11-20.16.18:230][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2020.04.11-20.16.18:230][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2020.04.11-20.16.18:233][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.11-20.16.18:280][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.11-20.16.18:280][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.11-20.16.18:555][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.11-20.16.18:555][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.04.11-20.16.18:555][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.04.11-20.16.18:555][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.11-20.16.18:602][  0]LogD3D11RHI:    0. 'Radeon RX 570 Series' (Feature Level 11_0)
+[2020.04.11-20.16.18:602][  0]LogD3D11RHI:       4075/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2020.04.11-20.16.18:605][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.11-20.16.18:605][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.11-20.16.18:605][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.11-20.16.18:615][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.11-20.16.18:615][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2020.04.11-20.16.18:615][  0]LogWindows: EnumDisplayDevices:
+[2020.04.11-20.16.18:616][  0]LogWindows:    0. 'Radeon RX 570 Series' (P:0 D:1)
+[2020.04.11-20.16.18:616][  0]LogWindows:    1. 'Radeon RX 570 Series' (P:1 D:1)
+[2020.04.11-20.16.18:616][  0]LogWindows:    2. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.04.11-20.16.18:617][  0]LogWindows:    3. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.04.11-20.16.18:617][  0]LogWindows:    4. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.04.11-20.16.18:618][  0]LogWindows:    5. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.04.11-20.16.18:618][  0]LogWindows:    6. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.04.11-20.16.18:619][  0]LogWindows:    7. 'Radeon RX 570 Series' (P:0 D:0)
+[2020.04.11-20.16.18:619][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2020.04.11-20.16.18:619][  0]LogD3D11RHI:     Adapter Name: Radeon RX 570 Series
+[2020.04.11-20.16.18:619][  0]LogD3D11RHI:   Driver Version: Adrenalin 2020 20.4.1 (internal:26.20.15029.20013, unified:26.20.15029.20013)
+[2020.04.11-20.16.18:619][  0]LogD3D11RHI:      Driver Date: 4-1-2020
+[2020.04.11-20.16.18:619][  0]LogRHI: Texture pool is 2853 MB (70% of 4075 MB)
+[2020.04.11-20.16.18:715][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.04.11-20.16.18:715][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.11-20.16.18:728][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.04.11-20.16.19:229][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.04.11-20.16.19:271][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.04.11-20.16.19:271][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.04.11-20.16.19:271][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.04.11-20.16.19:271][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.04.11-20.16.19:271][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.04.11-20.16.19:271][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.04.11-20.16.19:271][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.04.11-20.16.19:271][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.04.11-20.16.19:271][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.04.11-20.16.19:271][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.11-20.16.19:271][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.04.11-20.16.19:271][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.04.11-20.16.19:271][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.11-20.16.19:271][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.11-20.16.19:271][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.11-20.16.19:271][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.11-20.16.19:271][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.04.11-20.16.19:271][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.04.11-20.16.19:297][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.04.11-20.16.19:297][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.04.11-20.16.19:307][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.11-20.16.19:316][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.04.11-20.16.19:330][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.04.11-20.16.19:341][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.04.11-20.16.19:353][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.04.11-20.16.19:366][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.04.11-20.16.19:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.04.11-20.16.19:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.04.11-20.16.19:434][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.04.11-20.16.19:434][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.04.11-20.16.19:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.11-20.16.19:454][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.04.11-20.16.19:464][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.04.11-20.16.19:473][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.04.11-20.16.19:473][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.11-20.16.19:477][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.11-20.16.19:510][  0]LogShaderCompilers: Guid format shader working directory is -49 characters bigger than the processId version (../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Intermediate/Shaders/WorkingDirectory/12152/).
+[2020.04.11-20.16.19:511][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jerem/AppData/Local/Temp/UnrealShaderWorkingDir/BE92AD0B434D9C7EE97896B3CBD9C0EB/'.
+[2020.04.11-20.16.19:512][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.11-20.16.19:512][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.11-20.16.19:512][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.11-20.16.20:386][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.11-20.16.20:462][  0]LogDerivedDataCache: Loaded boot cache 0.08s 79MB C:/Users/jerem/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.11-20.16.20:462][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jerem/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.04.11-20.16.20:462][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.11-20.16.20:462][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.11-20.16.20:462][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.11-20.16.20:462][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.11-20.16.20:474][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.11-20.16.20:474][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.11-20.16.20:474][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.11-20.16.20:476][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jerem/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.11-20.16.20:476][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.11-20.16.20:476][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.11-20.16.20:504][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.11-20.16.20:507][  0]LogSlate: Using FreeType 2.10.0
+[2020.04.11-20.16.20:508][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.11-20.16.20:578][  0]LogAssetRegistry: FAssetRegistry took 0.0047 seconds to start up
+[2020.04.11-20.16.20:980][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.11-20.16.21:167][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.11-20.16.21:167][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.11-20.16.21:167][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.11-20.16.21:167][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.11-20.16.21:167][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.11-20.16.21:187][  0]LogNetVersion: GangGameGraybox 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 3586570893)
+[2020.04.11-20.16.22:570][  0]LogPackageLocalizationCache: Processed 15 localized package path(s) for 1 prioritized culture(s) in 0.073343 seconds
+[2020.04.11-20.16.22:580][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.04.11-20.16.22:580][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.04.11-20.16.22:580][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.11-20.16.23:059][  0]LogPython: Using Python 2.7.14
+[2020.04.11-20.16.23:915][  0]LogLinker: Warning: Asset '../../Plugins/Marketplace/Linter/Content/MarketplaceLinter/MarketplaceLintRuleSet.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2020.04.11-20.16.23:972][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.11-20.16.23:977][  0]LogUdpMessaging: Initializing bridge on interface 25.12.122.167:6666 to multicast group 25.12.176.148:6666.
+[2020.04.11-20.16.23:977][  0]FUdpSocketBuilder: Failed to bind UdpMessageUnicastSocket to 25.12.122.167:6666
+[2020.04.11-20.16.23:977][  0]FUdpSocketBuilder: Failed to configure multicast for UdpMessageUnicastSocket (loopback: 1, ttl: 1)
+[2020.04.11-20.16.23:977][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageUnicastSocket (last error: 0)
+[2020.04.11-20.16.23:977][  0]LogUdpMessaging: Error: StartTransport failed to create unicast socket on 25.12.122.167:6666
+[2020.04.11-20.16.24:148][  0]SourceControl: Source control is disabled
+[2020.04.11-20.16.24:981][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.11-20.16.25:009][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.11-20.16.25:009][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.11-20.16.25:137][  0]LogOcInput: OculusInput pre-init called
+[2020.04.11-20.16.25:146][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.04.11-20.16.25:146][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.04.11-20.16.26:605][  0]LogEngine: Initializing Engine...
+[2020.04.11-20.16.26:607][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.11-20.16.26:608][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.04.11-20.16.26:997][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.11-20.16.27:009][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.11-20.16.27:019][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.11-20.16.27:019][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.11-20.16.27:019][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.11-20.16.27:019][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.11-20.16.27:019][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.11-20.16.27:019][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.11-20.16.27:019][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.11-20.16.27:019][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.11-20.16.27:019][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.11-20.16.27:019][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.11-20.16.27:046][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.11-20.16.27:046][  0]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.04.11-20.16.27:046][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.04.11-20.16.27:046][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.11-20.16.27:046][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.11-20.16.27:046][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.11-20.16.27:046][  0]LogAudioMixer: Display: Channel Order:
+[2020.04.11-20.16.27:046][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.11-20.16.27:046][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.04.11-20.16.27:280][  0]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.04.11-20.16.27:287][  0]LogInit: FAudioDevice initialized.
+[2020.04.11-20.16.27:287][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.11-20.16.27:377][  0]LogDerivedDataCache: Saved boot cache 0.09s 79MB C:/Users/jerem/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.11-20.16.27:379][  0]LogInit: Texture streaming: Enabled
+[2020.04.11-20.16.27:394][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.11-20.16.27:394][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.04.11-20.16.27:398][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.04.11-20.16.27:460][  0]LogInit: Transaction tracking system initialized
+[2020.04.11-20.16.27:473][  0]BlueprintLog: New page: Editor Load
+[2020.04.11-20.16.27:510][  0]LocalizationService: Localization service is disabled
+[2020.04.11-20.16.27:909][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.11-20.16.27:909][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.11-20.16.28:016][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/' took 0.04s
+[2020.04.11-20.16.28:016][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cylinder.Cylinder'
+[2020.04.11-20.16.28:929][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/Maps/GrayBox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.11-20.16.28:930][  0]LightingResults: New page: Lighting Build
+[2020.04.11-20.16.28:931][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-20.16.28:931][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.11-20.16.28:931][  0]MapCheck: New page: Map Check
+[2020.04.11-20.16.28:931][  0]LightingResults: New page: Lighting Build
+[2020.04.11-20.16.28:957][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.04.11-20.16.31:415][  0]LogAIModule: Creating AISystem for world GrayBox
+[2020.04.11-20.16.31:432][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_01_66.SkeletalMeshComponent0'
+[2020.04.11-20.16.31:432][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_2.SkeletalMeshComponent0'
+[2020.04.11-20.16.31:432][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_4.SkeletalMeshComponent0'
+[2020.04.11-20.16.31:432][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_5.SkeletalMeshComponent0'
+[2020.04.11-20.16.31:433][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_6.SkeletalMeshComponent0'
+[2020.04.11-20.16.31:433][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_7.SkeletalMeshComponent0'
+[2020.04.11-20.16.31:433][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_8.SkeletalMeshComponent0'
+[2020.04.11-20.16.31:433][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_9.SkeletalMeshComponent0'
+[2020.04.11-20.16.31:433][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_10.SkeletalMeshComponent0'
+[2020.04.11-20.16.31:433][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_11.SkeletalMeshComponent0'
+[2020.04.11-20.16.31:433][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_12.SkeletalMeshComponent0'
+[2020.04.11-20.16.31:433][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_13.SkeletalMeshComponent0'
+[2020.04.11-20.16.31:433][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_14.SkeletalMeshComponent0'
+[2020.04.11-20.16.31:433][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_15.SkeletalMeshComponent0'
+[2020.04.11-20.16.31:433][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_16.SkeletalMeshComponent0'
+[2020.04.11-20.16.31:434][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_17.SkeletalMeshComponent0'
+[2020.04.11-20.16.31:434][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_18.SkeletalMeshComponent0'
+[2020.04.11-20.16.31:453][  0]LogMaterial: Display: Material /Game/PolygonTown/Materials/Mat_PolygonTown_01_A.Mat_PolygonTown_01_A needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2020.04.11-20.16.31:459][  0]LogMaterial: Display: Missing cached shader map for material Mat_PolygonTown_01_A, compiling. 
+[2020.04.11-20.16.31:573][  0]MapCheck: Warning: Mat_PolygonTown_01_A Material /Game/PolygonTown/Materials/Mat_PolygonTown_01_A.Mat_PolygonTown_01_A was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2020.04.11-20.16.31:668][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 71
+[2020.04.11-20.16.31:668][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 61
+[2020.04.11-20.16.31:668][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 51
+[2020.04.11-20.16.31:668][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.11-20.16.31:669][  0]LogNavigation: Warning: Recreating dtNavMesh instance due to saved navmesh origin (X=0.000 Y=-881.000 Z=0.000, usually the RecastNavMesh location) not being aligned with tile size (988 uu) 
+[2020.04.11-20.16.31:856][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2020.04.11-20.16.31:857][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.11-20.16.31:858][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0,333ms to complete.
+[2020.04.11-20.16.31:864][  0]LogFileHelpers: Loading map 'GrayBox' took 2.935
+[2020.04.11-20.16.32:045][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-20.16.32:055][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-20.16.32:065][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-20.16.32:075][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-20.16.32:085][  0]LogCollectionManager: Loaded 0 collections in 0.003832 seconds
+[2020.04.11-20.16.32:105][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Collections/' took 0.00s
+[2020.04.11-20.16.32:105][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Developers/jerem/Collections/' took 0.00s
+[2020.04.11-20.16.32:105][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Collections/' took 0.00s
+[2020.04.11-20.16.32:105][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 3079 classes and 756 folders.
+[2020.04.11-20.16.32:108][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.04.11-20.16.32:237][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.11-20.16.32:243][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2020.04.11-20.16.32:541][  0]LogSlate: Took 0.000457 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.11-20.16.32:543][  0]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.11-20.16.32:549][  0]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.11-20.16.32:691][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2020.04.11-20.16.32:761][  0]LogRenderer: Reallocating scene render targets to support 1200x536 Format 10 NumSamples 1 (Frame:1).
+[2020.04.11-20.16.43:790][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 41
+[2020.04.11-20.16.43:790][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 31
+[2020.04.11-20.16.43:790][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2020.04.11-20.16.43:790][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 13
+[2020.04.11-20.16.43:790][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.04.11-20.16.43:790][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.04.11-20.16.43:790][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.04.11-20.16.43:790][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.04.11-20.16.43:796][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.04.11-20.16.43:796][  0]LogLoad: (Engine Initialization) Total time: 29.26 seconds
+[2020.04.11-20.16.43:796][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.11-20.16.43:872][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.11-20.16.43:976][  0]LogRenderer: Reallocating scene render targets to support 1200x552 Format 10 NumSamples 1 (Frame:2).
+[2020.04.11-20.16.43:976][  0]LogSlate: Took 0.000359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.11-20.16.44:147][  2]LogAssetRegistry: Asset discovery search completed in 23.5701 seconds
+[2020.04.11-20.16.44:192][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000012 seconds (updated 0 objects)
+[2020.04.11-20.19.58:252][583]LogStaticMesh: Allocated 512x300x64 distance field atlas = 18.8Mb, with 169 objects containing 13.1Mb backing data
+[2020.04.11-20.20.12:246][243]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Grass_50)
+[2020.04.11-20.20.19:890][534]Cmd: EDIT COPY
+[2020.04.11-20.20.20:158][546]Cmd: EDIT PASTE
+[2020.04.11-20.20.23:763][682]Cmd: DELETE
+[2020.04.11-20.20.23:763][682]Cmd: ACTOR DELETE
+[2020.04.11-20.20.23:787][682]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.04.11-20.20.23:787][682]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.04.11-20.20.23:788][682]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.04.11-20.20.23:788][682]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.04.11-20.20.23:788][682]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.04.11-20.20.23:788][682]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.04.11-20.20.23:788][682]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.04.11-20.20.23:789][682]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.04.11-20.20.23:815][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2020.04.11-20.20.23:817][682]LogEditorActor: Deleted 8 Actors (0.051 secs)
+[2020.04.11-20.20.24:406][705]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Grass_50)
+[2020.04.11-20.20.29:878][964]Cmd: EDIT COPY
+[2020.04.11-20.20.30:115][974]Cmd: EDIT PASTE
+[2020.04.11-20.20.43:691][594]Cmd: EDIT COPY
+[2020.04.11-20.20.44:550][632]Cmd: EDIT PASTE
+[2020.04.11-20.21.05:316][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Road_45)
+[2020.04.11-20.21.06:234][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Grass_169)
+[2020.04.11-20.21.06:658][473]Cmd: DELETE
+[2020.04.11-20.21.06:658][473]Cmd: ACTOR DELETE
+[2020.04.11-20.21.06:679][473]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.04.11-20.21.06:708][473]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.04.11-20.21.06:709][473]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2020.04.11-20.21.08:903][568]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Road_45)
+[2020.04.11-20.21.13:788][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Grass_168)
+[2020.04.11-20.21.19:331][ 25]LogEditorViewport: Clicking Background
+[2020.04.11-20.25.45:132][776]LogEditorViewport: Clicking on Actor (context menu): SkeletalMeshActor (SM_Generic_Tree_04)
+[2020.04.11-20.25.54:141][183]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.11-20.25.54:158][183]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/BluePrints/AI/ShooterAi/ShooterAI.ShooterAI
+[2020.04.11-20.25.54:432][183]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 121 classes and 0 folders.
+[2020.04.11-20.25.55:732][183]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.11-20.25.55:810][184]LogSlate: Took 0.000360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.11-20.26.00:880][371]LogRenderer: Reallocating scene render targets to support 1200x692 Format 10 NumSamples 1 (Frame:1).
+[2020.04.11-20.26.21:287][294]LogSlate: Window 'ShooterAI' being destroyed
+[2020.04.11-20.26.41:508][528]BlueprintLog: New page: Compile ShooterAI
+[2020.04.11-20.26.41:939][528]LogUObjectHash: Compacting FUObjectHashTables data took   4.57ms
+[2020.04.11-20.26.42:469][558]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/ShooterAI2C0CC2FB4DE41583CFF6599CA3E47585.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/BluePrints/AI/ShooterAi/ShooterAI.uasset'
+[2020.04.11-20.26.42:569][558]AssetCheck: New page: Asset Save: ShooterAI
+[2020.04.11-20.26.42:569][558]LogContentValidation: Display: Validating Blueprint /Game/Game/BluePrints/AI/ShooterAi/ShooterAI.ShooterAI
+[2020.04.11-20.26.58:435][727]BlueprintLog: New page: Compile ShooterAI
+[2020.04.11-20.26.58:870][727]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2020.04.11-20.26.59:394][756]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/ShooterAIB1B9EA4446926F3543BC238703092AA6.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/BluePrints/AI/ShooterAi/ShooterAI.uasset'
+[2020.04.11-20.26.59:472][756]AssetCheck: New page: Asset Save: ShooterAI
+[2020.04.11-20.26.59:472][756]LogContentValidation: Display: Validating Blueprint /Game/Game/BluePrints/AI/ShooterAi/ShooterAI.ShooterAI
+[2020.04.11-20.27.00:393][808]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.11-20.27.00:427][808]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.04.11-20.27.00:427][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.11-20.27.00:428][808]PIE: New page: PIE session: GrayBox (11 avr. 2020 12 h 27 min 00 s)
+[2020.04.11-20.27.00:429][808]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.04.11-20.27.00:431][808]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.04.11-20.27.00:431][808]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.04.11-20.27.00:508][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077441s)
+[2020.04.11-20.27.00:509][808]LogAIModule: Creating AISystem for world GrayBox
+[2020.04.11-20.27.00:510][808]LogPlayLevel: PIE: World Init took: (0.001450s)
+[2020.04.11-20.27.00:510][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/GrayBox.GrayBox to /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox (0.079472s)
+[2020.04.11-20.27.00:553][808]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2020.04.11-20.27.00:555][808]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.11-20.27.00:555][808]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.11-20.27.00:555][808]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.11-20.27.00:555][808]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.11-20.27.00:555][808]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.11-20.27.00:555][808]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.11-20.27.00:555][808]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.11-20.27.00:555][808]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.11-20.27.00:555][808]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.11-20.27.00:555][808]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.11-20.27.00:577][808]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.11-20.27.00:577][808]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.04.11-20.27.00:577][808]LogAudioMixer: Display: Is Default: Yes
+[2020.04.11-20.27.00:577][808]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.11-20.27.00:577][808]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.11-20.27.00:577][808]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.11-20.27.00:577][808]LogAudioMixer: Display: Channel Order:
+[2020.04.11-20.27.00:577][808]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.11-20.27.00:577][808]LogAudioMixer: Display: 1: FrontRight
+[2020.04.11-20.27.00:828][808]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.04.11-20.27.00:831][808]LogInit: FAudioDevice initialized.
+[2020.04.11-20.27.00:860][808]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.04.11-20.27.00:869][808]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_01_66.SkeletalMeshComponent0'
+[2020.04.11-20.27.00:869][808]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_2.SkeletalMeshComponent0'
+[2020.04.11-20.27.00:869][808]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_4.SkeletalMeshComponent0'
+[2020.04.11-20.27.00:869][808]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_5.SkeletalMeshComponent0'
+[2020.04.11-20.27.00:869][808]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_6.SkeletalMeshComponent0'
+[2020.04.11-20.27.00:869][808]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_7.SkeletalMeshComponent0'
+[2020.04.11-20.27.00:869][808]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_8.SkeletalMeshComponent0'
+[2020.04.11-20.27.00:869][808]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_9.SkeletalMeshComponent0'
+[2020.04.11-20.27.00:869][808]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_10.SkeletalMeshComponent0'
+[2020.04.11-20.27.00:870][808]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_11.SkeletalMeshComponent0'
+[2020.04.11-20.27.00:870][808]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_12.SkeletalMeshComponent0'
+[2020.04.11-20.27.00:870][808]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_13.SkeletalMeshComponent0'
+[2020.04.11-20.27.00:870][808]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_14.SkeletalMeshComponent0'
+[2020.04.11-20.27.00:870][808]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_15.SkeletalMeshComponent0'
+[2020.04.11-20.27.00:870][808]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_16.SkeletalMeshComponent0'
+[2020.04.11-20.27.00:870][808]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_17.SkeletalMeshComponent0'
+[2020.04.11-20.27.00:870][808]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_18.SkeletalMeshComponent0'
+[2020.04.11-20.27.00:899][808]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox up for play (max tick rate 0) at 2020.04.11-16.27.00
+[2020.04.11-20.27.00:902][808]LogWorld: Bringing up level for play took: 0.041413
+[2020.04.11-20.27.00:903][808]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.04.11-20.27.00:911][808]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.04.11-20.27.00:923][808]PIE: Play in editor start time for /Game/Game/Maps/UEDPIE_0_GrayBox 1,103
+[2020.04.11-20.27.00:924][808]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.04.11-20.27.01:563][810]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.084104 > MaxSimulationTimeStep (0.050) for 'CharacterMain_C_0', movement 'Walking'
+[2020.04.11-20.27.02:428][840]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-20.27.02:429][840]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-20.27.02:429][840]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.04.11-20.27.02:430][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-20.27.02:430][840]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.04.11-20.27.02:430][840]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-20.27.02:431][840]LogWorld: UWorld::CleanupWorld for GrayBox, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-20.27.02:439][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.11-20.27.02:497][840]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.11-20.27.02:498][840]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.04.11-20.27.02:506][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.11-20.27.02:559][840]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-20.27.02:565][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-20.27.02:622][840]LogUObjectHash: Compacting FUObjectHashTables data took   6.94ms
+[2020.04.11-20.27.02:662][841]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.04.11-20.27.09:301][469]BlueprintLog: New page: Compile ShooterAI
+[2020.04.11-20.27.09:809][469]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2020.04.11-20.27.10:187][487]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/ShooterAI2DD6B9D44DEBE4965A3F24980B7E35A6.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/BluePrints/AI/ShooterAi/ShooterAI.uasset'
+[2020.04.11-20.27.10:256][487]AssetCheck: New page: Asset Save: ShooterAI
+[2020.04.11-20.27.10:256][487]LogContentValidation: Display: Validating Blueprint /Game/Game/BluePrints/AI/ShooterAi/ShooterAI.ShooterAI
+[2020.04.11-20.27.13:218][768]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.11-20.27.13:245][768]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.04.11-20.27.13:245][768]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.11-20.27.13:245][768]PIE: New page: PIE session: GrayBox (11 avr. 2020 12 h 27 min 13 s)
+[2020.04.11-20.27.13:246][768]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.04.11-20.27.13:325][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079101s)
+[2020.04.11-20.27.13:326][768]LogAIModule: Creating AISystem for world GrayBox
+[2020.04.11-20.27.13:326][768]LogPlayLevel: PIE: World Init took: (0.001495s)
+[2020.04.11-20.27.13:327][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/GrayBox.GrayBox to /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox (0.081314s)
+[2020.04.11-20.27.13:378][768]LogUObjectHash: Compacting FUObjectHashTables data took   5.61ms
+[2020.04.11-20.27.13:380][768]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.11-20.27.13:380][768]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.11-20.27.13:380][768]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.11-20.27.13:380][768]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.11-20.27.13:380][768]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.11-20.27.13:380][768]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.11-20.27.13:380][768]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.11-20.27.13:380][768]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.11-20.27.13:381][768]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.11-20.27.13:381][768]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.11-20.27.13:401][768]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.11-20.27.13:401][768]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.04.11-20.27.13:401][768]LogAudioMixer: Display: Is Default: Yes
+[2020.04.11-20.27.13:401][768]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.11-20.27.13:401][768]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.11-20.27.13:401][768]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.11-20.27.13:401][768]LogAudioMixer: Display: Channel Order:
+[2020.04.11-20.27.13:401][768]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.11-20.27.13:401][768]LogAudioMixer: Display: 1: FrontRight
+[2020.04.11-20.27.13:626][768]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.04.11-20.27.13:629][768]LogInit: FAudioDevice initialized.
+[2020.04.11-20.27.13:639][768]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.04.11-20.27.13:648][768]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_01_66.SkeletalMeshComponent0'
+[2020.04.11-20.27.13:648][768]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_2.SkeletalMeshComponent0'
+[2020.04.11-20.27.13:648][768]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_4.SkeletalMeshComponent0'
+[2020.04.11-20.27.13:648][768]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_5.SkeletalMeshComponent0'
+[2020.04.11-20.27.13:648][768]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_6.SkeletalMeshComponent0'
+[2020.04.11-20.27.13:648][768]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_7.SkeletalMeshComponent0'
+[2020.04.11-20.27.13:648][768]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_8.SkeletalMeshComponent0'
+[2020.04.11-20.27.13:648][768]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_9.SkeletalMeshComponent0'
+[2020.04.11-20.27.13:648][768]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_10.SkeletalMeshComponent0'
+[2020.04.11-20.27.13:648][768]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_11.SkeletalMeshComponent0'
+[2020.04.11-20.27.13:648][768]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_12.SkeletalMeshComponent0'
+[2020.04.11-20.27.13:648][768]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_13.SkeletalMeshComponent0'
+[2020.04.11-20.27.13:649][768]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_14.SkeletalMeshComponent0'
+[2020.04.11-20.27.13:649][768]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_15.SkeletalMeshComponent0'
+[2020.04.11-20.27.13:649][768]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_16.SkeletalMeshComponent0'
+[2020.04.11-20.27.13:649][768]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_17.SkeletalMeshComponent0'
+[2020.04.11-20.27.13:649][768]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_18.SkeletalMeshComponent0'
+[2020.04.11-20.27.13:678][768]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox up for play (max tick rate 0) at 2020.04.11-16.27.13
+[2020.04.11-20.27.13:682][768]LogWorld: Bringing up level for play took: 0.041654
+[2020.04.11-20.27.13:682][768]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.04.11-20.27.13:696][768]PIE: Play in editor start time for /Game/Game/Maps/UEDPIE_0_GrayBox -0,124
+[2020.04.11-20.27.13:696][768]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.04.11-20.27.17:824][920]LogScript: Warning: Accessed None trying to read property PatrolPoint
+	ShooterAI_C /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.ShooterAI_2
+	Function /Game/Game/BluePrints/AI/ShooterAi/ShooterAI.ShooterAI_C:ExecuteUbergraph_ShooterAI:0176
+[2020.04.11-20.27.17:824][920]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PatrolPoint". Blueprint:  ShooterAI Function:  Execute Ubergraph Shooter AI Graph:  EventGraph Node:  AI MoveTo
+[2020.04.11-20.27.17:824][920]LogScript: Warning: Accessed None
+	ShooterAI_C /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.ShooterAI_2
+	Function /Game/Game/BluePrints/AI/ShooterAi/ShooterAI.ShooterAI_C:ExecuteUbergraph_ShooterAI:0157
+[2020.04.11-20.27.17:824][920]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ShooterAI Function:  Execute Ubergraph Shooter AI Graph:  EventGraph Node:  AI MoveTo
+[2020.04.11-20.27.18:326][939]LogScript: Warning: Accessed None trying to read property PatrolPoint
+	ShooterAI_C /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.ShooterAI_2
+	Function /Game/Game/BluePrints/AI/ShooterAi/ShooterAI.ShooterAI_C:ExecuteUbergraph_ShooterAI:0176
+[2020.04.11-20.27.18:326][939]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PatrolPoint". Blueprint:  ShooterAI Function:  Execute Ubergraph Shooter AI Graph:  EventGraph Node:  AI MoveTo
+[2020.04.11-20.27.18:326][939]LogScript: Warning: Accessed None
+	ShooterAI_C /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.ShooterAI_2
+	Function /Game/Game/BluePrints/AI/ShooterAi/ShooterAI.ShooterAI_C:ExecuteUbergraph_ShooterAI:0157
+[2020.04.11-20.27.18:326][939]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ShooterAI Function:  Execute Ubergraph Shooter AI Graph:  EventGraph Node:  AI MoveTo
+[2020.04.11-20.27.18:829][958]LogScript: Warning: Accessed None trying to read property PatrolPoint
+	ShooterAI_C /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.ShooterAI_2
+	Function /Game/Game/BluePrints/AI/ShooterAi/ShooterAI.ShooterAI_C:ExecuteUbergraph_ShooterAI:0176
+[2020.04.11-20.27.18:830][958]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property PatrolPoint". Blueprint:  ShooterAI Function:  Execute Ubergraph Shooter AI Graph:  EventGraph Node:  AI MoveTo
+[2020.04.11-20.27.18:830][958]LogScript: Warning: Accessed None
+	ShooterAI_C /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.ShooterAI_2
+	Function /Game/Game/BluePrints/AI/ShooterAi/ShooterAI.ShooterAI_C:ExecuteUbergraph_ShooterAI:0157
+[2020.04.11-20.27.18:830][958]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ShooterAI Function:  Execute Ubergraph Shooter AI Graph:  EventGraph Node:  AI MoveTo
+[2020.04.11-20.27.19:515][983]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-20.27.19:515][983]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-20.27.19:515][983]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.04.11-20.27.19:516][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-20.27.19:516][983]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.04.11-20.27.19:516][983]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-20.27.19:517][983]LogWorld: UWorld::CleanupWorld for GrayBox, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-20.27.19:525][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.11-20.27.19:565][983]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.11-20.27.19:566][983]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.04.11-20.27.19:573][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.11-20.27.19:619][983]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-20.27.19:622][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-20.27.19:632][983]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2020.04.11-20.27.19:759][984]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.04.11-20.27.21:904][ 59]LogSlate: Window 'Message Log' being destroyed
+[2020.04.11-20.27.21:932][ 59]LogSlate: Window 'Message Log' being destroyed
+[2020.04.11-20.27.39:913][948]BlueprintLog: New page: Compile ShooterAI
+[2020.04.11-20.27.40:431][948]LogUObjectHash: Compacting FUObjectHashTables data took   5.21ms
+[2020.04.11-20.27.40:990][980]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/ShooterAI72CB24DF45DA1993B2BCF9A373961D13.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/BluePrints/AI/ShooterAi/ShooterAI.uasset'
+[2020.04.11-20.27.41:067][980]AssetCheck: New page: Asset Save: ShooterAI
+[2020.04.11-20.27.41:067][980]LogContentValidation: Display: Validating Blueprint /Game/Game/BluePrints/AI/ShooterAi/ShooterAI.ShooterAI
+[2020.04.11-20.27.50:382][ 41]BlueprintLog: New page: Compile ShooterAI
+[2020.04.11-20.27.50:887][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   5.47ms
+[2020.04.11-20.27.51:316][ 63]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/ShooterAI0083C16E43E85C3D970DCEA45B80C513.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/BluePrints/AI/ShooterAi/ShooterAI.uasset'
+[2020.04.11-20.27.51:390][ 63]AssetCheck: New page: Asset Save: ShooterAI
+[2020.04.11-20.27.51:390][ 63]LogContentValidation: Display: Validating Blueprint /Game/Game/BluePrints/AI/ShooterAi/ShooterAI.ShooterAI
+[2020.04.11-20.27.52:229][105]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.11-20.27.52:256][105]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.04.11-20.27.52:256][105]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.11-20.27.52:257][105]PIE: New page: PIE session: GrayBox (11 avr. 2020 12 h 27 min 52 s)
+[2020.04.11-20.27.52:257][105]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.04.11-20.27.52:336][105]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078786s)
+[2020.04.11-20.27.52:337][105]LogAIModule: Creating AISystem for world GrayBox
+[2020.04.11-20.27.52:337][105]LogPlayLevel: PIE: World Init took: (0.001360s)
+[2020.04.11-20.27.52:337][105]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/GrayBox.GrayBox to /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox (0.080487s)
+[2020.04.11-20.27.52:388][105]LogUObjectHash: Compacting FUObjectHashTables data took   5.79ms
+[2020.04.11-20.27.52:389][105]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.11-20.27.52:389][105]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.11-20.27.52:389][105]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.11-20.27.52:389][105]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.11-20.27.52:389][105]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.11-20.27.52:389][105]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.11-20.27.52:389][105]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.11-20.27.52:390][105]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.11-20.27.52:390][105]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.11-20.27.52:390][105]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.11-20.27.52:410][105]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.11-20.27.52:411][105]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.04.11-20.27.52:411][105]LogAudioMixer: Display: Is Default: Yes
+[2020.04.11-20.27.52:411][105]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.11-20.27.52:411][105]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.11-20.27.52:411][105]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.11-20.27.52:411][105]LogAudioMixer: Display: Channel Order:
+[2020.04.11-20.27.52:411][105]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.11-20.27.52:411][105]LogAudioMixer: Display: 1: FrontRight
+[2020.04.11-20.27.52:661][105]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.04.11-20.27.52:664][105]LogInit: FAudioDevice initialized.
+[2020.04.11-20.27.52:674][105]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.04.11-20.27.52:682][105]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_01_66.SkeletalMeshComponent0'
+[2020.04.11-20.27.52:682][105]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_2.SkeletalMeshComponent0'
+[2020.04.11-20.27.52:682][105]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_4.SkeletalMeshComponent0'
+[2020.04.11-20.27.52:682][105]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_5.SkeletalMeshComponent0'
+[2020.04.11-20.27.52:682][105]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_6.SkeletalMeshComponent0'
+[2020.04.11-20.27.52:682][105]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_7.SkeletalMeshComponent0'
+[2020.04.11-20.27.52:682][105]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_8.SkeletalMeshComponent0'
+[2020.04.11-20.27.52:682][105]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_9.SkeletalMeshComponent0'
+[2020.04.11-20.27.52:682][105]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_10.SkeletalMeshComponent0'
+[2020.04.11-20.27.52:682][105]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_11.SkeletalMeshComponent0'
+[2020.04.11-20.27.52:682][105]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_12.SkeletalMeshComponent0'
+[2020.04.11-20.27.52:682][105]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_13.SkeletalMeshComponent0'
+[2020.04.11-20.27.52:683][105]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_14.SkeletalMeshComponent0'
+[2020.04.11-20.27.52:683][105]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_15.SkeletalMeshComponent0'
+[2020.04.11-20.27.52:683][105]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_16.SkeletalMeshComponent0'
+[2020.04.11-20.27.52:683][105]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_17.SkeletalMeshComponent0'
+[2020.04.11-20.27.52:683][105]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_18.SkeletalMeshComponent0'
+[2020.04.11-20.27.52:712][105]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox up for play (max tick rate 0) at 2020.04.11-16.27.52
+[2020.04.11-20.27.52:716][105]LogWorld: Bringing up level for play took: 0.041731
+[2020.04.11-20.27.52:716][105]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.04.11-20.27.52:730][105]PIE: Play in editor start time for /Game/Game/Maps/UEDPIE_0_GrayBox 0,91
+[2020.04.11-20.27.52:730][105]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.04.11-20.27.56:828][250]LogBlueprintUserMessages: [ShooterAI_2] Player Success
+[2020.04.11-20.27.59:979][367]LogBlueprintUserMessages: [ShooterAI_2] Player Success
+[2020.04.11-20.28.03:063][482]LogBlueprintUserMessages: [ShooterAI_2] Player Success
+[2020.04.11-20.28.05:351][566]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-20.28.05:351][566]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-20.28.05:351][566]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.04.11-20.28.05:352][566]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-20.28.05:352][566]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.04.11-20.28.05:352][566]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-20.28.05:353][566]LogWorld: UWorld::CleanupWorld for GrayBox, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-20.28.05:361][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.11-20.28.05:403][566]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.11-20.28.05:403][566]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.04.11-20.28.05:411][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.11-20.28.05:460][566]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-20.28.05:466][566]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-20.28.05:477][566]LogUObjectHash: Compacting FUObjectHashTables data took   5.02ms
+[2020.04.11-20.28.05:509][567]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.04.11-20.28.37:108][270]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2020.04.11-20.28.38:268][270]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/GrayBox_Auto1AAEF9410420D489D02562D9525DBEBCC.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Autosaves/Game/Game/Maps/GrayBox_Auto1.umap'
+[2020.04.11-20.28.38:272][270]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Maps/GrayBox' took 1.269
+[2020.04.11-20.28.38:272][270]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.269
+[2020.04.11-20.39.06:535][460]BlueprintLog: New page: Compile ShooterAI
+[2020.04.11-20.39.07:124][460]LogUObjectHash: Compacting FUObjectHashTables data took   6.20ms
+[2020.04.11-20.39.16:768][133]BlueprintLog: New page: Compile ShooterAI
+[2020.04.11-20.39.17:319][133]LogUObjectHash: Compacting FUObjectHashTables data took   5.20ms
+[2020.04.11-20.39.18:480][224]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/ShooterAIE0F42DC344A76DF09D87D2A4890A9F36.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/BluePrints/AI/ShooterAi/ShooterAI.uasset'
+[2020.04.11-20.39.18:551][224]AssetCheck: New page: Asset Save: ShooterAI
+[2020.04.11-20.39.18:551][224]LogContentValidation: Display: Validating Blueprint /Game/Game/BluePrints/AI/ShooterAi/ShooterAI.ShooterAI
+[2020.04.11-20.39.43:553][350]LogUObjectHash: Compacting FUObjectHashTables data took   6.50ms
+[2020.04.11-20.39.45:165][350]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/GrayBox_Auto293CA4BAF4CFE30EE747E4293783A211E.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Autosaves/Game/Game/Maps/GrayBox_Auto2.umap'
+[2020.04.11-20.39.45:169][350]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Maps/GrayBox' took 1.665
+[2020.04.11-20.39.45:169][350]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.665
+[2020.04.11-20.40.30:418][809]LogEditorViewport: Clicking on Actor (LMB): ShooterAI_C (ShooterAI)
+[2020.04.11-20.44.59:322][898]LogObjectTools: Deleting 1 worlds: /Game/Game/BluePrints/AI/ShooterAi/NewWorld.NewWorld
+[2020.04.11-20.44.59:322][898]LogObjectTools: Currently 9 active worlds: /Game/Game/Maps/GrayBox.GrayBox, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_6, /Engine/Transient.World_7
+[2020.04.11-20.44.59:372][898]LogUObjectHash: Compacting FUObjectHashTables data took   6.25ms
+[2020.04.11-20.45.00:735][898]LogSlate: Window 'Delete Assets' being destroyed
+[2020.04.11-20.45.00:754][898]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-20.45.00:754][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.11-20.45.00:901][898]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2020.04.11-20.45.09:473][930]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.04.11-20.45.19:387][188]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/BluePrints/AI/ShooterAi/Enemy_AI.Enemy_AI
+[2020.04.11-20.45.22:511][312]LogUObjectHash: Compacting FUObjectHashTables data took   5.10ms
+[2020.04.11-20.45.23:560][312]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/GrayBoxC7733F9B487FA1421FCCD79D80AC42F7.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/Maps/GrayBox.umap'
+[2020.04.11-20.45.24:486][312]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/GrayBox_BuiltData7F0B44A44F61AB59E12916A9D546ACFB.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/Maps/GrayBox_BuiltData.uasset'
+[2020.04.11-20.45.24:548][312]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.11-20.45.24:549][312]LogContentValidation: Display: Validating World /Game/Game/Maps/GrayBox.GrayBox
+[2020.04.11-20.45.24:549][312]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Game/Maps/GrayBox_BuiltData.GrayBox_BuiltData
+[2020.04.11-20.45.47:654][193]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.04.11-20.45.50:647][405]BlueprintLog: New page: Compile ShooterAI
+[2020.04.11-20.45.51:309][405]LogUObjectHash: Compacting FUObjectHashTables data took   5.66ms
+[2020.04.11-20.45.51:717][413]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/ShooterAICCD5C2F944DCC83A538C2E8DDD1B6C6D.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/BluePrints/AI/ShooterAi/ShooterAI.uasset'
+[2020.04.11-20.45.51:792][413]AssetCheck: New page: Asset Save: ShooterAI
+[2020.04.11-20.45.51:792][413]LogContentValidation: Display: Validating Blueprint /Game/Game/BluePrints/AI/ShooterAi/ShooterAI.ShooterAI
+[2020.04.11-20.48.24:290][ 34]BlueprintLog: New page: Compile ShooterAI
+[2020.04.11-20.48.24:965][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   5.78ms
+[2020.04.11-20.48.25:912][ 83]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/ShooterAIFC32640C42455CB1F6847895B1C64609.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/BluePrints/AI/ShooterAi/ShooterAI.uasset'
+[2020.04.11-20.48.26:011][ 83]AssetCheck: New page: Asset Save: ShooterAI
+[2020.04.11-20.48.26:011][ 83]LogContentValidation: Display: Validating Blueprint /Game/Game/BluePrints/AI/ShooterAi/ShooterAI.ShooterAI
+[2020.04.11-20.48.28:273][242]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-20.48.28:274][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.11-20.49.23:135][652]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Ennemy_BBAFDE9DFA41C7BF275E6C229D38D20D5B.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/BluePrints/AI/ShooterAi/Ennemy_BB.uasset'
+[2020.04.11-20.49.23:903][652]LogUObjectHash: Compacting FUObjectHashTables data took   5.31ms
+[2020.04.11-20.49.23:981][652]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2020.04.11-20.49.24:018][652]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.04.11-20.49.24:226][652]AssetCheck: New page: Asset Save: Ennemy_BB
+[2020.04.11-20.49.24:226][652]LogContentValidation: Display: Validating BlackboardData /Game/Game/BluePrints/AI/ShooterAi/Ennemy_BB.Ennemy_BB
+[2020.04.11-20.49.31:027][883]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Enemy_BBE903FFEF43DE53CA76C2938D1961A4ED.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/BluePrints/AI/ShooterAi/Enemy_BB.uasset'
+[2020.04.11-20.49.31:909][883]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.04.11-20.49.31:959][883]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2020.04.11-20.49.31:996][883]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.04.11-20.49.32:215][883]SourceControl: rm 'GangGame/GangGameUE4/GangGameGraybox/Content/Game/BluePrints/AI/ShooterAi/Ennemy_BB.uasset'
+[2020.04.11-20.49.32:432][883]AssetCheck: New page: Asset Save: Enemy_BB
+[2020.04.11-20.49.32:432][883]LogContentValidation: Display: Validating BlackboardData /Game/Game/BluePrints/AI/ShooterAi/Enemy_BB.Enemy_BB
+[2020.04.11-20.49.36:885][ 12]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Enemy_BT5E1B38CA4D8C3A4DA71567B70BBAADFB.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/BluePrints/AI/ShooterAi/Enemy_BT.uasset'
+[2020.04.11-20.49.37:598][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.04.11-20.49.37:648][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.04.11-20.49.37:685][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.04.11-20.49.37:894][ 12]AssetCheck: New page: Asset Save: Enemy_BT
+[2020.04.11-20.49.37:894][ 12]LogContentValidation: Display: Validating BehaviorTree /Game/Game/BluePrints/AI/ShooterAi/Enemy_BT.Enemy_BT
+[2020.04.11-20.49.40:018][ 83]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Game/BluePrints/AI/ShooterAi/Enemy_BT.Enemy_BT
+[2020.04.11-20.49.44:911][584]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Enemy_BT2C138E314B04BF816F2BFE8FED2DD0EF.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/BluePrints/AI/ShooterAi/Enemy_BT.uasset'
+[2020.04.11-20.49.44:930][584]AssetCheck: New page: Asset Save: Enemy_BT
+[2020.04.11-20.49.44:930][584]LogContentValidation: Display: Validating BehaviorTree /Game/Game/BluePrints/AI/ShooterAi/Enemy_BT.Enemy_BT
+[2020.04.11-20.49.57:184][117]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2020.04.11-20.49.57:627][117]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.04.11-20.49.58:603][117]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/GrayBoxB23972F94163DC1FDB9D038BC5237893.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/Maps/GrayBox.umap'
+[2020.04.11-20.49.58:656][117]LogFileHelpers: Saving map 'GrayBox' took 1.080
+[2020.04.11-20.49.58:665][117]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Enemy_AID17F70D445C720B1FC9C7F827C730994.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/BluePrints/AI/ShooterAi/Enemy_AI.uasset'
+[2020.04.11-20.49.59:056][117]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Game/BluePrints/AI/ShooterAi/Enemy_AI.
+[2020.04.11-20.49.59:085][117]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.11-20.49.59:085][117]LogContentValidation: Display: Validating World /Game/Game/Maps/GrayBox.GrayBox
+[2020.04.11-20.49.59:085][117]LogContentValidation: Display: Validating Blueprint /Game/Game/BluePrints/AI/ShooterAi/Enemy_AI.Enemy_AI
+[2020.04.11-20.50.03:755][515]BlueprintLog: New page: Compile Enemy_AI
+[2020.04.11-20.50.04:256][515]LogUObjectHash: Compacting FUObjectHashTables data took   4.98ms
+[2020.04.11-20.50.09:189][652]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/BluePrints/AI/ShooterAi/PatrolPoint.PatrolPoint
+[2020.04.11-20.50.19:687][517]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-20.50.19:687][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.11-20.51.18:849][ 62]BlueprintLog: New page: Compile Enemy_AI
+[2020.04.11-20.51.19:341][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   5.09ms
+[2020.04.11-20.51.19:888][ 91]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Enemy_AICD3321194A3F5EEEC4BA0785F3943EE4.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/BluePrints/AI/ShooterAi/Enemy_AI.uasset'
+[2020.04.11-20.51.19:913][ 91]AssetCheck: New page: Asset Save: Enemy_AI
+[2020.04.11-20.51.19:913][ 91]LogContentValidation: Display: Validating Blueprint /Game/Game/BluePrints/AI/ShooterAi/Enemy_AI.Enemy_AI
+[2020.04.11-20.51.21:471][246]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.04.11-20.51.21:471][246]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-20.51.21:471][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.11-20.52.04:951][468]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Game/BluePrints/AI/ShooterAi/Enemy_BT.Enemy_BT
+[2020.04.11-20.52.42:078][375]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/BluePrints/AI/ShooterAi/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2020.04.11-20.52.42:579][375]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Game/BluePrints/AI/ShooterAi/BTTask_BlueprintBase_New.
+[2020.04.11-20.52.46:176][566]LogSlate: Window 'BTTask_BlueprintBase_New' being destroyed
+[2020.04.11-20.52.59:941][192]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2020.04.11-20.52.59:953][192]LogMetaData: Removing '/Game/Game/BluePrints/AI/ShooterAi/Focus.SKEL_Focus_C' ref from Metadata '/Game/Game/BluePrints/AI/ShooterAi/BTTask_BlueprintBase_New.PackageMetaData'
+[2020.04.11-20.52.59:953][192]LogMetaData: Removing '/Game/Game/BluePrints/AI/ShooterAi/Focus.Focus_C' ref from Metadata '/Game/Game/BluePrints/AI/ShooterAi/BTTask_BlueprintBase_New.PackageMetaData'
+[2020.04.11-20.53.00:011][192]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/FocusD60D5F39473A2A39689E15B6BAD82F9F.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/BluePrints/AI/ShooterAi/Focus.uasset'
+[2020.04.11-20.53.00:883][192]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2020.04.11-20.53.00:951][192]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.04.11-20.53.00:998][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2020.04.11-20.53.01:216][192]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Game/BluePrints/AI/ShooterAi/Focus.
+[2020.04.11-20.53.01:234][192]AssetCheck: New page: Asset Save: Focus
+[2020.04.11-20.53.01:234][192]LogContentValidation: Display: Validating Blueprint /Game/Game/BluePrints/AI/ShooterAi/Focus.Focus
+[2020.04.11-20.56.44:406][913]BlueprintLog: New page: Compile Focus
+[2020.04.11-20.56.44:466][913]LogUObjectHash: Compacting FUObjectHashTables data took   6.48ms
+[2020.04.11-20.56.45:260][967]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/FocusA419DD8C4DE2F907B118D7AA92E4CCEA.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/BluePrints/AI/ShooterAi/Focus.uasset'
+[2020.04.11-20.56.45:301][967]AssetCheck: New page: Asset Save: Focus
+[2020.04.11-20.56.45:301][967]LogContentValidation: Display: Validating Blueprint /Game/Game/BluePrints/AI/ShooterAi/Focus.Focus
+[2020.04.11-20.56.55:791][ 25]BlueprintLog: New page: Compile Focus
+[2020.04.11-20.56.55:834][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2020.04.11-20.56.56:516][ 79]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/FocusA9E9795B466AE743783E25A865664BDF.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/BluePrints/AI/ShooterAi/Focus.uasset'
+[2020.04.11-20.56.56:536][ 79]AssetCheck: New page: Asset Save: Focus
+[2020.04.11-20.56.56:536][ 79]LogContentValidation: Display: Validating Blueprint /Game/Game/BluePrints/AI/ShooterAi/Focus.Focus
+[2020.04.11-20.59.58:826][751]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2020.04.11-20.59.58:827][751]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Maps/GrayBox' took 0.061
+[2020.04.11-20.59.58:828][751]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Game/BluePrints/AI/ShooterAi/Enemy_BT] ([1] browsable assets)...
+[2020.04.11-20.59.58:828][751]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/BluePrints/AI/ShooterAi/Enemy_BT]
+[2020.04.11-20.59.58:859][751]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Enemy_BT_Auto341CC4905492B439DAC4E688A1ADAAF91.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Autosaves/Game/Game/BluePrints/AI/ShooterAi/Enemy_BT_Auto3.uasset'
+[2020.04.11-20.59.58:860][751]LogFileHelpers: Auto-saving content packages took 0.033
+[2020.04.11-21.04.10:280][933]BlueprintLog: New page: Compile Focus
+[2020.04.11-21.04.10:336][933]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2020.04.11-21.04.11:598][ 33]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Focus6B6B6FAA459A3CDB3AEF24AE41528D7A.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/BluePrints/AI/ShooterAi/Focus.uasset'
+[2020.04.11-21.04.11:617][ 33]AssetCheck: New page: Asset Save: Focus
+[2020.04.11-21.04.11:617][ 33]LogContentValidation: Display: Validating Blueprint /Game/Game/BluePrints/AI/ShooterAi/Focus.Focus
+[2020.04.11-21.04.12:712][138]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-21.04.12:712][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.11-21.04.24:925][418]LogSavePackage: Moving '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Saved/Enemy_BT05F16F8647558036BD9AF88C2F5F78F6.tmp' to '../../../../../../Users/jerem/Documents/GitHub/Game-Files/GangGame/GangGameUE4/GangGameGraybox/Content/Game/BluePrints/AI/ShooterAi/Enemy_BT.uasset'
+[2020.04.11-21.04.24:944][418]AssetCheck: New page: Asset Save: Enemy_BT
+[2020.04.11-21.04.24:944][418]LogContentValidation: Display: Validating BehaviorTree /Game/Game/BluePrints/AI/ShooterAi/Enemy_BT.Enemy_BT
+[2020.04.11-21.04.32:664][118]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/BluePrints/AI/ShooterAi/Focus.Focus
+[2020.04.11-21.04.36:587][533]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-21.04.36:588][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.11-21.04.38:080][612]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.11-21.04.38:113][612]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.04.11-21.04.38:116][612]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.11-21.04.38:116][612]PIE: New page: PIE session: GrayBox (11 avr. 2020 13 h 04 min 38 s)
+[2020.04.11-21.04.38:116][612]LogPlayLevel: Creating play world package: /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.04.11-21.04.38:191][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074704s)
+[2020.04.11-21.04.38:192][612]LogAIModule: Creating AISystem for world GrayBox
+[2020.04.11-21.04.38:192][612]LogPlayLevel: PIE: World Init took: (0.001153s)
+[2020.04.11-21.04.38:192][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Maps/GrayBox.GrayBox to /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox (0.076146s)
+[2020.04.11-21.04.38:233][612]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2020.04.11-21.04.38:235][612]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.11-21.04.38:235][612]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.11-21.04.38:235][612]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.11-21.04.38:235][612]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.11-21.04.38:235][612]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.11-21.04.38:235][612]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.11-21.04.38:235][612]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.11-21.04.38:235][612]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.11-21.04.38:236][612]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.11-21.04.38:236][612]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.11-21.04.38:255][612]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.11-21.04.38:255][612]LogAudioMixer: Display: Name: Casque (CORSAIR HS60 PRO SURROUND)
+[2020.04.11-21.04.38:255][612]LogAudioMixer: Display: Is Default: Yes
+[2020.04.11-21.04.38:255][612]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.11-21.04.38:255][612]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.11-21.04.38:255][612]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.11-21.04.38:255][612]LogAudioMixer: Display: Channel Order:
+[2020.04.11-21.04.38:255][612]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.11-21.04.38:255][612]LogAudioMixer: Display: 1: FrontRight
+[2020.04.11-21.04.38:494][612]LogAudioMixer: Display: Using Audio Device Casque (CORSAIR HS60 PRO SURROUND)
+[2020.04.11-21.04.38:497][612]LogInit: FAudioDevice initialized.
+[2020.04.11-21.04.38:509][612]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.04.11-21.04.38:518][612]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_01_66.SkeletalMeshComponent0'
+[2020.04.11-21.04.38:518][612]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_2.SkeletalMeshComponent0'
+[2020.04.11-21.04.38:518][612]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_4.SkeletalMeshComponent0'
+[2020.04.11-21.04.38:518][612]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_5.SkeletalMeshComponent0'
+[2020.04.11-21.04.38:518][612]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_6.SkeletalMeshComponent0'
+[2020.04.11-21.04.38:518][612]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_7.SkeletalMeshComponent0'
+[2020.04.11-21.04.38:518][612]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_8.SkeletalMeshComponent0'
+[2020.04.11-21.04.38:518][612]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_9.SkeletalMeshComponent0'
+[2020.04.11-21.04.38:518][612]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_10.SkeletalMeshComponent0'
+[2020.04.11-21.04.38:518][612]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_11.SkeletalMeshComponent0'
+[2020.04.11-21.04.38:518][612]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_12.SkeletalMeshComponent0'
+[2020.04.11-21.04.38:518][612]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_13.SkeletalMeshComponent0'
+[2020.04.11-21.04.38:519][612]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_14.SkeletalMeshComponent0'
+[2020.04.11-21.04.38:519][612]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_15.SkeletalMeshComponent0'
+[2020.04.11-21.04.38:519][612]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_16.SkeletalMeshComponent0'
+[2020.04.11-21.04.38:519][612]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_17.SkeletalMeshComponent0'
+[2020.04.11-21.04.38:519][612]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox:PersistentLevel.SM_Bld_Floor_18.SkeletalMeshComponent0'
+[2020.04.11-21.04.38:547][612]LogWorld: Bringing World /Game/Game/Maps/UEDPIE_0_GrayBox.GrayBox up for play (max tick rate 0) at 2020.04.11-17.04.38
+[2020.04.11-21.04.38:551][612]LogWorld: Bringing up level for play took: 0.040738
+[2020.04.11-21.04.38:551][612]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.04.11-21.04.38:565][612]PIE: Play in editor start time for /Game/Game/Maps/UEDPIE_0_GrayBox 0,745
+[2020.04.11-21.04.38:565][612]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.04.11-21.05.07:750][626]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-21.05.07:750][626]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-21.05.07:750][626]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.04.11-21.05.07:755][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-21.05.07:755][626]LogWorld: BeginTearingDown for /Game/Game/Maps/UEDPIE_0_GrayBox
+[2020.04.11-21.05.07:755][626]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-21.05.07:756][626]LogWorld: UWorld::CleanupWorld for GrayBox, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-21.05.07:765][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.11-21.05.07:808][626]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.11-21.05.07:808][626]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox' with GeneratedClass '/Game/Game/Maps/GrayBox.GrayBox_C' with ClassGeneratedBy '/Game/Game/Maps/GrayBox.GrayBox:PersistentLevel.GrayBox'
+[2020.04.11-21.05.07:815][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.11-21.05.07:852][626]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-21.05.07:857][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-21.05.07:872][626]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2020.04.11-21.05.07:903][627]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.04.11-21.22.59:224][108]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.04.11-21.22.59:808][108]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.584 s
+[2020.04.11-21.22.59:808][108]LogOutputDevice: Error: === Handled ensure: ===
+[2020.04.11-21.22.59:808][108]LogOutputDevice: Error: 
+[2020.04.11-21.22.59:808][108]LogOutputDevice: Error: Ensure condition failed: !SeenPaths.Contains(NewPath) [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/Misc/RedirectCollector.cpp] [Line: 222]
+[2020.04.11-21.22.59:808][108]LogOutputDevice: Error: Found circular redirect from /Game/Game/BluePrints/AI/ShooterAi/ShooterAI.ShooterAI to /Game/Game/BluePrints/AI/ShooterAi/ShooterAI.ShooterAI! Returning None instead
+[2020.04.11-21.22.59:808][108]LogOutputDevice: Error: Stack: 
+[2020.04.11-21.22.59:808][108]LogOutputDevice: Error: [Callstack] 0x00007ffc65d87b80 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:808][108]LogOutputDevice: Error: [Callstack] 0x00007ffc659f0c54 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:808][108]LogOutputDevice: Error: [Callstack] 0x00007ffc65cbe2d6 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:808][108]LogOutputDevice: Error: [Callstack] 0x00007ffc65cd4e49 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:808][108]LogOutputDevice: Error: [Callstack] 0x00007ffc65a248c7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:808][108]LogOutputDevice: Error: [Callstack] 0x00007ffc539bce42 UE4Editor-Core.dll!UnknownFunction []
+[2020.04.11-21.22.59:808][108]LogOutputDevice: Error: [Callstack] 0x00007ffc65ccc483 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:808][108]LogOutputDevice: Error: [Callstack] 0x00007ffc65bce359 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:808][108]LogOutputDevice: Error: [Callstack] 0x00007ffc65a9c25c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:808][108]LogOutputDevice: Error: [Callstack] 0x00007ffc65c7f3d9 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:808][108]LogOutputDevice: Error: [Callstack] 0x00007ffc65c7f913 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:808][108]LogOutputDevice: Error: [Callstack] 0x00007ffc65a9e155 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:808][108]LogOutputDevice: Error: [Callstack] 0x00007ffc65a9c37a UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:808][108]LogOutputDevice: Error: [Callstack] 0x00007ffc65c7f3d9 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:808][108]LogOutputDevice: Error: [Callstack] 0x00007ffc65c1e6ec UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc65c7f913 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc65a9e155 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc65c1ed54 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc65c1d18a UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc65c1cd12 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc50c47b65 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc50c4762c UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc65c614f9 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc65c83428 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc65c69bfa UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc4ea04125 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc4ea04a5a UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc4ea3f909 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc4ea3c0fb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc4f201892 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc4ed7bebe UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc4ed7a8ba UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc4ed8eea6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc3cd5ac52 UE4Editor-AssetTools.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc3cd0de63 UE4Editor-AssetTools.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc3cd70eb0 UE4Editor-AssetTools.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc45a801fb UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc45b3b984 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc45b367ff UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc45b40ac2 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc45a47f30 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc45a480de UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc503525f2 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc50358430 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc50331b84 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc503c1498 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc503d9281 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc50359b95 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc5023323f UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc502b9175 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc502a413e UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc50298f67 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc96274ca1 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc9626242f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc96277195 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc9625ec40 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffcc5045c0d USER32.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffcc5045602 USER32.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffc96278699 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ff7dc356db0 UE4Editor.exe!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ff7dc36c3ec UE4Editor.exe!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ff7dc36c4ca UE4Editor.exe!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ff7dc37ceae UE4Editor.exe!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ff7dc37fcbe UE4Editor.exe!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffcc5607bd4 KERNEL32.DLL!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: [Callstack] 0x00007ffcc580ced1 ntdll.dll!UnknownFunction []
+[2020.04.11-21.22.59:809][108]LogOutputDevice: Error: 
+[2020.04.11-21.22.59:816][108]LogStats:                SubmitErrorReport -  0.000 s
